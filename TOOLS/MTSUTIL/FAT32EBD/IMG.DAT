@@ -1,0 +1,34 @@
+; String file for disk imaging tool
+
+
+[strings]
+
+st00="Este utilit†rio cria um disco de inicializaá∆o FAT32"
+st01="Insira um disquete de 1,44Mb na unidade A:."
+st02="Aviso! Todos os arquivos no disquete ser∆o apagados!"
+st03="Digite 'S' para continuar, qualquer outra tecla para sair: "
+
+
+st04="N∆o foi poss°vel abrir o arquivo de imagem!"
+st05="Certifique-se de que o CD esteja na unidade e repita"
+st06="N∆o foi poss°vel ler a imagem do CD corretamente!"
+st07="Erro ao gravar na trilha "
+st08="Ocorreram erros ao gravar no disquete!"
+st09="Vocà deveria criar outro disquete."
+st10="N∆o Ç poss°vel aloca mem¢ria suficiente para o aplicativo."
+st11="Libere alguma mem¢ria convencional e repita."
+
+st12="Gravando na trilha"
+st13="Imagem de inicializaá∆o transferida com àxito."
+st14="Preparando para extrair arquivos do utilit†rio"
+st15="Extraindo"
+st16="Erro ao criar arquivo temp!"
+
+st17="Este programa n∆o detectou um gerenciador de mem¢ria superior"
+st18="e n∆o pode ser executado sem um."
+st19="Adicione a linha 'device=<path>\himem.sys' no seu arquivo config.sys"
+st20="e reinicialize o computador."
+st21="Feito!"
+st22="Esta unidade parede ser um disco r°gido!"
+st23="O disco est† protegido contra gravaá∆o."
+st24="Insira um disco n∆o protegido contra gravaá∆o e tecle enter."
