@@ -1,0 +1,84 @@
+[Version]
+Signature = "$Windows NT$"
+
+[Global]
+; Durante instalação do K2, a iis.dll irá manipular esta seção [Global] e configurar o modo de instalação apropriadamente.
+; Você não precisa se preocupar com esta seção.
+;
+; Você pode especificar o modo com que a instalação será executada
+; O Programa de Instalação selecionará os modos de instalação baseado na configuração da máquina alvo
+; Nova (Fresh), Manutenção (Maintanence) ou Atualização (Upgrade)
+;
+; FreshMode = [ Minimal | Typical | Custom ]
+; MaintanenceMode = [ AddRemove | RemoveAll ]
+; UpgradeMode = [ UpgradeOnly | AddExtraComps ]
+
+; Se o modo de instalação for 'Nova' (FreshMode), mas nenhuma linha "FreshMode=" foi especificada, então 'Típica' é o valor padrão.
+
+; Se o modo de instalação for 'Manutenção' (MaintanenceMode), mas nenhuma linha "MaintanenceMode=" foi especificada, então não há valor padrão e você obterá uma mensagem de erro no Registro. ;(HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Setup\OC Manager\MasterInfs\Errors)
+
+; Se o modo de instalação for 'Atualização' (UpgradeMode), mas nenhuma linha "UpgradeMode=" foi especificada, então  'Somente atualização'(UpgradeOnly) é o valor padrão.
+
+FreshMode = Typical
+MaintanenceMode = RemoveAll
+
+[Components]
+;<sub-component name>=[ ON | OFF ]
+; this [components] section is valid only when 
+;FreshMode = Custom
+;MaintanenceMode = AddRemove
+;UpgradeMode = AddExtraComps
+
+; pws
+iis_common = ON
+iis_www = ON
+iis_pwmgr = ON
+iis_doc_common = ON
+iis_doc_pwmcore = ON
+iis_doc_asp = OFF
+
+; mts
+mts_core=on
+mts_core_docs=on
+mts_mtsdev=on
+mts_mtsdev_core=on
+mts_mtsdev_core_docs=on
+mts_mtsdev_vbaddin=on
+
+; Extensões do FrontPage
+fp_extensions=ON
+fp_vid_deploy=OFF
+
+; DAC
+DAC_ADO_CORE = ON
+DAC_DRV_BRAZOS = ON
+DAC_DRV_SQLSRV = ON
+DAC_DRV_ORACLE = ON
+DAC_ADO_DOC = ON
+DAC_RDS_11 = OFF
+DAC_RDS_CORE ON
+DAC_RDS_DOC ON
+DAC_RDS_SAMPLE = ON
+
+; MSMQ requer o arquivo msmqinst.ini
+Msmq_Server_Core = OFF
+Msmq_Admin = OFF
+Msmq_SDK = OFF
+Msmq_Doc = OFF
+
+; Rasics
+COMMONDOC = OFF
+CMAKPROG = OFF
+CMAKDOC = OFF
+
+
+[iis]
+; Cada componente principal poderá ter os seus dados particulares.
+;Path =c:\install\path
+PathWWWRoot=E:\MyInetpub\wwwroot
+PathPROGRoot=E:\MyProgRoot
+
+[mts_core]
+Path="C:\Program Files\Mts"
+USERID="Interactive User"
+PASSWORD=""
