@@ -1,0 +1,86 @@
+          ------------------------------------------
+                 LEIAME do Microsoft Windows 98
+		   para o Microsoft Windows  
+	   (c) Copyright Microsoft Corporation, 1998
+          -------------------------------------------
+
+
+------------------------
+COMO USAR ESTE DOCUMENTO
+------------------------
+
+Para exibir o Readme.txt na tela, maximize a janela do Bloco de Notas.
+
+Para imprimir o Readme.txt, abra-o no Bloco de Notas ou em outro processador
+de textos e, em seguida, utilize o comando "Imprimir", no menu "Arquivo".
+
+
+--------
+CONTEÚDO
+--------
+
+LISTA DE ARQUIVOS LEIAME DO WINDOWS 98
+
+--------------------------------------
+
+
+LISTA DE ARQUIVOS LEIAME DO WINDOWS 98
+======================================
+Além do Readme.txt, o Windows 98 fornece os seguintes arquivos
+leiame em C:\Windows
+	
+	Config.txt	Contém informações sobre a sintaxe de comandos
+			utilizados com seu arquivo Config.sys.
+
+	Display.txt	Fornece informações sobre como configurar e
+			corrigir problemas nos drivers disponíveis e como
+			obter drivers de vídeo adicionais.
+
+
+	Faq.txt		Responde a perguntas freqüentes sobre o Windows 98.
+
+	General.txt	Fornece informações sobre problemas de inicialização,
+			os programas que acompanham o Windows 98, ferramentas
+			de disco, discos e CDs, drivers e mídia removível.
+
+			Este arquivo contém também informações de última
+			hora não recebidas a tempo de serem incluídas nos
+			outros arquivos leiame. Por exemplo, se você tiver
+			uma pergunta sobre uma impressora, é recomendável
+			consultar General.txt e Printers.txt.
+	
+	Hardware.txt	Fornece informações sobre problemas de hardware
+			conhecidos e alternativas para solucioná-los.
+			Pode ser necessário consultar também Printers.txt
+			e Mouse.txt para problemas específicos.
+
+	Intl.txt        Fornece informações para ajudá-lo a instalar e configurar 
+			configurações regionais pan-européias.
+
+	Mouse.txt	Fornece informações sobre problemas conhecidos de 
+			teclado e mouse, e alternativas para solucioná-los.
+
+	Msdosdrv.txt	Contém informações de sintaxe para drivers de 
+			dispositivos do MS-DOS. Para uma ajuda adicional
+			sobre comandos do MS-DOS, consulte Config.txt.
+			Você pode também utilizar a ajuda na linha de 
+			comando do prompt, digitando o nome do comando
+			seguido de /?.
+	
+	Network.txt	Fornece informações sobre a instalação e a execução
+			de servidores de rede.
+
+	Printers.txt	Fornece informações sobre problemas conhecidos de 
+			impressoras e alternativas para solucioná-los.
+
+	Programs.txt	Fornece informações sobre como executar alguns
+			programas específicos baseados no Windows e MS-DOS
+			com o Windows 98.
+
+	Support.txt	Fornece informações sobre como obter suporte 
+			adicional para o Windows 98.
+
+	Tips.txt	Contém um conjunto de dicas e truques para a utilização do
+			Windows 98. Várias delas não estão documentadas na
+			Ajuda on-line nem no manual impresso.
+
