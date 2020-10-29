@@ -1,0 +1,830 @@
+<!doctype html public "-//W3C//DTD HTML 3.2//EN">
+<html><head><title>Notas de versão do Microsoft Transaction Server</title>
+
+<script language="JavaScript">
+	TempString = navigator.appVersion
+	if (navigator.appName == "Microsoft Internet Explorer"){	
+// Verifique se o navegador é Microsoft
+		if (TempString.indexOf ("4.") >= 0){
+// Verifique se é IE 4
+			document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/coua.css">');
+		}
+		else {
+			document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/cocss.css">');
+		}
+	}
+	else if (navigator.appName == "Netscape") {						
+// Verifique se o navegador é Netscape
+		document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/coua.css">');
+	}
+	else
+		document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/cocss.css">');
+</script> 
+
+<meta name="DESCRIPTION" content="Notas de versão do Microsoft Transaction Server"></head>
+
+<body bgcolor="#FFFFFF" text="#000000">
+<font face="Verdana,Arial,Helvetica">
+
+<h1>Notas de versão do Microsoft Transaction Server</h1>
+
+<p>Este documento contém as informações mais recentes para o Microsoft&reg; Transaction Server(MTS).
+Para maiores informações, consulte os tópicos a seguir:<br><br>
+<a href="../../../mts/html/settingup.htm">Configurando o Microsoft Transaction Server</a><br>	
+<a href="../../../mts/html/gettingstarted.htm">O que&#146;há de novo no MTS 2.0?</a><br>
+<a href="../../../mts/html/MTSWelcome.html">Documentação do produto MTS</a><br>
+</p>
+
+<hr>
+
+<h1><a name="asconlatebreakinginformationandknownlimitations"></a>Informações mais recentes e limitações conhecidas</h1>
+<p>
+As seções a seguir contêm informações mais recentes que não estão disponíveis na documentação regular, bem como falhas e limitações conhecidas.</p>
+<h4>Definindo a identidade do pacote 'Sistema'</h4>
+<p>
+Ao instalar o MTS, defina a identidade do pacote 'Sistema' antes de criar qualquer pacote novo, como se segue:
+<ol>
+<li>
+Crie um novo grupo local do Windows NT<font face="Symbol"><span style="font-family:Symbol">&#210;</span></font> denominado "Administradores do MTS" e um novo usuário local denominado "Administrador do MTS".<br><br></li>
+<li>
+Adicione o usuário "Administrador do MTS" aos grupos "Administradores do MTS" e &quot;Administradores&quot;.<br><br></li>
+<li>
+Defina a identidade do pacote 'Sistema' ao "Administrador do MTS".<br><br></li>
+<li>
+Desligue o pacote 'Sistema' para que ele seja reiniciado com a nova identidade.</li>
+</ol>
+<h4>Direitos do usuário para os pacotes MTS</h4>
+<p>
+Certifique-se de que a conta de usuário para as identidades do pacote 'Sistema' e outros pacotes MTS tenha o login do Windows NT &quot;como um serviço&quot; do direito do usuário. Você pode verificar isso utilizando o 'Gerenciador de usuário do Windows NT':
+<ol>
+<li>
+A partir do menu <b>Diretivas</b>, escolha <b>Direitos do usuário</b>.<br><br></li>
+<li>
+Clique em <b>Mostrar direitos do usuário avançado</b>.</li>
+</ol>
+<h2>Configurando o MTS para o acesso ao banco de dados Oracle </h2>
+<p>
+Estas informações substituem completamente a documentação anterior que descreve como utilizar o Oracle com o Microsoft Transaction Server, incluindo a documentação de 'Ajuda'on-line do Microsoft Transaction Server 2.0.</p>
+<p>
+Você pode ativar os componentes MTS transacionais para acessar um banco de dados Oracle 7.3.3 através do ODBC. O MTS trabalha com o Oracle 7 Workgroup Server for Windows NT, Oracle 7 Enterprise Server for Windows NT, Oracle 7 Enterprise Servers em UNIX, e Oracle Parallel Server em UNIX.</p>
+<p>
+Seu componente MTS pode acessar um banco de dados Oracle 8 tanto no Windows NT quanto no Unix, desde que o componente Microsoft Transaction Server utilize o software cliente Oracle 7.3.3. O MTS não suporta o software cliente Oracle 8.</p>
+<p>
+Esta seção inclui os seguintes tópicos:
+<ul>
+<li>
+Software solicitado<br><br></li>
+<li>
+Definindo o Suporte Oracle <br><br></li>
+<li>
+Testando a instalação e a configuração do MTS Support for Oracle<br><br></li>
+<li>
+Validando a instalação e a configuração Oracle utilizando o aplicativo 'Banco de exemplo'<br><br></li>
+<li>
+Administrando o Oracle e o Microsoft Distributed Transaction Coordinator<br><br></li>
+<li>
+Limitações conhecidas do MTS Support for Oracle</li>
+</ul>
+<h3>Software solicitado</h3>
+<p>
+O software a seguir é necessário para acessar um banco de dados Oracle a partir dos componentes MTS.</p>
+<table>
+<tr valign=top>
+<td>
+<b>Componente</b></td>
+<td>
+<b>Versão</b></td>
+</tr>
+<tr valign=top>
+<td>
+</td>
+</tr>
+<tr valign=top>
+<td>
+Banco de dados Oracle em Windows NT</td>
+<td>
+7.3.3 (com correção 4 ou mais recente)</td>
+</tr>
+<tr valign=top>
+<td>
+Banco de dados Oracle em UNIX</td>
+<td>
+7.3.3 (com correções)</td>
+</tr>
+<tr valign=top>
+<td>
+Oracle SQL*Net</td>
+<td>
+2.3.3 (com versão corrigida 2.3.3.0.3 ou mais recente)</td>
+</tr>
+<tr valign=top>
+<td>
+Oracle OCIW32.DLL </td>
+<td>
+1.0.0.5 ou mais recente</td>
+</tr>
+<tr valign=top>
+<td>
+Oracle SQLLIB18.DLL</td>
+<td>
+1.8.3.0.1 ou mais recente</td>
+</tr>
+<tr valign=top>
+<td>
+Oracle XA73.LIB</td>
+<td>
+7.3.3.2.0 ou mais recente</td>
+</tr>
+<tr valign=top>
+<td>
+Microsoft Transaction Server 2.0</td>
+<td>
+2.0</td>
+</tr>
+<tr valign=top>
+<td>
+Driver Microsoft ODBC para Oracle (MSORCL32.DLL)</td>
+<td>
+02.73.7283.1 ou mais recente</td>
+</tr>
+<tr valign=top>
+<td>
+ActiveX Data Objects (ADO)</td>
+<td>
+1.5</td>
+</tr>
+</table><br>
+<p>
+<b>Observação importante:</b> As versões anteriores do software não irão funcionar corretamente. Certifique-se de instalar estas versões do software ou as mais recentes. A falha para realização desse procedimento certamente é a causa mais comum dos problemas durante a tentativa da utilização do Microsoft Transaction Server com o Oracle.</p>
+<h4>Banco de dados Oracle em Windows NT</h4>
+<p>
+Se seu banco de dados Oracle reside no Windows NT, você pode instalar tanto a versão para Windows NT do Oracle 7.3.3 Workgroup Server quanto a versão para Windows NT do Oracle 7.3.3 Enterprise Server. The Oracle 7.3.2 e as versões anteriores para Windows NT do Oracle não são suportadas e não irão funcionar em conjunto com as transações MTS.</p>
+<p>
+Você deve instalar a versão corrigida do Oracle 7.3.3 que é listada na tabela acima. A versão Oracle 7.3.3 não irá funcionar com o MTS, a não ser que a versão corrigida seja instalada.</p>
+<p>
+Você deve submeter um relatório de problemas ao Oracle Customer Support Organization para obter a versão corrigida do Oracle. Esta versão corrigida não estava disponível no site público da Web do Oracle no momento em que essa observação foi redigida.</p>
+<p>
+Você pode instalar o Oracle 8 no Windows NT desde que os componentes do Microsoft Transaction Server utilize o software cliente Oracle 7.3.3. O MTS não suporta o software cliente Oracle 8.</p>
+<h4>Banco de dados Oracle em UNIX</h4>
+<p>
+Se seu banco de dados Oracle reside em UNIX, você deve instalar o Oracle versão 7.3.3 (ou a mais recente) para aquela plataforma UNIX. Na maioria dos casos, você será também solicitado a instalar uma versão corrigida do Oracle 7.3.3 para o Oracle em UNIX. </p>
+<p>
+Você deve entrar em contato com o Oracle Customer Support para determinar se uma versão corrigida do Oracle 7.3.3 é solicitada para sua plataforma UNIX. Explique que você irá acessar seu banco de dados Oracle em UNIX utilizando um novo suporte de transação XA que é incluído agora no Oracle versão 7.3.3 no Windows NT.</p>
+<p>
+As versões corrigidas a seguir são conhecidas para funcionarem:</p>
+<table>
+<tr valign=top>
+<td>
+<b>Plataforma</b></td>
+<td>
+<b>Correção Oracle</b></td>
+</tr>
+<tr valign=top>
+<td>
+</td>
+</tr>
+<tr valign=top>
+<td>
+HP 9000</td>
+<td>
+7.3.3.3</td>
+</tr>
+<tr valign=top>
+<td>
+IBM AIX</td>
+<td>
+7.3.3.2</td>
+</tr>
+<tr valign=top>
+<td>
+Sun Solaris</td>
+<td>
+7.3.3.2</td>
+</tr>
+</table><br>
+<p>
+Você deve instalar o Oracle 8 em Unix desde que os componentes do Microsoft Transaction Server utilizem o software cliente Oracle 7.3.3. O MTS não suporta o software cliente Oracle 8.</p>
+<h4>Clientes Oracle no Windows NT ou Windows 98</h4>
+<p>
+Se os componentes do Microsoft Transaction Server acessam um banco de dados Oracle em um Windows NT remoto ou no sistema Unix, certifique-se de que o seguinte software cliente Oracle esteja presente no sistema Microsoft Transaction Server. Certifique-se de que o software cliente esta no nível da versão adequado. A tabela no início da seção "Software necessário" especifica quais versões são necessárias.</p>
+<table>
+<tr valign=top>
+<td>
+<b>Componente</b></td>
+</tr>
+<tr valign=top>
+<td>
+Oracle SQL*Net</td>
+</tr>
+<tr valign=top>
+<td>
+Oracle OCIW32.DLL</td>
+</tr>
+<tr valign=top>
+<td>
+Oracle SQLLIB18.DLL</td>
+</tr>
+<tr valign=top>
+<td>
+Oracle XA73.LIB</td>
+</tr>
+</table><br>
+<h4>Oracle SQL*Net</h4>
+<p>
+Você deve instalar a versão especificada do Oracle SQL*Net em seu sistema Microsoft Transaction Server. </p>
+<h4>Oracle OCIW32.DLL</h4>
+<p>
+Você deve instalar a versão especificada do Oracle OCIW32.DLL em seu sistema Microsoft Transaction Server.</p>
+<p>
+A versão seguinte do Oracle OCIW32.DLL funciona:</p>
+<pre>Version 1, 0, 0, 5
+Tuesday, March 18, 1997 2:47:52 PM
+Size 18KB. </pre>
+<p>
+A seguinte versão do Oracle OCIW32.DLL falha:</p>
+<pre>Version 7.x
+Thursday, February 01, 1996 12:50:06 AM
+Size 36 KB</pre>
+<p>
+Obtivemos a versão correta desta DLL a partir do CD de instalação do Oracle 7.3.3 na pasta \WIN32\V7\RSF73.</p>
+<h4>Oracle SQLLIB18.DLL</h4>
+<p>
+Você deve instalar a versão especificada do Oracle SQLLIB18.DLL em seu sistema Microsoft Transaction Server.</p>
+<h4>Oracle XA73.LIB</h4>
+<p>
+Você deve instalar a versão do Oracle XA73.LIB em seu sistema Microsoft Transaction Server.</p>
+<h4>Microsoft Transaction Server 2.0</h4>
+<p>
+Você deve instalar o Microsoft Transaction Server 2.0 se você desejar acessar um banco de dados Oracle utilizando o Microsoft Transaction Server abaixo do controle de transação. </p>
+<h4>Driver Microsoft ODBC <i> </i>para Oracle</h4>
+<p>
+O Driver Microsoft ODBC 2.0 para Oracle (MSORCL32.DLL) versão 02.73.7283.1 ou mais recente é solicitado. O programa Windows NT 4.0 Option Pack instala automaticamente esta DLL.</p>
+<p>
+Se você quiser acessar o banco de dados Oracle, sugerimos que você utilize o novo driver do Oracle 2.0, mesmo que você não precise do suporte de transação. Este novo driver oferece melhor desempenho que o driver do Oracle 1.0 substituído. O driver do Oracle 1.0 serializou todas as atividades no nível do driver; as requisições foram segmentadas somente uma vez por meio do driver. O driver do Oracle 2.0 serializa todas as atividades no nível da conexão. Isso permite que conexões de banco de dados diferentes sejam usadas em paralelo.</p>
+<h4>ActiveX Data Objects (ADO)</h4>
+<p>
+Caso seus aplicativos utilizem ADO, você deve instalar o ADO versão 1.5. As versões anteriores do ADO não funcionarão com o 'Gerenciador de driver ODBC 3.5'. O ADO 1.5 está incluído no Windows NT 4.0 Option Pack.</p>
+<h3>Configurando o Suporte Oracle </h3>
+<p>
+<b>Para configurar o suporte Oracle para os componentes transacionais do MTS</b>
+<ol>
+<li>
+Instale o Oracle versão 7.3.3 em seu sistema de servidor de banco de dados Oracle.<p>
+Se seu banco de dados Oracle estiver localizado em um sistema Windows NT, instale o Oracle versão 7.3.3 no Windows NT.</p>
+<p>
+Se seu banco de dados Oracle estiver localizado em um sistema UNIX, instale o Oracle versão 7.3.3 naquele sistema.</p>
+<p>
+Certifique-se de que a versão correta do Oracle OCIW32.DLL seja instalada como descrito na seção "Software necessário".</p>
+</li>
+<li>
+Instale a versão corrigida do Oracle 7.3.3 solicitada em seu sistema de servidor de banco de dados Oracle.<p>
+Se seu banco de dados Oracle estiver localizado em um sistema Windows NT, instale a versão corrigida do Oracle 7.3.3 que está listada na seção "Software necessário".</p>
+<p>
+Se seu banco de dados Oracle estiver localizado em um sistema UNIX, instale a versão corrigida do Oracle 7.3.3 que é necessária para sua versão do UNIX. </p>
+</li>
+<li>
+Instale o software Cliente Oracle 7.3.3.</li>
+<p>
+Se os componentes do Microsoft Transaction Server acessarem um banco de dados Oracle em um Windows NT remoto ou em um sistema Unix, certifique-se de que o software cliente Oracle correto está presente em seu sistema Microsoft Transaction Server.</p>
+<p>
+Instale a versão corrigida especificada do Oracle em seu sistema Microsoft Transaction Server e certifique-se de que o software cliente coincide com os níveis de versão listados na tabela na seção "Software necessário".</p>
+<li>
+Instale o Microsoft Transaction Server 2.0<p>
+Quando você instala o Microsoft Transaction Server 2.0, o software seguinte será instalado.<br><br>
+<ul>
+<li>
+O Microsoft Transaction Server 2.0, inclui a Interface Microsoft OCI <br><br></li>
+<li>
+'Gerenciador de Driver Microsoft ODBC 3.5'<br><br></li>
+<li>
+Driver Microsoft ODBC para Oracle<br><br></li>
+<li>
+ADO 1.5<br><br></li>
+</ul>
+</li>
+<li>
+Excluir o DTCXATM.LOG.<p>
+Se você nunca instalou o Microsoft Transaction Server 2.0 versão Beta, ignore essa etapa.</p>
+<p>
+Se você instalar previamente o Microsoft Transaction Server 2.0 versão Beta, utilize o Windows Explorer para determinar se o arquivo DTCXATM.LOG está em seu sistema. Se estiver, interrompa o serviço Microsoft DTC e exclua o arquivo DTCXATM.LOG.</p>
+<p>
+Se você excluir o arquivo DTCXATM.LOG uma vez, quando fizer sua primeira atualização da versão beta Microsoft Transaction Server 2.0. Nunca exclua o arquivo DTCXATM.LOG depois disso, porque ele pode conter informações de recuperação vital.</p>
+</li>
+<li>
+Ativar o Oracle XA Support<p>
+Desempenha as etapas a seguir para ativar o suporte de transação Oracle XA:<br><br>
+<ol>
+<li>
+O administrador do sistema Oracle deve criar visualizações conhecidas como V$XATRANS$. Para fazer isso, o administrador deve executar um script fornecido por Oracle, denominado &quot;xaview.sql&quot;. Geralmente esse arquivo pode ser encontrado em C:\ORANT\RDBMS73\ADMIN.<br><br></li>
+<li>
+O administrador do sistema Oracle concede acesso SELECT ao público nestas visualizações.<pre>Seleção de acesso em V$XATRANS$ ao público.</pre>
+</li>
+<li>
+No Oracle Instance Manager, clique em <b>Modo avançado</b> no menu <b>Exibir</b> e selecione <b>Parâmetros de inicialização</b> no painel esquerdo. No painel direito, selecione <b>Ajuste avançado</b> e aumente o parâmetro &quot;distributed_transactions&quot; para permitir mais transações MTS concorrentes a fim de atualizar o banco de dados de uma só vez.</li>
+</ol>
+<p>
+Consulte a documentação do  Server para obter maiores informações sobre como configurar o suporte de transação do  XA.</p>
+</li>
+<li>
+Configure a Segurança integrada<p>
+O banco de dados  possui segurança integrada que utiliza a autenticação do Windows NT para validar os usuários do banco de dados. Isso permite que um usuário efetue logon no Oracle sem fornecer uma conta ou senha de usuário separadamente. Os usuários podem manter uma conta ou senha de usuário para o Windows NT e para o Oracle.</p>
+<p>
+Se os componentes MTS sempre fornecem uma conta e senha de usuário ao conectar-se ao banco de dados Oracle, você não está utilizando a segurança integrada. Isso é válido se seus aplicativos especificarem a conta e a senha de usuário direta ou indiretamente por meio de um ODBC DSN. Em qualquer um dos casos, você não está utilizando a segurança integrada e pode ignorar essa etapa.</p>
+<p>
+Se você utilizar a segurança integrada, deve-se configurar o MS DTC para executar um nome e senha de usuário autorizados a conectarem-se ao seu banco de dados Oracle. Isso é solicitado porque, durante a recuperação do banco de dados, o MS DTC abre seu banco de dados Oracle para relatar o resultado de transações em dúvida. Consulte &quot;"Alterando a conta de usuário sob a qual o Microsoft Distributed Transaction Coordinator é executado"&quot; abaixo. Utilize as ferramentas de administração de segurança do Oracle para certificar-se de que o nome de usuário que você especifica está autorizado a abrir seu banco de dados Oracle.</p>
+<p>
+Para obter maiores informações sobre as instalações de segurança do Windows NT integrado do Oracle, consulte sua documentação Oracle.</p>
+</li>
+<li>
+Configure o Oracle para suportar mais conexões<p>
+Se você desejar criar mais do que algumas dúzias de conexões para um banco de dados Oracle, deve-se configurar o servidor Oracle para suportar conexões adicionais de banco de dados. Para obter maiores informações, consulte "Configurando o Oracle para suportar um grande número de conexões" abaixo.</p>
+</li>
+</ol>
+<h3>Testando a instalação e a configuração do MTS Support for Oracle</h3>
+<p>
+Depois de instalar e configurar o suporte Oracle, você deve validar a instalação do Oracle utilizando o programa de teste do Oracle, instalado com o MTS. O programa de teste do Oracle utiliza interfaces OCI XA do Oracle do mesmo modo que o MTS as utiliza.</p>
+<p>
+O programa de teste do Oracle determina se você pode conectar-se a um banco de dados Oracle utilizando a instalação XA do Oracle. O programa de teste do Oracle utiliza interfaces Oracle padrão e instalações de transação. Não é necessário o Microsoft Transaction Server nem o Microsoft Distributed Transaction Coordinator. Portanto, falha no programa de teste indica que seu sistema Oracle está instalado ou configurado de maneira imprópria. Se o programa de teste do Oracle falhar, reinstale e reconfigure o Oracle, ou entre em contato com a Oracle Support Organization para assistência</p>
+<p>
+<b>Para executar o programa de teste do Oracle</b>
+<ol>
+<li>
+Verifique se você instalou todas as versões do software, como descrito em "Software necessário".<br><br></li>
+<li>
+Crie um ODBC DSN que se refira ao seu banco de dados Oracle. Certifique-se de que seu DSN utiliza o novo driver Microsoft Oracle ODBC 2.0.<br><br></li>
+<li>
+Certifique-se de que você ativou o Oracle XA Support.<p>
+Exclua todos arquivos rastreados do Oracle a partir da máquina contendo os componentes MTS que acessam o banco de dados Oracle. A maneira mais fácil de fazer isso é utilizar o Windows Explorer para localizar e excluir todos os arquivos *.TRC.</p>
+<p>
+Se o programa de teste do Oracle falhar, os arquivos rastreados podem ajudá-lo a determinar a origem do problema. Ao excluir todos os arquivos obsoletos rastreados, torna-se fácil localizar qualquer arquivo criado recentemente.</p>
+</li>
+<li>
+Se você já instalou a versão beta do Microsoft Transaction Server 2.0, utilize o Windows Explorer para determinar se o arquivo DTCXATM.LOG está presente em seu sistema. Se estiver, interrompa o serviço Microsoft DTC e exclua o arquivo DTCXATM.LOG.<p>
+Se você nunca instalou a versão beta do Microsoft Transaction Server 2.0, pode pular essa etapa.</p>
+<p>
+Você somente deve excluir o arquivo DTCXATM.LOG uma vez quando você atualiza pela primeira vez, a partir da versão beta do Microsoft Transaction Server 2.0. Você nunca deve excluir o arquivo DTCXATM.LOG depois disso, porque isso poderá conter informações de recuperação vitais.</p>
+</li>
+<li>
+A partir do prompt de comando do MS-DOS execute o programa de teste do Oracle (TestOracleXaConfig.exe) e forneça nome_de_serviço, senha e identificação de usuário do servidor Oracle. Por exemplo:<pre>c:&gt;TestOracleXaConfig.exe  -U&lt;identificação de usuário&gt; -P&lt;senha&gt;
+-S&lt;Nome_de_Serviço como contido no arquivo TNS&gt;.</pre>
+<p>
+Se você executar o programa de teste sem parâmetros, o programa irá exibir informações de ajuda que descrevem os parâmetros necessários.</p>
+<p>
+O programa de teste irá exibir informações sobre cada operação Oracle que ele executa e indicará se cada operação foi bem sucedida.</p>
+</li>
+<li>
+Se o programa de teste do Oracle é capaz de conectar-se ao seu servidor de banco de dados Oracle sem erros, então é muito provável que o MTS irá funcionar com o Oracle também. Se o programa de teste do Oracle relatar qualquer erro, siga estas etapas:<br><br><ul>
+<li>
+Documente a mensagem de erro exata que o programa de teste do Oracle exibe.<br><br></li>
+<li>
+Examine o arquivo rastreado do Oracle produzido durante a execução do programa de teste do Oracle. As informações rastreadas do Oracle estão localizadas no arquivo *.TRC. O arquivo rastreado do Oracle contém informação de erro estendida que é extremamente útil no diagnóstico de problemas.<br><br></li>
+<li>
+Entre em contato com o representante do suporte Oracle para assistência.</li>
+</ul>
+</li>
+</ol>
+<h3>Validando a instalação e a configuração utilizando o aplicativo 'Banco de exemplo'</h3>
+<p>
+Depois de validar a instalação e a configuração do Oracle utilizando o programa de teste do Oracle, você deve utilizar o aplicativo 'Banco de exemplo' fornecido com o Microsoft Transaction Server para certificar-se de que o Microsoft Transaction Server pode acessar seu banco de dados Oracle.</p>
+<p>
+<b>Para validar o suporte Oracle utilizando o 'Banco de exemplo'</b>
+<ol>
+<li>
+Certifique-se de que você verificou se o sistema Oracle está instalado e configurado corretamente utilizando o programa de teste do Oracle fornecido pelo MTS. Se o programa de teste Oracle relatar qualquer erro, você deve corrigir o problema antes de prosseguir.<br><br></li>
+<li>
+No servidor de banco de dados Oracle, crie uma tabela denominada &quot;Account&quot;. O exemplo a seguir demonstra como configurar a tabela Conta. <p>
+Proprietário&#09;&#09;&#09;&#09;&#09;&#09;<b>scott</b></p>
+<p>
+Nome da tabela&#09;&#09;&#09;<b>Conta</b></p>
+<p>
+Nome da coluna 1&#09;&#09;<b>No da conta</b>&#09;do tipo  <b>NUMBER</b></p>
+<p>
+Nome da coluna 2&#09;&#09;<b>Balanço</b>&#09;&#09;do tipo  <b>NUMBER</b></p>
+</li>
+<li>
+Preencha a tabela com pelo menos duas linhas. A tabela a seguir ilustra como preencher a tabela.<p>
+No da conta&#09;&#09;Balanço</p>
+<p>
+1&#09;&#09;&#09;&#09;&#09;&#09;1000</p>
+<p>
+2&#09;&#09;&#09;&#09;&#09;&#09;1000</p>
+</li>
+<li>
+Crie um arquivo DSN utilizando o utilitário de configuração ODBC. Nomeie o arquivo DSN &quot;MTSSamples&quot;. Em seguida, atualize manualmente o arquivo DSN para adicionar a senha de usuário. O exemplo a seguir demonstra como adicionar a senha de usuário para um arquivo DSN.<p>
+[ODBC]</p>
+<p>
+DRIVER=Microsoft ODBC para Oracle</p>
+<p>
+UID=scott</p>
+<p>
+PWD=<i>minhasenha</i></p>
+<p>
+ConnectString=<i>meuservidor</i></p>
+<p>
+SERVER=<i>meuservidor</i></p>
+</li>
+<li>
+Salve o arquivo DSN e execute o cliente do 'Banco de exemplo'.</li>
+</ol>
+<h3>Administrando o Oracle e o Microsoft Distributed Transaction Coordinator</h3>
+<h4>Alterações em nomes da DLL em futuras versões do Oracle</h4>
+<p>
+O Oracle às vezes altera nomes da DLL quando é lançada novas versões do produto. O Microsoft Transaction Server conta com o conhecimento dos nomes de algumas DLLs do Oracle. O MTS geralmente procura por nomes da DLL fornecidos com a versão do Oracle 7.3.3. Se o Oracle renomear aquelas DLLs, você deve modificar os valores das seguintes chaves de Registro:</p>
+<pre>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Transaction Server\Local Computer\My Computer</pre>
+<p>
+Sob esta chave há dois valores de seqüência de caracteres nomeada.
+<ul>
+<li>
+OracleXaLib&#09;&quot;xa73.dll&quot;<br><br></li>
+<li>
+OracleSqlLib&#09;&quot;sqllib18.dll&quot;</li>
+</ul>
+<h4>Alterando a conta de usuário sob a qual o Microsoft Distributed Transaction Coordinator é executado</h4>
+<p>
+Se você configurar o Microsoft<font face="Symbol"><span style="font-family:Symbol">&#210;</span></font> Distributed Transaction Coordinator (DTC) para executar sob uma outra conta, que não a do Sistema, deve-se especificar uma conta que é um membro do grupo 'Administradores'. Se não for, o MS DTC pode falhar ao iniciar, e você verá a seguinte mensagem no log de eventos do Windows NT.</p>
+<pre>O objeto de log XATM falhou ao definir a chave de criptografia de log</pre>
+<p>
+Você pode configurar a identificação de usuário para o MS DTC como segue:
+<ol>
+<li>
+Parar o MS DTC.<br><br></li>
+<li>
+A partir do menu <b>Iniciar</b> selecione <b>Configurações</b> e, em seguida, <b>Painel de controle</b>.<br><br></li>
+<li>
+Clique duas vezes no ícone <b>Serviços</b> no 'Painel de controle'.<br><br></li>
+<li>
+Clique duas vezes em <b>MS DTC</b> na caixa de listagem 'Serviço'.<br><br></li>
+<li>
+Selecione <b>Efetuar logon como</b> e especifique um nome e senha de usuário.<br><br></li>
+<li>
+Reinicie o MS DTC.</li>
+</ol>
+<h4>Configurando o Oracle para suportar um grande número de conexões</h4>
+<p>
+Se você quiser criar mais do que algumas dúzias de conexões para um banco de dados Oracle, deve-se configurar o servidor Oracle para suportar conexões de banco de dados adicionais. </p>
+<p>
+Você pode se deparar com um ou mais dos seguintes erros se falhar ao fazer isto:
+<ul>
+<li>
+Falhas nas chamadas <b>SQLConnect</b>.<br><br></li>
+<li>
+Falhas na inscrição da transação de objeto de chamada, que pode resultar em qualquer um dos erros a seguir no arquivo rastreado do Oracle:<br><br><ul>
+<li>
+Muitas sessões<br><br></li>
+<li>
+O servidor TNS falha ao localizar o nome do servidor<br><br></li>
+<li>
+Muitas transações distribuídas<br><br></li>
+</ul>
+</li>
+<li>
+Expira o tempo limite enquanto espera por bloqueios de banco de dados. Provavelmente isso ocorre se o número configurado de bloqueios for insuficiente para o número de transações ativas simultâneas.<br><br></li>
+<li>
+Registra a colisão devido aos bloqueios mantidos por transações em dúvida.</li>
+</ul>
+<p>
+Se você se deparar com qualquer um desses problemas, considere o aumento dos seguintes parâmetros de configuração do servidor Oracle:
+<ul>
+<li>
+sessions<br><br></li>
+<li>
+distributed_lock_timeout<br><br></li>
+<li>
+distributed_transactions<br><br></li>
+<li>
+dml_locks<br><br></li>
+<li>
+max_transaction_branches<br><br></li>
+<li>
+open_cursors<br><br></li>
+<li>
+processes<br><br></li>
+<li>
+queuesize</li>
+</ul>
+<p>
+<b><u>Sessions</u></b></p>
+<p>
+O valor para <code>sessions</code> geralmente deve ser três vezes o número total de conexões de banco de dados que você espera que seus aplicativos realizem.</p>
+<p>
+<b><u>Queuesize</u></b></p>
+<p>
+Se a <code>queue size</code> para o processo Oracle Listener for inadequada, o Listener às vezes retrocede e rejeita requisições abertas de banco de dados. Isso acontece se o Oracle Listener recebe muitas requisições de conexão e sua fila estoura. Um cliente que encontra esse erro relata a mensagem de erro 'ORA-12541: No Listener' e o log do cliente ou os arquivos rastreados mostrarão a mensagem ECONREFUSED.</p>
+<p>
+Para corrigir esse problema:
+<ol>
+<li>
+Pare o Oracle listener no sistema que contém o servidor de banco de dados Oracle.<br><br></li>
+<li>
+Aumente o parâmetro QUEUESIZE no LISTENER.ORA, TNSNET.ORA, ou arquivos NAMES.ORA no sistema do servidor de banco de dados Oracle. Escolha o tamanho da fila com base no número de requisições de conexão simultâneas ou quase simultâneas que você antecipa.<p>
+Sugerimos que você selecione um valor grande para <code>QUEUESIZE </code>porque o sistema Oracle geralmente abre mais de uma conexão de banco de dados para cada conexão de banco de dados transacional que seu aplicativo abrir. Como resultado, a fila do Oracle listener pode ficar cheia e estourar.</p>
+<p>
+Para acomodar 100 requisições, altere o arquivo LISTENER.ORA como a seguir:</p>
+<pre>QUEUESIZE = 100</pre>
+</li>
+<li>
+Reinicie o Oracle listener.</li>
+</ol>
+<h3>Limitações conhecidas do MTS Support for Oracle</h3>
+<h4>A versão do ADO 1.5 é necessária ao utilizar o ODBC 3.5</h4>
+<p>
+Se seus aplicativos utilizarem ADO, certifique-se de que você instalou o ADO 1.5. Para obter maiores informações, consulte a seção 'Software necessário'.</p>
+<h4>Nenhum suporte Oracle na plataforma digital alpha</h4>
+<p>
+A conectividade do banco de dados Oracle não é suportada para os componentes Microsoft Transaction Server sendo executados na plataforma digital alpha. O Support for Oracle na plataforma digital alpha será adicionado em uma versão futura.</p>
+<h4>Problema na versão do Oracle OCIW32.DLL</h4>
+<p>
+É importante que a versão correta do OCIW32.DLL esteja instalada em seu computador. Você deve verificar a versão desta DLL sempre que reinstalar o Oracle ou o Microsoft Transaction Server.</p>
+<h4>Nenhum acesso ao Oracle a partir dos Clusters do MSCS (Wolfpack)</h4>
+<p>
+Os aplicativos Microsoft Transaction Server que residem nos clusters do MSCS (Wolfpack) não podem acessar os banco de dados XA, incluindo o banco de dados Oracle. Este é o resultado de uma limitação no Microsoft Distributed Transaction Coordinator.</p>
+<p>
+Atualmente, o Microsoft Distributed Transaction Coordinator armazena informações criptografadas relacionadas às recuperações XA no Registro do Windows NT. Atualmente essas informações não podem ser duplicadas entre dois nós em um cluster do MSCS. Como resultado, o Microsoft DTC não pode ser utilizado com algum banco de dados compatível ao XA em um ambiente de cluster. Pretendemos eliminar essas restrições em uma versão futura.</p>
+<h4>Segurança e comunicação entre computadores MS DTC remotos</h4>
+<p>
+Se seu aplicativo desempenha transações estendidas a dois ou mais computadores, certifique-se de que o MS DTCs, nesses computadores, estão configurados para comunicarem-se uns com os outros. O MS DTC é executado sob a identidade da conta do Sistema, como padrão. O MS DTC em um computador pode-se comunicar com o MS DTC em outro computador, somente se as contas de Visitantes estiverem ativadas nos dois computadores. Se você desativar a conta de Visitante em uma das máquinas ou no domínio do Windows NT ao qual elas pertencem, deve-se configurar o MS DTC para executar sob algum outro nome de usuário que pode-se comunicar com o computador remoto. Consulte &quot;Alterando a conta de usuário sob a qual o Microsoft Distributed Transaction Coordinator é executado&quot; acima.</p>
+<h4>MS DTC com MSCS exige QFE</h4>
+<p>
+Clientes que utilizam o MS DTC em um ambiente MSCS devem instalar o Windows NT QFE Q116844. Este QFE repara um problema de chamadas de procedimento remoto (RPC, Remote Procedure Call) que pode fazer com que um cliente do MS DTC seja desligado ao tentar se conectar com o MS DTC em um servidor cluster. Este reparo também faz parte do Windows NT QFE1, disponível no site de transmissão da Web do Windows NT Option Pack.</p>
+<h4>O nome do servidor remoto deve especificar um servidor virtual nos servidores MSCS</h4>
+<p>
+Servidores cluster devem definir a propriedade <b>Nome do servidor remoto</b> para um nome de servidor virtual utilizando o MTS Explorer. Isso permite que cliente remotos acessem componentes MTS dentro do cluster e, em caso de falha, certifique-se de que os clientes estão fazendo referência ao cluster, e não a um nó específico dentro daquele cluster.</p>
+<h4>As identidades do pacote MTS devem estar no grupo 'Administrador' nos Clusters do MSCS </h4>
+<p>
+Para os pacotes MTS nos clusters do MSCS, a conta de usuário associada com a identidade do pacote deve ser um administrador de sistema ou deve ter permissões de acesso de cluster de 'Controle total' (como definido em cluadmin). Se você não executar o pacote sob a identidade de um administrador de sistema, o MTS não poderá se conectar ao MS DTC.</p>
+<h4>O MTS nos clusters do MSCS exige o mesmo caminho de pasta do Windows NT em todos os nós</h4>
+<p>
+O MTS exige que as pastas do Windows NT tenham o mesmo caminho em todos os nós dentro de um cluster do MSCS (por exemplo, c:\winnt).</p>
+<h4>Desligue os recursos de cluster do MSCS antes de instalar o MTS</h4>
+<p>
+Você deve desligar os recursos de cluster do MSCS (como o SQL Server) que são afetados pela instalação do MTS antes de executar o Programa de Instalação do MTS.</p>
+<h4>Instalando o SQL Server 6.5 após a instalação do MTS</h4>
+<p>
+Você pode instalar  SQL Server 6.5 após a instalação do MTS. É recomendável que você instale o SQL Server 6.5 antes de instalar o MTS. Se você instalar o SQL Server 6.5 após instalar o MTS, o Programa de Instalação do MTS tentará certificar-se de que o MS DTC funciona corretamente.</p>
+<h4>Execute o script INSTCAT.SQL</h4>
+<p>
+O MTS inclui o script INSTCAT.SQL. Esse script atualiza os procedimentos armazenados de catálogo para o driver ODBC do SQL Server. Se você não fez isso ainda, execute esse script utilizando o utilitário <b>isql</b> do SQL Server.</p>
+<h4>Errata da documentação sobre segurança</h4>
+<p>
+A autorização de segurança não está ativa como padrão.</p>
+<p>
+Você não pode definir uma identidade de pacote para um grupo.</p>
+<p>
+Ao definir a identidade de pacote, o MTS valida a senha que você digitar. Entretanto, se você alterar a senha para a conta sem atualizar a senha no MTS Explorer, o pacote não executa.</p>
+<h4>O arquivo de log do MS DTC pode ser compactado</h4>
+<p>
+O arquivo de log do MS DTC agora pode ser localizado em uma pasta compactada. Entretanto, para um melhor desempenho, não compacte o arquivo de log do Microsoft DTC nem armazene em uma pasta compactada. O MS DTC deve descompactar o arquivo de log antes de ele ser utilizado.</p>
+<h4>Problemas na redefinição do arquivo de log do MS DTC no Windows 98</h4>
+<p>
+Ao redefinir o arquivo de log do MS DTC no Windows 98, você pode ver uma caixa de diálogo chamada &quot;MTxOCI&quot; seguida por uma segunda caixa de diálogo chamada &quot;&quot;Falha na criação do arquivo de log do MS DTC.&quot; Se isso ocorrer, você deve desativar a inicialização automática do MS DTC como descrito em &quot;Monitorando transações MTS no Windows 98.&quot; Reinicie seu computador e redefina o arquivo de log. Em seguida, você pode reativar a inicialização automática do MS DTC.</p>
+<p>
+Outros problemas na redefinição do arquivo de log do MS DTC podem ser reparados fechando-se o MTS Explorer, reiniciando o MTS Explorer, e tentando redefini-lo novamente. Em algumas ocorrências, pode-se necessitar de várias tentativas antes de ser bem-sucedido.</p>
+<h4>Monitorando transações MTS no Windows 98</h4>
+<p>
+A documentação para iniciar e parar o MS DTC no Microsoft<font face="Symbol"><span style="font-family:Symbol">&#210;</span></font> Windows<font face="Symbol"><span style="font-family:Symbol">&#210;</span></font> 95 deve ser como segue:</p>
+<p>
+Como padrão, o Microsoft Distributed Transaction Coordinator (MS DTC) é configurado para iniciar automaticamente quando um sistema Windows NT ou Windows 98 inicia. Para evitar que o MS DTC inicie automaticamente após reinicializar um computador com Windows 98, utilize o editor de Registro para localizar a chave de Registro <b>HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\RunServices</b> e, em seguida, exclua a entrada de valor denominada <b>MSDTC</b>. Convém ativar a inicialização automática do MS DTC novamente, utilize o editor de Registro para criar uma entrada de valor denominada <b>MSDTC </b>com o valor da seqüência de caracteres &quot;<code>msdtcw -start&quot;</code> sob a chave de Registro <b>HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\RunServices </b>.</p>
+<p>
+Observe que o nome do serviço é &quot;<code>msdtcw&quot;</code>, e não &quot;<code>msdtc&quot;</code>, e que há um espaço antes do hífen.</p>
+<h4>Nenhuma administração remota dos computadores com MTS 2.0 a partir dos computadores<i>x</i> com MTS 1.</h4>
+<p>
+Você não pode administrar remotamente uma instalação MTS 2.0 a partir de um computador que executa a versão anterior do MTS. Se tentar fazê-lo, um código de erro será apresentado ou o MTS Explorer será finalizado inesperadamente.</p>
+<h4>Nenhum pacote individual desliga ao administrar remotamente um computador<i>x</i> com MTS 1.</h4>
+<p>
+Pacote individual desligado não é suportado ao administrar remotamente um computador <i>x</i> com MTS 1. </p>
+<h4>O Visual Basic 5.0 desliga com o MTS 2.0</h4>
+<p>
+Depois de instalar o MTS 2.0, você pode ver uma violação de acesso ao desligar o Microsoft<font face="Symbol"><span style="font-family:Symbol">&#210;</span></font> Visual Basic<font face="Symbol"><span style="font-family:Symbol">&#210;</span></font> 5.0. Esta é uma falha conhecida do Visual Basic 5.0 que pode ser reparada pela instalação do Visual Studio<font face="Symbol"><span style="font-family:Symbol">&#212;</span></font> Service Pack 2 a partir do http://www.microsoft.com/vstudio. Para obter maiores informações sobre este problema, consulte o artigo Q167213 "Base de conhecimento".</p>
+<h4>Processos de servidor múltiplo no Windows 98</h4>
+<p>
+Há um problema conhecido que ocorre se um processo do servidor MTS termina inesperadamente (devido a um failfast, uma declaração ou uma violação de acesso), tentativas subseqüentes para reiniciar o aplicativo criam processos MTS múltiplos. (O correto deve ser somente um processo MTS por pacote.) No caso de um processo servidor terminar inesperadamente, você deve reinicializar seu computador com Windows 98.</p>
+<h4>Deadlocks no Windows 98 ao utilizar pipes nomeados</h4>
+<p>
+Há um problema conhecido que pode causar deadlocks ao utilizar aproximadamente 40 conexões pipes ou mais nomeadas de um cliente Windows 98 para o MS Distributed Transaction Coordinator (DTC). Para reparar esse problema, altere o protocolo entre o driver ODBC e o SQL Server para TCP/IP.</p>
+<h4>Componentes e chaves de Registro 'TreatAs' e 'AutoTreatAs'</h4>
+<p>
+O COM permite que um servidor emule o outro utilizando as chaves de Registro <b>TreatAs</b> ou <b>AutoTreatAs</b>. Suponha que um cliente crie um componete de um dado CLSID utilizando o <b>CoCreateInstance</b>. Se a chave <b>TreatAs</b> ou <b>AutoTreatAs</b> estiver presente sob aquele CLSID no Registro, o COM irá criar o componente indicado por esta chave. Isso roteia efetivamente as requisições do cliente para o servidor de emulação. (O mesmo roteamento é possível utilizando-se o ProgID se o cliente consultar seus servidores pelo ProgID em vez do CLSID.)</p>
+<p>
+Os componentes que são emulados utilizando-se a <b>TreatAs</b> ou a <b>AutoTreatAs</b> não são componentes MTS válidos e não podem ser importados. Se a emulação for adicionada após o componente ter sido importado, ele deve ser excluído do catálogo MTS e, em seguida, substituído com o componente de emulação.</p>
+<h4>Modelos de encadeamento mistos em um processo servidor</h4>
+<p>
+Dentro de um processo servidor, objetos na mesma atividade devem ser registrados com modelos de encadeamento compatíveis. As combinações a seguir são válidas:
+<ul>
+<li>
+Qualquer combinação de apartamento, seja segmentada duas vezes ou sem segmentação<br><br></li>
+<li>
+Segmentada apenas uma vez</li>
+</ul>
+<p>
+Observe que os componentes MTS segmentados apenas uma vez não podem ser criados por um Active Server Page em processo de execução com o IIS ou em processo com um aplicativo do IIS utilizando a isolação do processo.</p>
+<h4>Não crie servidores locais não-MTS utilizando o CreateInstance</h4>
+<p>
+A criação de servidores locais não-MTS utilizando método <b>CreateInstance</b> do objeto do contexto é extremamente desaconselhável. Tais servidores não podem ser escalonados com bons resultados e podem causar outras ocorrências de servidor que não possam ser desligados pelo MTS. Se você precisar criar um servidor local não-MTS, utilize o <b>CoCreateInstance</b>.</p>
+<p>
+Não utilize o COM surrogates dentro do MTS. Em vez disso, carregue servidores em processo no processo servidor MTS.</p>
+<h4>A segurança MTS não funciona com a representação do IIS</h4>
+<p>
+O controle de acesso ao pacote baseado na função MTS não funciona corretamente quando os pacotes são front-ended pelos multiplexadores que representa clientes múltiplos (por exemplo, o Internet Information Server). Os pacotes MTS utilizados nesses ambientes devem ser configurados com a segurança desativada.</p>
+<p>
+Isto pode ser reparado pela instalação do Windows NT QFE1, disponível no site de transmissão da Web no Windows NT Option Pack. Depois de instalar o QFE, a segurança baseada em função funcionará corretamente com o IIS.</p>
+<p>
+Quando você cria aplicativos IIS seguros que utilizam processo de isolamento, o IIS cria um pacote MTS que é definido para ser executado como IWAM_&lt;<i>nome do computador</i>&gt;. Se você desejar alterar a identidade desses pacotes, deve-se também adicionar uma nova identidade de pacote ao grupo &quot;MTS Trusted Impersonators&quot; ou a segurança não funcionará corretamente em outros componentes MTS fora de processo. Se isso não for feito, o chamador parecerá ser IWAM_&lt;<i>nome do computador</i>&gt; em vez do cliente verdadeiro do IIS.</p>
+<h4>Utilizando o ErrorInfo com ADO</h4>
+<p>
+O ADO apaga qualquer informação que você possa ter colocado num objeto 'ErrorInfo'. Há uma alteração de código para este problema que precisa ser implementada no tratamento de erros.</p>
+<p>
+Para o Visual Basic, o código é similar ao que se segue:</p>
+<pre>ErrorHandler:
+    ' disponibilização
+    If Not adoRS Is Nothing Then
+        Set adoRS = Nothing
+    End If
+    If Not adoConn Is Nothing Then
+        Set adoConn = Nothing
+    End If
+    
+    Err.Raise Err.Number, &quot;Bank.Accout.Post&quot;, Err.Description
+
+Exit Function</pre>
+<p>
+Para o Visual C++, o código é similar ao que se segue:</p>
+<pre>//
+// ErrorInfo é salvo aqui porque o seguinte 
+// código de disponibilização do ADO pode desmarcá-lo.
+//
+IErrorInfo * pErrorInfo = NULL;
+GetErrorInfo(NULL, &amp;pErrorInfo);
+
+if (adoRsBalance) adoRsBalance-&gt;Release();
+if (adoCoConnection) adoCoConnection-&gt;Release();
+
+AtlReportError( CLSID_CAccount, pErrMsg, IID_IAccount, hr);
+
+//
+// coloque o error back no TLS
+//
+SetErrorInfo(NULL, pErrorInfo);</pre>
+<p>
+Para o Visual J++, o código é similar ao que se segue:</p>
+<pre>if (adoRsBalance != null) {
+&#09;if (adoRsBalance.getState() == ObjectStateEnum.adStateOpen)
+&#09;&#09;adoRsBalance.Close();
+&#09;ComLib.release (adoRsBalance);
+}
+
+if (adoConn != null) {
+&#09;if (adoConn.getState() == ObjectStateEnum.adStateOpen)
+&#09;&#09;adoConn.Close();
+&#09;ComLib.release (adoConn);
+}</pre>
+<p>
+<b>Observação</b>   No Java você deve fechar expressamente o conjunto de registros e/ou as conexões, bem como liberar os objetos ADO.</p>
+<h4>Nenhum cliente do 'Banco de exemplo ASP'</h4>
+<p>
+A documentação declara incorretamente que uma versão do Active Server Page (ASP) do cliente do 'Banco de exemplo' é fornecida.</p>
+<h4>O número máximo de métodos nos componentes MTS 2.0 é 1024</h4>
+<p>
+O MTS 1.0 teve um limite de 100 métodos por componente. No MTS 2.0 agora esse limite é de 1024 métodos.</p>
+<h4>Os componentes que utilizam o RDO 2.0 nos computadores multiprocessadores podem acusar violações de acesso</h4>
+<p>
+Os componentes que utilizam o RDO 2.0 e são acessados simultaneamente por clientes múltiplos que podem acusar violações de acesso. Isso tem sido observado em servidores que têm múltiplos processadores. Esse problema tem sido observado em componentes que utilizam o ADO.</p>
+<h4>Localização dos exemplos do Visual Basic Script</h4>
+<p>
+Os exemplos do Visual Basic Scripting (VBScript) para administração automatizada do MTS estão localizados em \Program Files\Mts\Samples, não \Program Files\Mtx\Samples\WSH como afirmado na documentação.</p>
+<h4>O banco de exemplo Java não é compilado no Windows 98</h4>
+<p>
+Para compilar os componentes do banco de exemplo Java no Windows 98, execute o 'midl.exe' no arquivo 'Account.idl', em seguida execute o 'SetJavaDev.bat'.</p>
+<h2>Utilizando o Microsoft Transaction Server API para desenvolver aplicativos</h2>
+<h3>Desenvolvendo componentes com o Microsoft Visual C++</h3>
+<h4>DLLs de extensões MFC </h4>
+<p>
+Os componentes MTS não devem ser construídos como DLLs de extensões MFC, porque tais DLLs podem ser carregadas somente pelos aplicativos MFC. Um componente COM, e portanto um componente MTS, deve ser construído para que possa ser carregado em qualquer processo, independente do tipo de aplicativo que iniciou o processo.</p>
+<p>
+Para obter maiores informações sobre as DLLs de extensões MFC, consulte o Guia do Programador do Microsoft Visual C++.</p>
+<h3>Devenvolvendo os componentes com o Microsoft Visual Basic</h3>
+<h4>ObjectControl</h4>
+<ul>
+<li>
+A interface do <b>ObjectControl</b> é a contra parte Automation da interface do C++ <b>IObjectControl</b>. A interface do <b>ObjectControl</b> não é suportada a menos que você tenha instalado o Microsoft Windows NT 4.0 Service Pack versão 2 ou mais recente.<br><br></li>
+<li>
+A implementação do tempo de execução do Microsoft Transaction Server atual irá chamar o método <b>CanBePooled </b>de um objeto do Transaction Server, como especificado na documentação on-line do Transaction Server. Entretanto, o valor de retorno é atualmente ignorado. Retornar o TRUE não interrompe o Transaction Server para liberar seu objeto. </li>
+</ul>
+<h4>Problemas conhecidos com o fechamento do 'Mtx.exe' ao utilizar os componentes Visual Basic 4.0</h4>
+<p>
+Quando um processo do 'Mtx.exe' sendo executado nos componentes Visual Basic 4.0 é &quot;Desligar após estar ocioso por <i>x</i> minutos&quot;, ocorre um problema conhecido que resulta em uma violação de acesso de 'Leitura'. Atualmente não há solução conhecida para esse problema. Acredita-se que se mais de dois componentes Visual Basic 4.0 forem utilizados em um processo, é mais provável que isso aconteça. Uma solução é definir seu pacote para &quot;Manter em execução quando estiver ocioso&quot;. Isso torna-se somente um problema quando utilizam-se componentes construídos com o Visual Basic 4.0 -- Não há mais problemas no Visual Basic 5.0.</p>
+<h4>Evitando os deadlocks do Visual Basic 4.0/RDO </h4>
+<p>
+Se o componente do servidor utilizar o RDO, nunca deixe que um <b>rdoConnection</b> com um <b>rdoResultset</b> ativo caia do escopo ou poderá resultar em uma deadlock. Você deve fechar manualmente o <b>rdoResultset</b> ou o <b>rdoConnection</b> para evitar a deadlock. A seqüência a seguir produz uma deadlock:
+<ol>
+<li>
+Crie uma ocorrência do componente do servidor. Chame um método que cria <b>rdoConnection</b> e, em seguida, <b>rdoResultset</b>. Você pode buscar a partir de, mas não esgotar ou fechar o <b>rdoResultset</b>.<br><br></li>
+<li>
+Libere esta ocorrência. (Como esta conexão e o conjunto de resultados sai do escopo, as chamadas ODBC solicitadas não são feitas imediatamente. Em vez disso, uma mensagem é postada em uma janela oculta para fazer o <b>SQLFreeStmt+SQLDisconnect+SQLFreeConnect</b>).<br><br></li>
+<li>
+Crie uma segunda ocorrência do componente do servidor. Crie um <b>rdoConnection</b> e tente atualizar uma linha que foi incluída no conjunto de resultados a partir da etapa 1 acima. Isso agora é uma deadlock, porque os bloqueios deixados para o conjunto de resultados criados na etapa 1 foram liberados. E a mensagem pump que processará a mensagem postada na etapa 2 acima agora não terá a chance de ser executada.</li>
+</ol>
+<p>
+O deadlock é evitado manualmente, fechando-se o conjunto de resultados (ou conexão) no final da etapa 1, que gera imediatamente chamadas ODBC para fechar a instrução (e a conexão). A raiz do problema é o atraso apresentado pela mensagem postada na janela oculta para fazer com que o ODBC se feche.</p>
+<h4>Mantendo o catálogo MTS ao desenvolver os componentes com o Visual Basic</h4>
+<p>
+Sempre que você recompilar um projeto OLE DLL no Visual Basic 4.0, o Visual Basic grava novamente todas as entradas de Registro para todos os componentes (classes Visual Basic) que existem naquele DLL. Além disso, o Visual Basic pode gerar novos GUIDs (dependendo da configuração do projeto) para identificar os componentes naquele DLL. Isso significa que os componentes MTS não são mais registrados corretamente no catálogo MTS.</p>
+<p>
+Há duas soluções para este problema. Primeiro, há um botão <b>Atualizar</b> no Transaction Server Explorer, bem como o comando <b>Atualizar todos os componentes </b>no menu <b>Ferramentas</b>. Se você utilizar esse comando o Microsoft Transaction Server irá reparar todas as inconsistências nas entradas de Registro dos componentes no painel direito do Explorer atualmente. </p>
+<p>
+Se você instalar a versão desenvolvida do Microsoft Transaction Server, verifique a opção <b>VB Addin</b> para ativar um recurso que renovará automaticamente os componentes depois de recompilados. A próxima vez que você executar o Visual Basic 4.0, o add-in será automaticamente instalado em seu Visual Basic IDE. Você pode também ativar e desativar o recurso em uma base por projeto selecionando ou deselecionando o comando <b>MTxServer RegRefresh | AutoRefresh after compile </b> no menu <b>Add-Ins </b> do Visual Basic. Se você desejar renovar todos os componentes do Microsoft Transaction Server em um dado momento, pode-se utilizar o comando <b>MTxServer RegRefresh | Refresh all components</b> <b>agora</b> no menu <b>Add-Ins </b>. </p>
+<p>
+<b>Importante</b>  O Visual Basic Add-in tem sido atualizado para funcionar com o Visual Basic versão 4.0 e versão 5.0. Uma vez instalado, ele irá renovar automaticamente o catálogo do Transaction Server com as alterações feitas durante cada compilação. A opção do menu 'Add-in' não é mais suportada para ativar e desativar a renovação automática.</p>
+<p>
+A utilização do add-in irá renovar corretamente o catálogo do MTS, mesmo após as compilações do Visual Basic que geram novos GUIDs de componentes. Observe também que a definição <b>Compatible OLE Server</b> na caixa de diálogo <b>Project Options </b> no Visual Basic pode ser utilizada para interromper o Visual Basic de gerar novos GUIDs de componentes. </p>
+<p>
+A renovação do catálogo do MTS depende da não alteração do ProgIDs de seus componentes. No Visual Basic 4.0, o ProgID do componente é formado pela seguinte concatenação: <i>nome do projeto</i>.<i>nome da classe</i>. Se você alterar qualquer um desses itens, terá que reinstalar o(s) componente(s) no MTS Explorer.</p>
+<p>
+A construção do componente no Visual Basic 4.0 sem selecionar a opção <b>Compatible OLE Server</b> <b> </b>recoloca os antigos CLSID e IID em cada compilação. Há desvantagens quando um componente MTS é desenvolvido, mesmo que o add-in do Visual Basic esteja ativado.
+<ul>
+<li>
+As funções atribuídas para a interface utilizando o MTS Explorer são perdidas, uma vez que o IID da interface está obsoleto.<br><br></li>
+<li>
+As configurações de proxy e Registro que você distribuiu às máquinas remotas não se referem mais aos componentes e devem ser atualizadas.<br><br></li>
+<li>
+Os pacotes exportados que contêm o componente precisam ser exportados novamente, já que os GUIDs do arquivo de definição do pacote agora estão fora de sincronia.</li>
+</ul>
+
+<hr>
+
+<h1> Relatando problemas e falhas</h1>
+
+<p>Ao relatar uma falha, inclua a informação a seguir em seu relatório de falha:</p>
+
+<ul>
+<li>O número de erro e descrição.</li>
+<li>Qualquer mensagem de log de evento pertinente ao Windows NT. (O Microsoft Transaction Server relata erros no log de evento do Windows NT; Seleciona aplicativos de log e procura mensagens com Fonte = Transaction Server. Se ocorrer um erro, verifique o log de evento do Windows NT).</li>
+<li>A configuração para o computador cliente, se aplicável.</li>
+<li>A configuração para o servidor.</li>
+<li>O(s) componente(s) que está(ão) causando o problema.</li>
+<li>A linguagem que você utilizou para desenvolver o componente (Microsoft Visual Basic, Microsoft Visual C++, e assim por diante).</li> 
+<li>Os tipos de interfaces que seu(s) componente(s) implementa(m). Por exemplo, interfaces personalizados, interface dupla, ou dispinterface.</li>
+<li>A versão do ODBC, se aplicável.</li>
+<li>O nome e a versão do gerenciador de recursos.</li>
+<li>Qualquer componente de outros fornecedores, repositórios de recursos ou gerenciadores de recursos que estão causando problemas.</li>
+<li>Se possível, a(s) linha(s) de código onde o problema ocorre.</li>
+</ul>
+
+<hr>
+
+<h1>Guia para o Microsoft Technical Support</h1>
+
+<p>Se você tiver uma pergunta técnica sobre o Microsoft&reg; Transaction Server, utilize a documentação on-line ou consulte a 'Ajuda' clicando no botão <strong>Ajuda</strong> durante um procedimento. Se você ainda tiver alguma dúvida, o Microsoft oferece serviços e suporte técnico que vão desde ferramentas de auto-ajuda a assistência direta com a Microsoft Technical Support Engineer. Observação: Os serviços e preços listados aqui estão disponíveis somente nos Estados Unidos e Canadá (consulte <em><strong>Technical Support Worldwide</strong></em> abaixo).</p>
+
+<h2>Ferramentas de auto-ajuda para para você mesmo encontrar as respostas</h2>
+
+<p><strong>Microsoft Technical Support Online:</strong> Este site inovador utiliza a tecnologia de ponta do Microsoft para ajudá-lo a acessar as informações técnicas mais importantes e recursos para responder a suas questões.  Utilize os 'Assistentes de solução de problema' para diagnosticar e responder facilmente questões técnicas. Ou selecione artigos técnicos, auxílio de programação ou perguntas comuns do Microsoft Knowledge Base de mais de 75.000 artigos.  Visite <a href="http://www.microsoft.com/support/" target="_top">http://www.microsoft.com/support/</a> hoje e veja como é fácil encontrar as respostas que você precisa.</p>
+
+<h2>Assistência direta com um Microsoft Technical Support Engineer</h2>
+
+<p><strong>Pay-Per-Incident Support:</strong> Se ainda necessitar de respostas para suas dúvidas técnicas, você pode adquirir o Pay-Per-Incident Support.  Nos EUA. e Canadá, por uma taxa de $195US por ocorrência, ligue para (800) 936-5900, 24 horas por dia, sete dias por semana, inclusive feriados.</p>
+
+<p><em><strong>Observação</strong>&nbsp;&nbsp;&nbsp;Taxas de suporte para as ligações (800)# serão debitadas em seu cartão de crédito VISA, MasterCard ou American Express.</em></p>
+  
+<p><strong>Priority Annual Support:</strong> Se você esperar um grande número de ocorrências de suporte ou precisar de acesso de prioridade ao Microsoft Technical Support Engineers, poderá adquirir um Priority Annual Comprehensive Account.  Nos EUA e Canadá, para obter maiores informações ou para adquirir uma conta anual ao custo de $1,695US por 10 ocorrências, ligue para (800) 936-3500, 24 horas por dia, 7 dias por semana, inclusive feriados.  Para enviar uma ocorrência a uma conta existente, ligue para (800) 936-4900, 24 horas por dia, 7 dias por semana, inclusive feriados.</p>
+  
+<p><strong>Enviando dúvidas via Internet</strong>: Nos EUA e Canadá, você pode também enviar suas dúvidas de suporte Pay-Per-Incident ou Priority Annual via Internet com Web Response.  Para obter maiores detalhes, utilize o Microsoft Technical Support Online em <a href="http://www.microsoft.com/support/" target="_top">http://www.microsoft.com/support/</a>.</p>
+
+<p><strong>Prioridade Plus:</strong> O Microsoft Technical Support oferece também contas especiais para empresas de médio porte que exigem resolução prioritária de ocorrência, incluindo suporte business-critical e acesso a informações de destino para auxiliar os profissionais de tarefa de 'Ajuda' e informações tecnológicas no suporte do planejamento para o desenvolvimento do produto oculto.  Para obter maiores informações, Nos EUA e Canadá, ligue para (800) 936-3500, 24 horas por dia, 7 dias por semana, inclusive feriados.</p>
+
+<p><strong>Priority Consult Line:</strong> Recebe, por hora, consultas de dúvidas de suporte que vão além do suporte no área técnica tradicional. Estas incluem estrutura ou planejamento para desenvolvimento, desenvolvimento de software, revisão de código e planejamento de implementação. O Consult Line abrange todos os produtos da Microsoft, inclusive aqueles produtos utilizados para desenvolver soluções de Internet e Intranet. Para obter maiores informações ou adquirir serviços de consulta por hora a $195US por hora (mínimo de uma hora), ligue para (800) 936-5200, de segunda a sexta-feira, exceto feriados, das 6 às 18 horas, hora do Pacífico.</p>
+	
+ <h2>Opções adicionais de suporte</h2>
+<p><strong>Serviços e programas profissionais:</strong> O Microsoft Technical Support oferece também programas e serviços de suporte profissional para empresas de grande porte que necessitam de um relacionamento direto com a Microsoft.  Para obter maiores informações, consulte a seção "Suporte técnico" do arquivo da 'Ajuda', ou visite o Microsoft Technical Support Online em <a href="http://www.microsoft.com/support/" target="_top">http://www.microsoft.com/support/</a>.</p>
+
+<p><strong>Text Telephone:</strong> Os serviços de telefone textual da Microsoft (TTY/TTD) estão disponíveis para os surdos ou aqueles com dificuldades auditivas. Nos Estados Unidos, utilizando um modem TTY/TTD, disque (425) 635-4948. No Canadá, utilizando um modem TTY/TTD, disque (905) 568-9641.</p>
+
+<p><strong>Technical Support Worldwide:</strong> Os serviços de suporte e os preços podem variar fora dos Estados Unidos e do Canadá.  Para obter informações sobre suporte disponível fora dos EUA e Canadá, entre em contato com a subsidiária local da Microsoft em sua área.  Para obter uma lista das subsidiárias da Microsoft em todo o mundo, consulte a seção "Suporte técnico" do arquivo da 'Ajuda', ou visite o Microsoft Technical Support Online em <a href="http://www.microsoft.com/support/" target="_top">http://www.microsoft.com/support/</a>.</p>
+
+<p><em><strong>Observação</strong>&nbsp;&nbsp;&nbsp;Os serviços e preços listados aqui estão disponíveis somente nos Estados Unidos e Canadá.  Os serviços de suporte podem variar fora dos EUA e Canadá.  Para obter maiores informações sobre suporte em outros locais, entre em contato com a subsidiária local da Microsoft.</p>
+  
+<p>Os serviços de suporte da Microsoft&#146; estão sujeitos aos preços, termos e condições vigentes da Microsoft&#146;, que, por sua vez, estão sujeitos a alterações sem aviso prévio.
+</em></p>
+
+<hr>
+
+<h1><a name="CopyrightInformation">Informação de copyright </a></h1>
+
+<p>&#169; 1998 Microsoft Corporation</p>
+
+<p>Estes materiais são fornecidos &#147;no estado em que se encontram,&#148; somente para o propósito de informação.</p>
+
+<p>Nem a Microsoft nem seus fornecedores tornam qualquer garantia, expressa ou implicada com relação ao conteúdo desses materiais ou a exatidão de qualquer informação contida aqui, incluindo, sem limitação, as garantias implicadas de comercialização e adequação para propósitos específicos. Porque alguns estados/jurisdições não permitem exclusões de garantias, as limitações acima não podem ser aplicadas a você.</p>
+
+<p>Nem a Microsoft nem seus fornecedores terão qualquer responsabilidade pelos danos, ou o que quer que seja, incluindo conseqüente, eventual, direto, indireto, especial e perda de lucros. Por isso alguns estados/jurisdições não permitem exclusões de garantias implicadas. As limitações acima podem não ser aplicadas a você. Em qualquer evento a Microsoft&#146;e seus fornecedores&#146; responsabilizam-se integralmente por qualquer modo decorrente desses materiais, seja por dano, contrato ou do contrário não irá exceder o preço comercial sugerido nesses materiais.</p>
+
+<hr class="iis" size="1">
+<p align="center"><em><a href="/iishelp/common/colegal.htm">&copy; 1998 Microsoft Corporation. Todos os direitos reservados.</a></em></p>
+
+</font>
+</body>
+</html>
+
+
+
+
+

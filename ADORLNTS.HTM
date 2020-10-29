@@ -1,0 +1,156 @@
+<!doctype html public "-//W3C//DTD HTML 3.2//EN">
+<html><head><title>Notas de versão</title>
+
+<script language="JavaScript">
+	TempString = navigator.appVersion
+	if (navigator.appName == "Microsoft Internet Explorer"){	
+// Verifique se o navegador é Microsoft
+		if (TempString.indexOf ("4.") >= 0){
+// Verifique se é IE4
+			document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/coua.css">');
+		}
+		else {
+			document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/cocss.css">');
+		}
+	}
+	else if (navigator.appName == "Netscape") {						
+// Verifique se o navegador é Netscape
+		document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/coua.css">');
+	}
+	else
+		document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/cocss.css">');
+</script>
+
+<meta name="DESCRIÇÃO" content="Notas de versão"></head>
+
+<body bgcolor="#FFFFFF" text="#000000">
+<font face="Verdana,Arial,Helvetica">
+
+<h1>Notas de versão do Microsoft ActiveX Data Objects&nbsp;1.5</h1>
+
+<p>Este documento fornece informações recentemente atualizadas ou outras informações que complementam a 
+documentação do Microsoft&reg; ActiveX&#153; Data Objects versão 1.5.</p>
+
+<p>Este documento contém as seguintes seções:<br>
+<a href="#productdescription">Descrição do produto</a><br>	
+<a href="#newfeatures">Novos recursos</a><br>	
+<a href="#installationnotes">Notas de instalação</a><br>	
+<a href="#technicalsupport">Suporte técnico</a><br>
+<a href="#KnownIssues">Problemas comuns</a><br>
+<a href="#docandhelp">Documentação e Ajuda</a><br>
+<a href="#CopyrightInformation">Informações de copyright</a>
+</p>
+
+<hr>
+
+<h1><a name="productdescription">Descrição do produto</a></h1>
+
+<p>O Microsoft ActiveX Data Objects (ADO) é uma interface baseada na automatização para o acesso a dados.  O ADO utiliza a interface OLE DB para acessar uma ampla variedade de fontes de dados incluindo, mas não se limitando a, dados fornecidos via ODBC.</p>
+
+<p>Os usuários de RDO e DAO devem sentir-se rapidamente à vontade com a programação para ADO, pois o design geral do ADO é o resultado da nossa experiência no desenvolvimento destas interfaces.</p>
+
+<hr>
+<h1><a name="newfeatures">Novos recursos</a></h1>
+
+<p>Nesta versão do ADO foram incluídos vários recursos para dar ao desenvolvedor mais poder e controle em seus aplicativos. (Consulte a documentação para obter mais informações sobre como utilizar estes recursos).  Os novos recursos são os seguintes:</p>
+
+<ul>
+<li> Integração com o Microsoft Client Cursors</li>
+<p>Como no RDO 2.0, os projetistas agora têm um mecanismo de cursor do lado do cliente de alto desempenho que aceita atualização otimista de lotes, objetos Recordset desconectados e mais.</p>
+
+<li>Comandos como métodos de conexão</li>
+<p>Usando este recurso, os comandos associados a uma conexão se tornam métodos naquela interface de conexão.</p>
+
+<li> Dados remotos</li>
+<p>Usando este recurso, os usuários do ADO podem transmitir dados através de HTTP a um cliente, trabalhar com estes dados e enviá-los de volta para o servidor de HTTP.</p>
+</ul>
+
+<hr>
+
+<h1><a name="installationnotes">Notas de instalação</a></h1>
+
+<h2>Antes de executar o Programa de Instalação</h2>
+
+<p>Antes de instalar o ADO, certifique-se de que os computadores do seu cliente e servidor atendam os requisitos mínimos de hardware e software.</p>
+
+<h2>Requisitos de hardware</h2>
+
+<p>Para instalar o ADO, você precisa atender a certos requisitos de hardware que incluem o seguinte:</p>
+
+<ul>
+<li>Qualquer computador compatível com x86 com Microsoft&reg; Windows&reg; 98 ou Microsoft&reg; Windows NT&reg;, ou computador baseado no processador Alpha da Digital Equipment Corporation.</li>
+<li>Um disco rígido com no mínimo 14 megabytes (MB) de espaço disponível para a instalação completa de todos os componentes atualizados necessários para que o ADO seja executado.</li>
+<li>Um mínimo de 12 MB de RAM para computadores clientes.</li>
+<li> Um mínimo de 24 MB de RAM para computadores servidores (recomendados 32 MB de RAM).</li>
+</ul> 
+
+<h2>Requisitos de software</h2>
+
+<p>Para que você possa instalar o ADO, seu computador deve atender os seguintes requisitos de software:</p>
+
+<ul>
+<li>Qualquer uma das seguintes plataformas: Windows&nbsp;98, Windows&nbsp;NT Workstation 4.0 ou posterior, ou Windows&nbsp;NT Server 4.0 (com Service Pack 3) ou posterior.</li>
+</ul>
+
+<p>Para utilizar o ADO você precisará de um ambiente de programação que aceite objetos Automation.  Atualmente isto inclui (mas não se limita a) produtos como o Microsoft&reg; Internet Information Server 3.0 ou 4.0 (com Active Server Pages), os produtos contidos no Microsoft Office e o Microsoft Visual Studio&trade;.</p>
+
+<hr>
+
+<h1><a name="technicalsupport">Suporte técnico</a></h1>
+
+<h2>Visitando o site Microsoft ActiveX Data Objects da Web</h2>
+
+<p>Você pode visitar a Home Page do Microsoft ActiveX Data Objects na World Wide Web para obter documentação e informações atualizadas sobre outras tecnologias relacionadas. O endereço é http://www.microsoft.com/data/ado/.</p>
+
+<h2>Participando do OLE DB Public Newsgroup para discussão do ActiveX Data Objects</h2>
+
+<p>Para facilitar a discussão e o compartilhamento de informações, a Microsoft estabeleceu um grupo de notícias público: microsoft.public.oledb. Vocês estão convidados a enviar artigos e mensagens para este grupo de notícias não moderado e sem patrocinador. A Microsoft não garante respostas ou suporte direto. Para maiores informações, visite o site da Web Microsoft OLE DB, em http://www.microsoft.com/data/oledb/.</p>
+
+<hr>
+
+<h1><a name="KnownIssues">Problemas comuns</a></h1>
+
+<ul>
+
+<li>Quando estiver utilizando o método <strong>Open</strong> do objeto <strong>Connection</strong> do ADO no Microsoft&reg; Visual C++&reg; ou Microsoft&reg; Visual J++&#153;, ou outras linguagens que requerem que todos os parâmetros adicionais sejam especificados, você precisa especificar um quarto parâmetro como -1. Este parâmetro é um marcador para uma opção futura. Os usuários do Microsoft&reg; Visual Basic&reg; não precisam definir este parâmetro, pois ele será definido por padrão com o valor correto.</li><br><br>
+
+<li>Se você estiver executando uma consulta JOIN em um banco de dados Oracle e solicitar um conjunto de teclas ou um cursor dinâmico, obterá um erro em vez de um cursor desatualizado. O Oracle só aceita cursores estáticos somente de leitura com associações.</li><br><br>
+
+<li>Executar dois ou mais objetos <strong>Command</strong> na mesma conexão com um banco de dados do Microsoft&reg; SQL Server causará um erro se algum dos objetos <strong>Command</strong> for um procedimento armazenado com parâmetros de saída.  Se você estiver executando procedimentos armazenados do Microsoft SQL Server com parâmetros de saída, terá que utilizar conexões separadas para cada objeto <strong>Command</strong>, ou então desconectar os outros objetos <strong>Command</strong> da conexão (isto é, no Microsoft Visual Basic, Set cmd.ActiveConnection = Nothing).</li><br><br>
+
+<li>Quando utilizar uma cláusula ORDER BY em uma consulta ao Microsoft SQL Server com o Microsoft SQL Server Sevice Pack 3 instalado, as colunas referidas na cláusula ORDER BY devem também ser ter referências na cláusula SELECT.</li><br><br>
+
+<li>Quando você abrir um <strong>Recordset</strong> com a propriedade <strong>CursorLocation</strong> definida como <strong>adUseClient</strong> (i.e., um cursor do lado do cliente), a propriedade <strong>UnderlyingValue</strong> não estará disponível nos objetos <strong>Field</strong> do <strong>Recordset</strong> resultante.</li><br><br>
+
+<li>No ADO 1.5 é possível copiar valores de um campo <strong>Recordset</strong> para outro usando uma linha de comando como:<br>
+<pre>destRst.Fields("myfield") = srcRst.Fields("myfield")</pre>
+Foi observado que especificar de maneira explícita .Value dos dois lados da expressão melhora o desempenho e evita um problema conhecido como uma pequena insuficiência de memória nesta área. Deve-se utilizar a nova sintaxe:
+<pre>destRst.Fields("myfield").Value  = srcRst.Fields("myfield").Value</pre>
+Isto deverá melhorar o desempenho e evitar a insuficiência de memória.</li><br><br>
+</ul>
+
+<hr>
+
+<h1><a name="docandhelp">Documentação e Ajuda</a></h1>
+
+<p>Observe que os arquivos de documentação e ajuda para este componente estão em inglês.</p>
+
+<hr>
+
+<h1><a name="CopyrightInformation">Informações de copyright</a></h1>
+
+<p>&copy; 1998 Microsoft Corporation</p>
+<p>NENHUMA GARANTIA. A Microsoft nega expressamente qualquer garantia relativa ao SOFTWARE. O SOFTWARE E QUALQUER DOCUMENTAÇÃO SÃO FORNECIDOS "COMO ESTÃO", SEM GARANTIAS DE QUALQUER ESPÉCIE, EXPRESSA OU IMPLÍCITA, INCLUINDO AS GARANTIAS IMPLÍCITAS DE COMERCIALIZAÇÃO OU ADEQUAÇÃO A QUALQUER PROPÓSITO ESPECÍFICO OU DE NÃO VIOLAÇÃO, MAS NÃO SE LIMITANDO ÀS MESMAS. VOCÊ ASSUME TOTALMENTE O RISCO DECORRENTE DA UTILIZAÇÃO OU DESEMPENHO DO SOFTWARE.</p>
+<p>LIMITAÇÃO DE RESPONSABILIDADE. De acordo com as limitações impostas pela legislação aplicável, em nenhuma hipótese, a Microsoft ou seus fornecedores serão responsáveis por quaisquer danos especiais, acidentais, conseqüenciais ou quaisquer outros danos indiretos (incluindo, sem limitações, danos por perda de lucros comerciais, interrupções de transações comerciais, perda de informações comerciais ou outras perdas pecuniárias), decorrentes do uso ou da impossibilidade de utilizar este SOFTWARE, ou do fornecimento ou da ocorrência de falha no oferecimento de Serviços de Suporte, mesmo que a Microsoft tenha sido alertada quanto à possibilidade destes danos. Em todo caso, a inteira responsabilidade da Microsoft, sob qualquer cláusula deste EULA, deverá ser limitada a maior quantia paga por você pelo SOFTWARE ou US$5,00; se, contudo, você tiver se vinculado a um Contrato de Serviços de Suporte da Microsoft, a inteira responsabilidade da Microsoft no que se refere aos Serviços de Suporte deverão ser regidas pelos termos daquele contrato. Tendo em vista que alguns países e estados não permitem a exclusão ou limitação de responsabilidade por danos conseqüenciais ou indiretos, a limitação acima pode não lhe ser aplicável.
+</p>
+
+<hr class="iis" size="1">
+<p align="center"><em><a href="/iishelp/common/colegal.htm">&copy; 1998 pela Microsoft Corporation. Todos os direitos reservados.</a></em></p>
+
+</font>
+</body>
+</html>
+
+
+
+
