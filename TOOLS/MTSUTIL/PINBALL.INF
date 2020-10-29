@@ -1,0 +1,187 @@
+; pinball.inf
+
+; This is the Setup information file to install 3D Pinball from the Plus! for Windows 95 CD.
+
+; Copyright (c) 1994 - 1998 Microsoft Corporation
+
+[version]
+ signature="$CHICAGO$"
+
+[DefaultInstall]
+ CopyFiles		= Pinball_inf, Pinball_exe, Pinball_hlp, Pinball_misc, Pinball_wav
+ AddReg			= PINReg, Uninstall.Pinball.display, Uninstall.Pinball.String
+ UpdateInis		= Pinball.Links.Add
+
+[DestinationDirs]
+ Pinball_exe		= 24,%Prog_Dir%\%Plus_Dir%\%PIN_Dir%
+ Pinball_hlp		= 18			; LDID Windows\Help
+ Pinball_misc		= 24,%Prog_Dir%\%Plus_Dir%\%PIN_Dir% ;sjdibhfn
+ Pinball_wav		= 24,%Prog_Dir%\%Plus_Dir%\%PIN_Dir%\%Sound_Dir%
+ Pinball_inf		= 17			; LDID Windows\inf
+
+[Pinball.Links.Add]
+ setup.ini, progman.groups,,"Pinball=%Group_Desc%"	; create folder
+ setup.ini, Pinball,, """%Shortcut_Desc%"", ""%24%\%Prog_Dir%\%Plus_Dir%\%PIN_Dir%\Pinball.exe"",,,,""%24%\%Prog_Dir%\%Plus_Dir%\%Pin_Dir%"""	; create shortcut
+
+[Pinball.Links.Remove]
+ setup.ini, progman.groups,,"Pinball=%Group_Desc%"	; create folder
+ setup.ini, Pinball,, """%Shortcut_Desc%"""		; delete link
+
+[PINReg]
+ HKLM,"Software\Microsoft\Windows\CurrentVersion\App Paths\PINBALL.EXE",,0,"%24%\%Prog_Dir%\%Plus_Dir%\%PIN_Dir%\Pinball.exe"	; adds pinball to the apps path section in the registry
+ HKLM,"Software\Microsoft\Windows\CurrentVersion\App Paths\PINBALL.EXE","Path",0,"%24%\%Prog_Dir%\%Plus_Dir%\%PIN_Dir%\%Sound_Dir%\;"	; adds the path to the sounds directory to the registry
+
+[PINReg.Delete]
+ HKLM,"Software\Microsoft\Windows\CurrentVersion\App Paths\PINBALL.EXE"	; deletes the apps path entries from the registry
+
+[Uninstall.Pinball.Display]
+ HKLM,"Software\Microsoft\Windows\CurrentVersion\Uninstall\Pinball", "DisplayName",,%PINDesc% ; adds the uninstall entry to add/remove programs
+
+[Uninstall.Pinball.String]
+ HKLM,Software\Microsoft\Windows\CurrentVersion\Uninstall\Pinball,UninstallString,,"RunDll setupx.dll,InstallHinfSection Uninstall 4 pinball.inf" ; adds the uninstall commands that are executed from add/remove
+
+[Pinball_inf]
+ Pinball.inf
+
+[Pinball_exe]
+ PINBALL.EXE
+
+[Pinball_hlp]
+ PINBALL.HLP
+ PINBALL.CNT
+
+[Pinball_misc]
+ FONT.DAT
+ PINBALL.DAT
+ WMCONFIG.EXE
+ WAVEMIX.INF
+ PINBALL.MID
+ PINBALL2.MID
+ PINBALL.DOC
+ TABLE.BMP
+
+[Pinball_wav]
+ SOUND1.WAV
+ SOUND104.WAV
+ SOUND105.WAV
+ SOUND108.WAV
+ SOUND12.WAV
+ SOUND131.WAV
+ SOUND14.WAV
+ SOUND16.WAV
+ SOUND17.WAV
+ SOUND18.WAV
+ SOUND19.WAV
+ SOUND20.WAV
+ SOUND21.WAV
+ SOUND22.WAV
+ SOUND24.WAV
+ SOUND25.WAV
+ SOUND26.WAV
+ SOUND27.WAV
+ SOUND28.WAV
+ SOUND29.WAV
+ SOUND3.WAV
+ SOUND30.WAV
+ SOUND34.WAV
+ SOUND35.WAV
+ SOUND36.WAV
+ SOUND38.WAV
+ SOUND39.WAV
+ SOUND4.WAV
+ SOUND42.WAV
+ SOUND43.WAV
+ SOUND45.WAV
+ SOUND49.WAV
+ SOUND49D.WAV
+ SOUND5.WAV
+ SOUND50.WAV
+ SOUND54.WAV
+ SOUND55.WAV
+ SOUND57.WAV
+ SOUND58.WAV
+ SOUND7.WAV
+ SOUND8.WAV
+ SOUND9.WAV
+
+[Uninstall]
+ DelFiles		= Pinball_exe, Pinball_hlp, Pinball_misc, Pinball_wav, Pinball_inf
+ DelReg			= PINReg.Delete, Uninstall.Pinball.Display, Uninstall.Pinball.String
+ UpdateInis		= pinball.links.remove
+
+
+; Layout information - indicates which cab each file is in
+
+[SourceDisksNames]
+ 2=%PLUSCD%,"plus_2.CAB",0
+ 3=%PLUSCD%,"plus_3.CAB",0
+
+[SourceDisksFiles]
+ PINBALL.EXE	= 2
+ PINBALL.HLP	= 3
+ PINBALL.CNT	= 3
+ FONT.DAT	= 2
+ PINBALL.DAT	= 2
+ WMCONFIG.EXE	= 2
+ WAVEMIX.INF	= 2
+ PINBALL.MID	= 2
+ PINBALL2.MID	= 2
+ PINBALL.DOC	= 2
+ TABLE.BMP	= 2
+ SOUND1.WAV	= 2
+ SOUND104.WAV	= 2
+ SOUND105.WAV	= 2
+ SOUND108.WAV	= 2
+ SOUND12.WAV	= 2
+ SOUND131.WAV	= 2
+ SOUND14.WAV	= 2
+ SOUND16.WAV	= 2
+ SOUND17.WAV	= 2
+ SOUND18.WAV	= 2
+ SOUND19.WAV	= 2
+ SOUND20.WAV	= 2
+ SOUND21.WAV	= 2
+ SOUND22.WAV	= 2
+ SOUND24.WAV	= 2
+ SOUND25.WAV	= 2
+ SOUND26.WAV	= 2
+ SOUND27.WAV	= 3
+ SOUND28.WAV	= 3
+ SOUND29.WAV	= 3
+ SOUND3.WAV	= 3
+ SOUND30.WAV	= 3
+ SOUND34.WAV	= 3
+ SOUND35.WAV	= 3
+ SOUND36.WAV	= 3
+ SOUND38.WAV	= 3
+ SOUND39.WAV	= 3
+ SOUND4.WAV	= 3
+ SOUND42.WAV	= 3
+ SOUND43.WAV	= 3
+ SOUND45.WAV	= 3
+ SOUND49.WAV	= 3
+ SOUND49D.WAV	= 3
+ SOUND5.WAV	= 3
+ SOUND50.WAV	= 3
+ SOUND54.WAV	= 3
+ SOUND55.WAV	= 3
+ SOUND57.WAV	= 3
+ SOUND58.WAV	= 3
+ SOUND7.WAV	= 3
+ SOUND8.WAV	= 3
+ SOUND9.WAV	= 3
+
+
+;----------------Localizable Strings Section-------------------------------
+
+[Strings]
+ PINDesc		= "3D Pinball from Plus! for Windows 95" ; for add\remove
+ Prog_Dir		= "Progra~1"		; Program Files
+ Plus_Dir		= "Plus!"		; Program Files\Plus!
+ PIN_Dir		= "Pinball"		; Program Files\Plus!\Pinball
+ Sound_Dir		= "Sounds"		; Program Files\Plus!\Pinball\Sounds
+ Group_Desc		= "Accessories\Games"	; location on start menu
+ Shortcut_Desc		= "Space Cadet Table"	; shortcut name
+ PLUSCD			= "Microsoft Plus! CD-ROM"   ; Microsoft Plus CD
+
+ 
