@@ -1,0 +1,251 @@
+------------------------------------------
+  LEIAME do Microsoft Windows 98 para o
+       Disco de inicialização de emergência do FAT32          
+             Abril de 1998
+------------------------------------------
+
+(c) Copyright Microsoft Corporation, 1998
+
+
+Este documento fornece informações complementares ou mais recentes que completam a documentação 
+do Microsoft Windows 98.
+
+---------------------------------------------------
+Como utilizar este documento
+---------------------------------------------------
+
+Para visualizar o arquivo 'FAT32EBD.txt' na tela do 'Bloco de notas', maximize 
+a janela do 'Bloco de notas'.
+
+Para imprimir o arquivo 'FAT32EBD.txt', abra-o no 'Bloco de notas' ou em outro processador de textos e, em seguida, no menu 'Arquivo', clique em 'Imprimir'.
+
+----------------
+CONTEÚDO
+----------------
+
+INTRODUÇÃO
+COMO CRIAR UM DISCO DE INICIALIZAÇÃO DE EMERGÊNCIA DO FAT32 
+CRIANDO UNIDADES FAT32
+QUESTÕES CONHECIDAS
+MAIS INFORMAÇÕES
+
+
+===========
+INTRODUÇÃO
+===========
+
+O disco de inicialização de emergência (EBD, Emergency Boot Disk) do FAT32 fornece métodos sem vírus para iniciar e solucionar problemas em um computador, bem como métodos para particionar unidades grandes com o sistema de arquivos FAT32.
+
+O utilitário que cria o EBD, o FAT32EBD.EXE, grava uma imagem de um setor de inicialização conhecido em que tenham sido procurados vírus. Um disco de inicialização sem vírus pode ser utilizado para solucionar problemas de sistemas que você suspeita que estejam contaminados com vírus ou criar uma grande partição para o Windows 98.
+
+
+===========================================================
+COMO CRIAR UM DISCO DE INICIALIZAÇÃO DE EMERGÊNCIA DO FAT32
+===========================================================
+
+O utilitário que cria o EBD do FAT32, FAT32EBD.EXE, pode ser executado a partir do
+MS-DOS ou dentro do Windows. Ele solicitará que você insira um disquete de 1,44 MB
+na unidade A:\ e, em seguida, que continue.
+O FAT32EBD.EXE transfere o setor de inicialização para o disquete para certificar-se de que
+não há vírus. Em seguida, os arquivos do disco são extraídos dos
+arquivos WIN98*.CAB e transferidos para o disquete.
+
+------------------
+Requisitos
+------------------
+
+ - Acesso ao CD-ROM do Windows 98
+ - Acesso a uma unidade de disquete A:\ de 1,44 MB
+ - Disquete de 1,44 MB
+
+-----------------------------------------------------------------------------------------------
+Etapas para criação do EBD do FAT32 utilizando-se o Windows 95 ou o Windows98
+-----------------------------------------------------------------------------------------------
+
+1. Clique no botão 'Iniciar' e selecione 'Windows Explorer' no menu 'Programas'.
+
+2. Selecione a unidade de CD-ROM contendo o CD-ROM do Windows 98.
+
+3. Selecione e clique duas vezes na pasta \Ferramentas para expandi-la. Expanda a
+   subpasta \MTSutil e, em seguida, sua subpasta \FAT32EBD. 
+ 
+4. Clique duas vezes em FAT32EBD.EXE e siga seus avisos para criar um EBD do FAT32.
+
+5. Proteja o disquete contra gravação após a criação do EBD para garantir que um vírus não possa
+   ser gravado no disco.
+
+6. Reinicie o computador com o EBD do FAT32.
+
+------------------------------------------------------------------------
+Etapas para criar o EBD do FAT32 utilizando-se o Windows 3.x
+------------------------------------------------------------------------
+
+Para melhores resultados, saia do Windows e crie um EBD do FAT32 utilizando o
+MS-DOS. Consulte a seção a seguir depois de sair do Windows.
+
+--------------------------------------------------------------------
+Etapas para criar o EBD do FAT32 utilizando o MS-DOS
+--------------------------------------------------------------------
+
+1. Em um prompt de comando fora do Windows, altere para a unidade de CD-ROM 
+   contendo o CD-ROM do Windows 98. Por exemplo, se sua unidade de CD-ROM
+   for D:\, você digitará: 
+
+	D:\    [pressione a tecla Enter]
+
+2. Altere para a pasta FAT32EBD digitando o seguinte:
+
+	CD\TOOLS\MTSUTIL\FAT32EBD    [pressione a tecla Enter]
+
+3. Execute o FAT32EBD.EXE e siga os avisos para criar um EBD do FAT32. Execute
+   o utilitário digitando:
+
+	FAT32EBD.EXE    [pressione a tecla Enter]
+
+4. Proteja o disquete contra gravação após a criação do EBD para garantir que
+   um vírus não possa ser gravado no disco. 
+
+5. Reinicie o computador com o EBD do FAT32.
+
+
+======================
+CRIANDO UNIDADES FAT32
+======================
+
+No Windows 98, se você executar a ferramenta 'FDISK' em um sistema com uma unidade maior que 
+512 MB, você será questionado se o suporte de disco grande deve ser ativado ou não. Se responder 'Sim', qualquer partição criada, maior do que 512 MB, será marcada como um partição FAT32.
+
+   OBSERVAÇÃO: O conversor de unidade (FAT32) pode ser executado se o Windows 98 estiver
+         instalado. Consulte a ajuda on-line para informações adicionais.
+
+
+====================
+QUETÕES CONHECIDAS
+====================
+
+Se você tiver dificuldades para executar o FAT32EBD.EXE, consulte a lista a seguir de questões conhecidas sobre a ferramenta.
+
+-------------------------------------------------
+Arquivos inválidos copiados para o EBD
+-------------------------------------------------
+
+Se os arquivos do EBD do FAT32 tiverem tamanho igual a 0 (zero) em bytes, pode ser
+resultado de uma variável de ambiente TMP definida para a unidade de disquete ou memória 
+convencional insuficiente.
+
+Variável de ambiente TMP definida para unidade de disquete
+--------------------------------------------------------------------------
+
+A inicialização com um disquete pode definir a variável de ambiente TMP para uma unidade de disquete. O FAT32EBD.EXE requer que a variável de ambiente seja definida para um disco rígido. Se o TMP for definido para uma unidade de disquete, o FAT32EBD.EXE poderá criar um disco de inicialização com arquivos de zero bytes. 
+
+Determine o status atual do TMP digitando:
+
+	SET	[pressione a tecla Enter]
+
+Defina a variável de ambiente TMP para o disco rígido digitando:
+
+	SET TMP=C:\	[pressione a tecla Enter]
+
+Memória convencional insuficiente
+-------------------------------------------
+
+O FAT32EBD.EXE depende do utilitário EXTRACT.EXE do Windows 98. O EXTRACT
+requer aproximadamente 520K de memória livre convencional. Carregar os drivers de CD-ROM
+de modo real e os drivers de compactação DriveSpace/DoubleSpace
+pode reduzir a quantidade de memória convencional. Para solucionar este problema,
+modifique os arquivos CONFIG.SYS e AUTOEXEC.BAT para carregar melhor os dispositivos.
+
+   ---- Exemplo CONFIG.SYS ----
+
+   Device=C:\windows\himem.sys
+   Device=C:\windows\Emm386.exe noems
+   Dos=high,umb
+   Devicehigh=C:\CDROM\oakcdrom.sys /d:mscd001
+   Devicehigh=C:\Windows\drvspace.sys /move
+
+   ---- Exemplo AUTOEXEC.BAT ----
+
+   LH C:\CDROM\mscdex.exe /d:mscd001
+
+----------------------------
+Disquete com problema ou corrompido
+----------------------------
+
+Se o FAT32EBD.EXE gerar um erro "Falha de gravação" ou "Não pode gravar para o disco na 
+unidade A:\", você pode estar utilizando um disquete danificado.
+
+-----------------------------------
+Disco de inicialização de baixo desempenho
+-----------------------------------
+
+O FAT32EBD.EXE extrai arquivos para o EBD do FAT32 a partir do CD do Windows 98.
+O EXTRACT.EXE pode executar de forma lenta fora do Windows. Para melhorar o
+desempenho do FAT32EBD.EXE fora do Windows, carregue SMARTDRV.EXE. 
+
+   OBSERVAÇÃO: O SMARTDRV.EXE do Windows 98 pode ser carregado a partir da pasta 
+         \TOOLS\OLDMSDOS no CD do Windows 98.
+
+-----------------------
+Disco de inicialização do Windows 98
+-----------------------
+
+O EBD do FAT32 não inclui todas as ferramentas de solução de problemas 
+disponível no disco de inicialização do Windows 98. A Microsoft recomenda
+criar um disco de inicialização do Windows 98 durante a instalação do Windows 98
+ou a partir da guia 'Inicialização', em 'Adicionar ou remover programas', no 'Painel de controle'. 
+
+
+================
+MAIS INFORMAÇÕES
+================
+
+Um vírus de computador é um arquivo executável desenvolvido para se auto-replicar
+e evitar a detecção. Um vírus pode tentar evitar a detecção fingindo ser
+um programa legítimo. Os vírus sempre são regravados e 
+ajustados para que não sejam detectados. Programas anti-virus devem ser
+atualizados constantemente para procurar por vírus novos e modificados.
+
+Quando um computador reinicializa (ou inicia), ele verifica o setor de inicialização do disco rígido 
+antes de carregar o sistema operacional ou qualquer outro arquivo de 
+inicialização. Um vírus do setor de inicialização é desenvolvido para substituir as informações no setor de inicialização do disco rígido com seu código. Quando um computador for 
+infectado com um vírus do setor de inicialização, o código do vírus será lido
+na memória antes de mais nada. Uma vez na memória, ele pode replicar-se 
+para qualquer outro disco que seja utilizado no computador infectado.
+
+--------------------
+Descrição do FAT32
+--------------------
+
+O Windows 98 fornece uma versão atualizada do sistema de arquivos de tabela de alocação de arquivos, chamado FAT32. Este sistema de arquivos atualizados permite tamanhos mínimos, como 4K, para clusters padrão, bem como suporta discos rígidos EIDE de tamanhos máximos de 2 GB.
+
+ - Um volume de FAT32 não pode ser compactado utilizando-se o Microsoft DriveSpace ou 
+   DriveSpace 3.
+
+ - Os volumes de FAT32 não podem ser acessados se o computador for iniciado utilizando 
+   um outro sistema operacional. 
+
+ - O MS-DOS, o Windows NT 3.x e 4.x, o Windows 1.x, 2.x e 3.x e 
+   o Windows 95 (950) podem não reconhecer um volume de FAT32.
+
+   OBSERVAÇÃO: O OEM Service Release 2 (1111) do Windows 95 suporta FAT32.
+
+O FAT32 fornece os seguintes aprimoramentos sobre as implementações anteriores 
+do sistema de arquivos FAT:
+
+ - Suporta unidades de até 2 terabytes.
+
+ - O FAT32 utiliza clusters menores (isto é, clusters de 4K para unidades de até 
+   8 GB), resultando em uso de 10 a 15 por cento mais eficiente do
+   espaço em disco relativo a unidades FAT16 grandes.
+
+ - O FAT32 tem a capacidade de realocar a pasta raiz e utilizar 
+   a cópia de backup do FAT em vez da cópia padrão. Além disso, 
+   o registro de inicialização em unidades FAT32 foi expandido para incluir um
+   backup das estruturas de dados importantes. Isto significa que as unidades FAT32
+   são menos suscetíveis a falhas do que as existentes 
+   nos volumes FAT16.
+
+ - A pasta raiz em uma unidade FAT32 é agora uma cadeia de clusters comuns,
+   para que possa ser localizada em qualquer parte da unidade. Por esta razão, 
+   as limitações anteriores quanto ao número de entradas da pasta raiz 
+   não existe mais.
