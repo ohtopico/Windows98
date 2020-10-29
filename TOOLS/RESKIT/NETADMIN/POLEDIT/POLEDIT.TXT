@@ -1,0 +1,21 @@
+Editor de diretivas do sistema
+
+Use esta ferramenta para criar ou editar diretivas de sistema
+para padronizar a aparência e recursos do Windows 95 ou do
+Windows 98 para um único usuário, um grupo de usuários ou para 
+toda a rede. 
+ 
+
+Você pode criar novos arquivos de diretivas, ou usar os arquivos 
+de diretivas de exemplo (.POL) incluídos na pasta 
+TOOLS\RESKIT\NETADMIN\POLEDIT na mídia de instalação.
+
+Para instalar esta ferramenta no seu disco rígido local 
+ou para instalar o suporte a grupos de diretivas, use a opção 
+'adicionar ou remover programas' do Painel de controle, selecione 
+a guia 'Instalação do Windows', clique no botão 'Com disco' e instale 
+da pasta TOOLS\RESKIT\NETADMIN\POLEDIT localizada na mídia de instalação.
+
+Para mais informações sobre diretivas de sistema e Editor de 
+diretivas do sistema, consulte esses tópicos no Windows 95 
+Resource Kit (WIN95RK.HLP) ou no Windows 98 Resource Kit (WIN98RK.HLP).

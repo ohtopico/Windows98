@@ -1,0 +1,33 @@
+%<!--localized version of MSPress More Resources-->
+<a id=a1 href="http://www.microsoft.com/isapi/redir.dll?prd=mspress" target="_blank" onmouseover="over(1)" onmouseout="out(1)" onfocus="over(1)" onblur="out(1)">A Microsoft<sup>&#174;</sup> Press</a> é a sua
+fonte de manuais e material de treinamento atualizados e tecnicamente corretos sobre os produtos Microsoft.<br>
+<span style="line-height:6pt;">&nbsp;<br></span>
+
+Assim como o <i>Microsoft Windows 98 O Início</i>, todos os títulos da série
+<b>O Início</b> da Microsoft<SUP>&#174;</SUP> Press oferecem o que há de melhor em treinamento interativo com os produtos da
+Microsoft<SUP>&#174;</SUP> Press, incluindo o Microsoft Windows 95, Microsoft Windows NT<sup>&#174;</sup> Workstation 4.0 e o
+Microsoft Office 97.<br>
+<span style="line-height:6pt;">&nbsp;<br></span>
+
+<i>Running Microsoft Windows 98</i> oferece respostas claras e abrangentes sobre o Windows 98.<br>
+<span style="line-height:6pt;">&nbsp;<br></span>
+
+<i>Microsoft Windows 98 At a Glance</i>, um guia de referência ilustrado, mostra "em um relance" como
+executar várias tarefas.<br>
+<span style="line-height:6pt;">&nbsp;<br></span>
+
+O <i>Microsoft Windows 98 Step by Step</i> oferece um treinamento individual com lições e exercícios fáceis de seguir,
+além de arquivos para prática no CD.<br>
+<span style="line-height:6pt;">&nbsp;<br></span>
+
+O <i>Field Guide to Microsoft Windows 98</i> é um guia compacto e portátil desenvolvido para
+pesquisas e respostas rápidas.<br>
+<span style="line-height:6pt;">&nbsp;<br></span>
+
+Os manuais da Microsoft<SUP>&#174;</SUP> Press estão traduzidos em mais de 25 <b><a id=a2 href="http://www.microsoft.com/isapi/redir.dll?prd=mspress&ar=win98tour&sba=intl" target="_blank" onmouseover="over(2)" onmouseout="out(2)" onfocus="over(2)" onblur="out(2)">
+idiomas</a></b>; para obter uma lista completa, visite o site da Web ou entre em contato com sua subsidiária local da Microsoft.
+%|%
+Voltar
+%|%
+Fechar
+%|%Descubra o Windows 98%

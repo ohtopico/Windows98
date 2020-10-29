@@ -1,0 +1,33 @@
+value:string
+Quando você inicia um programa ou um aplicativo, uma área de trabalho definida aparece na tela. Esta área de trabalho definida é chamada de janela.@
+Uma janela é uma área deslocável e redimensionável na qual são exibidas informações e com a qual você pode interagir.@
+A barra de título aparece na parte superior de cada janela. Ela exibe o nome do aplicativo ou software aberto.@
+Uma janela pode ser movida de um local para outro apontando para a barra de título e arrastando a janela para outro local.@
+A barra de rolagem é uma barra que pode aparecer na margem inferior ou na margem direita de uma janela.@
+Barras de rolagem são utilizadas quando a quantidade de informações é maior do que a que pode caber confortavelmente em uma única janela.@
+Como uma janela é um objeto flexível (redimensionável), você pode facilmente alterar seu tamanho.@
+Na extrema direita da barra de título há três botões importantes: <B>Minimizar</B>, <B>Maximizar</B> e <B>Fechar</B>.@
+Você pode utilizar esses botões para aumentar ou diminuir o tamanho de uma janela ou para fechá-la.@
+Agora que você aprendeu a trabalhar com janelas, é hora de identificar as partes de uma janela.@
+Responda às perguntas a seguir pressionando o número adequado no teclado.@
+Aponte para a barra de título na janela aberta em sua tela.@
+<IMG SRC="images/num1.gif" align="bottom"> Correto! A barra de título mostra o nome do documento ou aplicativo aberto. @
+Os botões <B>Minimizar</B>, <B>Maximizar</B> e <B>Fechar</B> fazem parte da barra de título. Tente selecionar a barra de título inteira novamente.@
+Estas são barras de rolagem. Barras de rolagem são utilizadas quando um documento contém mais informações do que o que pode ser visto em uma só janela. Tente selecionar a barra de título novamente.@
+Você selecionou um item que não faz parte de uma janela. Tente selecionar a barra de título novamente.@
+A barra de título, que mostra o nome de uma janela, aparece na margem superior de todas as janelas abertas.@
+Onde estão os botões <B>Minimizar</B>, <B>Maximizar</B> e <B>Fechar</B>?@
+Esta é a barra de título, que exibe o nome do documento ou aplicativo no qual você está trabalhando. Tente novamente.@
+<IMG SRC="images/num2.gif" align="bottom"> Correto! Os botões <B>Minimizar</B>, <B>Maximizar</B> e <B>Fechar</B> estão na extrema direita da barra de título.@
+Estas são barras de rolagem, utilizadas quando um documento contém mais informações do que o que pode ser exibido em uma única janela. Tente novamente.@
+Você selecionou um item que não faz parte de uma janela. Tente novamente.@
+Os botões <B>Minimizar</B>, <B>Maximizar</B> e <B>Fechar</B> estão na extrema direita da barra de título.@
+Onde estão as barras de rolagem?@
+Esta é a barra de título, que exibe o nome do documento ou aplicativo no qual você está trabalhando. Tente novamente.@
+Os botões <B>Minimizar</B>, <B>Maximizar</B> e <B>Fechar</B> estão localizados na extrema direita da barra de título. Tente selecionar as barras de rolagem novamente.@
+<IMG SRC="images/num3.gif" align="bottom"> Correto! As barras de rolagem são utilizadas quando um documento contém mais informações do que o que pode ser exibido em uma única janela.@
+Você selecionou um item que não faz parte de uma janela. Tente selecionar as barras de rolagem novamente.@
+Barras de rolagem são utilizadas quando um documento contém mais informações do que o que pode ser exibido em uma única janela.@
+Você pode mover-se com facilidade por e entre janelas utilizando a barra de título, as barras de rolagem e os botões <B>Minimizar</B>, <B>Maximizar</B> e <B>Fechar</B>.@
+Na próxima lição, <B>Obtendo ajuda</B>, você irá aprender a utilizar um valioso recurso do Windows.@
+Pressione a <B>SETA À ESQUERDA</B> <IMG class="always" id=backarr SRC="images/bkbtn.gif" style="cursor:hand" ALIGN=MIDDLE onclick="prevseq()"> para voltar; <B>SETA À DIREITA</B> <IMG class="always" id=frwdarr SRC="images/fwdbtn.gif" style="cursor:hand" ALIGN=MIDDLE onclick="nextseq()"> para continuar.

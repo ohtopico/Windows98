@@ -1,0 +1,145 @@
+; MSBATCH.INF
+;
+; Copyright (c) 1995-1998 Microsoft Corporation.
+; All rights reserved.
+;
+
+[BatchSetup]
+Version=3.0 (32-bit)
+SaveDate=05/29/98
+
+[Version]
+Signature = "$CHICAGO$"
+LayoutFile=layout.inf
+
+[Setup]
+Express=1
+InstallDir="c:\windows"
+InstallType=3
+EBD=0
+ShowEula=0
+ChangeDir=0
+OptionalComponents=1
+Network=1
+System=0
+CCP=0
+CleanBoot=0
+Display=0
+DevicePath=0
+NoDirWarn=1
+TimeZone="E. South America"
+Uninstall=0
+NoPrompt2Boot=1
+
+[System]
+Locale=L0416
+SelectedKeyboard=KEYBOARD_00000416
+
+[NameAndOrg]
+Name="System Recovery"
+Org="Preferred Customer"
+Display=0
+
+[Network]
+ComputerName="Windows 98 User"
+Workgroup="WORKGROUP"
+Description="System Recovery"
+Display=0
+
+[VREDIR]
+LogonDomain="WORKGROUP"
+ValidatedLogon=1
+
+[OptionalComponents]
+"Opções de acessibilidade"=1
+"Ferramentas de acessibilidade"=0
+"Porta-arquivos"=0
+"Calculadora"=1
+"Papel de parede"=0
+"Modelos de documento"=1
+"Jogos"=0
+"Imaging"=1
+"Ponteiros do mouse"=0
+"Paint"=1
+"Visualização rápida"=0
+"Windows Scripting Host"=1
+"WordPad"=1
+"Acesso à rede dial-up"=0
+"Servidor de rede dial-up"=0
+"Conexão direta via cabo"=0
+"HyperTerminal"=0
+"Microsoft Chat 2.1"=0
+"Microsoft NetMeeting"=1
+"Discagem automática"=1
+"Rede privada virtual"=0
+"Beisebol"=0
+"Animais perigosos"=0
+"Dentro de seu computador"=0
+"Selva"=0
+"Leonardo da Vinci"=0
+"Mais Windows"=0
+"Mistério"=0
+"Natureza"=0
+"Ciências"=0
+"Espaço"=0
+"Esportes"=0
+"Anos 60"=0
+"Anos dourados"=0
+"Oceano"=0
+"Microsoft FrontPage Express"=1
+"Microsoft VRML 2.0 Viewer"=0
+"Microsoft Wallet"=0
+"Personal Web Server"=1
+"Real Audio Player 4.0"=0
+"Assistente de publicação na Web"=0
+"Gerenciamento de empresas pela Web"=0
+"Microsoft Outlook Express"=1
+"Báltico"=0
+"Centro-europeu"=0
+"Cirílico"=0
+"Grego"=0
+"Turco"=0
+"Compactação de áudio"=1
+"CD player"=1
+"Macromedia Shockwave Director"=1
+"Macromedia Shockwave Flash"=1
+"Mídia player"=1
+"Microsoft NetShow Player 2.0"=0
+"Esquemas de som de multimídia"=0
+"Exemplos de sons"=0
+"Gravador de som"=1
+"Compactação de vídeo"=1
+"Controle de volume"=1
+"Proteções de tela adicionais"=0
+"Logotipos voadores do Windows"=1
+"Proteções de tela OpenGL"=0
+"Backup"=1
+"Mapa de caracteres"=0
+"Visualizador da Área de transfer."=0
+"Compactação de disco"=1
+"Conversor de unidade (FAT32)"=1
+"Diretivas de grupo"=0
+"Gerenciador da rede"=0
+"Monitor do sistema"=0
+"Medidor de recursos"=0
+
+[Printers]
+
+[InstallLocationsMRU]
+
+[Install]
+AddReg=RegistrySettings
+DelReg=DelRegistrySettings
+
+[RegistrySettings]
+HKLM,%KEY_RUN%,BatchReg1,,"%11%\srw.exe"
+
+[DelRegistrySettings]
+HKLM,%KEY_RUN%,Welcome
+
+[Strings]
+KEY_RUN="SOFTWARE\Microsoft\Windows\CurrentVersion\Run"
+
+
+
+

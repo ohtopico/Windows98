@@ -1,0 +1,25 @@
+%open001.gif%|%Bem-vindo à <I>Visão geral do Windows</I>. Nos próximos minutos, mostraremos a você como aproveitar ao máximo este inovador tutorial.%|%10750%
+%open002.gif%|%Ao contrário de outros programas de treinamento, com a <I>Visão geral do Windows</I> você tem a vantagem de trabalhar com o verdadeiro Windows, não com uma simulação.%|%20450%
+%open001.gif%|%As lições podem ser escolhidas em qualquer ordem. Quando você vir a lista de lições, basta clicar em um título de lição para começar.%|%28850%
+%open003.gif%|%Quando você seleciona uma lição, a janela da lição torna-se menor para mostrar-lhe mais da área de trabalho do Windows.%|%36550%
+%open002.gif%|%Na verdade, você estará executando dois programas: o Windows em segundo plano e o tutorial do Windows em primeiro plano.%|%38850%
+%open004.gif%|%Você estará executando realmente dois programas: o Windows em segundo plano e o tutorial do Windows em primeiro plano.%|%40350%
+%open005.gif%|%Você estará executando realmente dois programas: o Windows em segundo plano e o tutorial do Windows em primeiro plano.%|%40350%
+%open006.gif%|%Serão mostradas instruções passo a passo em uma janela auxiliar.%|%48350%
+%open006.gif%|%A janela auxiliar contém ferramentas para ajudá-lo a navegar pelas lições.%|%55150%
+%open007.gif%|%Clicar no botão <B>Avançar</B> o levará à próxima etapa.%|%59350%
+%open008.gif%|%Clicar no botão <B>Voltar</B> o levará de volta à etapa anterior. Como cada etapa depende da anterior, não é uma boa idéia saltar etapas.%|%70100%
+%open009.gif%|%Clicar no botão <B>Lições</B> fará com que você retorne à lista de lições.%|%75900%
+%open010.gif%|%O Contador de etapas acompanha seu progresso em uma lição.%|%80700%
+%open011.gif%|% Se estiver confuso ou inseguro em relação às instruções, você pode clicar no botão <B>Mostre-me</B> para visualizar uma demonstração da etapa.%|%85200%
+%open012.gif%|%Se estiver confuso ou inseguro em relação às instruções, você pode clicar no botão <B>Mostre-me</B> para visualizar uma demonstração da etapa.%|%90000%
+%open006.gif%|%Clicar em qualquer lugar da tela fechará a janela <B>Mostre-me</B>. Em seguida, você poderá experimentar a etapa por si mesmo.%|%96700%
+%open013.gif%|%Não é possível clicar em figuras no texto da etapa. Essas figuras estão incluídas para ajudá-lo a localizar o verdadeiro botão ou objeto.%|%106300%
+%open014.gif%|%Você pode clicar em uma palavra em azul sublinhada para ver sua definição. Clicar em qualquer lugar da tela fechará a janela de definição.%|%108300%
+%open015.gif%|% Você pode clicar em uma palavra em azul sublinhada para ver sua definição. Clicar em qualquer lugar da tela fechará a janela de definição.%|%111800%
+%open006.gif%|% Você pode clicar em uma palavra em azul sublinhada para ver sua definição. Clicar em qualquer lugar da tela fechará a janela de definição.%|%113800%
+%open016.gif%|%Ao clicar em uma Dica!, você visualiza informações adicionais úteis. Clicar em qualquer lugar da tela fechará a janela <B>Dica!</B>.%|%117400%
+%open017.gif%|%Ao clicar em uma Dica!, você visualiza informações adicionais úteis. Clicar em qualquer lugar da tela fechará a janela Dica!.%|%121200%
+%open006.gif%|% Ao clicar em uma Dica!, você visualiza informações adicionais úteis. Clicar em qualquer lugar da tela fechará a janela Dica!.%|%124400%
+%open018.gif%|%Depois de concluir uma lição, aparecerá uma marca de seleção ao lado do título da lição.%|%130400%
+%open001.gif%|%Pronto. Agora você está preparado para começar a aprender as noções básicas do Windows!%|%138400%

@@ -1,0 +1,44 @@
+value:string
+Além do teclado, você pode utilizar um dispositivo apontador para dar instruções ao computador.@
+O tipo mais conhecido de dispositivo apontador é o mouse.@
+Esta seção mostrará como realizar quatro ações básicas: apontar, clicar, clicar duas vezes e arrastar.@
+O mouse controla um ponteiro que identifica sua localização na tela.@
+Pense no mouse como uma extensão de sua mão.@
+Quando você move o mouse sobre a mesa, o ponteiro também se move.@
+Alguns objetos se alteram quando seu ponteiro passa sobre eles.@
+Para fazer uma demonstração, o círculo vermelho sólido torna-se um círculo azul com padrões depois que você passa o mouse sobre ele.@
+Agora é sua vez. Coloque a mão sobre o mouse e mova-o até que a extremidade do ponteiro passe sobre o círculo vermelho sólido em sua tela.@
+Parabéns! Você apontou corretamente para o círculo vermelho sólido colocando o ponteiro do mouse sobre ele.@
+Você apontou para algum outro lugar da tela. Tente novamente. Mova o mouse até que o ponteiro esteja sobre o círculo vermelho sólido.@
+Você apontou corretamente movendo o ponteiro do mouse sobre o círculo vermelho sólido, mas também pressionou um botão. Tente apontar novamente sem pressioná-lo.@
+Mova o mouse até que o ponteiro esteja sobre o círculo vermelho sólido.@
+Você pode selecionar e mover itens em sua tela trabalhando com um dos botões do mouse. A primeira ação que você irá aprender é chamada clicar.@
+Clicar significa pressionar e soltar um botão do mouse uma vez.@
+O resultado desta ação varia dependendo do software que você está utilizando e do botão que você clica.@
+Para fazer uma demonstração, clicar no círculo vermelho sólido irá transformá-lo em um quadrado sólido azul petróleo.
+Pronto para tentar? Certifique-se de que o ponteiro esteja sobre o círculo vermelho sólido em sua tela. Em seguida, com o dedo indicador, pressione e solte rapidamente o botão esquerdo do mouse uma vez para selecionar o círculo.@
+Muito bem! Você selecionou corretamente o círculo vermelho sólido apontando para ele e clicando o botão esquerdo do mouse uma vez.@ 
+Você apontou para algum outro lugar da tela. Tente novamente. Mova o mouse até que o ponteiro esteja sobre o círculo vermelho sólido e clique uma vez o botão esquerdo do mouse.@
+Você apontou corretamente movendo o ponteiro do mouse sobre o círculo vermelho sólido. Agora você só precisa clicar uma vez e soltar rapidamente o botão esquerdo do mouse.@
+Para clicar com o mouse, pressione uma vez e solte rapidamente o botão esquerdo do mouse.@
+Agora que sabe como clicar, você pode clicar no botão <B>Seta à esquerda</B> para voltar ou no botão <B>Seta à direita</B> para continuar. Ou pressione as teclas SETA À DIREITA ou SETA À ESQUERDA no teclado.@
+Outra coisa que você pode fazer com o mouse é clicar duas vezes.@
+Clicar duas vezes significa pressionar e soltar o botão esquerdo do mouse duas vezes em uma seqüência rápida.@
+Quando você clicar duas vezes, o círculo vermelho sólido irá transformar-se em um quadrado azul com padrões.@
+É hora de praticar o clique duplo. Mova o ponteiro do mouse sobre o círculo vermelho sólido e rapidamente pressione e solte o botão esquerdo do mouse duas vezes.@
+Correto! Você clicou duas vezes com êxito no círculo vermelho sólido pressionando e soltando rapidamente o botão esquerdo do mouse.@
+Você pressionou o botão do mouse uma vez em vez de duas. Isto é chamado clicar. Tente clicar duas vezes no círculo vermelho sólido novamente.@ 
+Você clicou duas vezes corretamente, mas utilizou o botão direito do mouse. Clicar duas vezes significa pressionar e soltar rapidamente o botão esquerdo do mouse duas vezes. Tente novamente.@
+Clicar duas vezes significa pressionar e soltar o botão esquerdo do mouse duas vezes em uma seqüência rápida.@
+Outra ação que você pode realizar utilizando o botão esquerdo do mouse é mover itens na tela arrastando-os.@
+Para fazê-lo, posicione o ponteiro sobre um objeto, pressione e mantenha pressionado o botão esquerdo do mouse, mova o mouse para o local desejado em sua tela. Solte o botão.@
+Agora é sua vez. Mova o ponteiro sobre o círculo vermelho sólido, pressione e mantenha pressionado o botão esquerdo do mouse e arraste o círculo azul com padrões para a extrema direita da tela. Solte o botão.@
+Perfeito! Você arrasta um item posicionando o mouse sobre ele, pressionando e mantendo pressionado o botão esquerdo do mouse, movendo o mouse para um local diferente e soltando o botão. @
+Você apontou para algum outro lugar da tela. Apontar significa mover o ponteiro do mouse sobre um item em particular. Tente apontar para o círculo vermelho sólido novamente.@
+Você apontou corretamente movendo o ponteiro do mouse sobre o círculo vermelho sólido. Agora você precisa arrastá-lo para a extrema direita da tela. Tente novamente.@
+Você apontou corretamente para o círculo vermelho sólido e arrastou-o, mas soltou o botão cedo demais. Tente novamente.@
+Para arrastar um item, primeiramente aponte para ele, mantenha pressionado o botão esquerdo do mouse, mova o mouse para um local diferente e, em seguida, solte o botão do mouse. @
+Nesta seção, você se familiarizou com o mouse e quatro ações básicas: apontar, clicar, clicar duas vezes e arrastar.@
+As ações do mouse são freqüentemente utilizadas quando você trabalha no computador.@
+Agora que está familiarizado com os componentes básicos de hardware do sistema do computador, está pronto para conhecer o sistema operacional em <B>Explorando a área <br>de trabalho do Windows.</B>@
+Pressione a <B>SETA À ESQUERDA</B> <IMG class="always" id=backarr SRC="images/bkbtn.gif" style="cursor:hand" ALIGN=MIDDLE onclick="prevseq()"> para voltar; <B>SETA À DIREITA</B> <IMG class="always" id=frwdarr SRC="images/fwdbtn.gif" style="cursor:hand" ALIGN=MIDDLE onclick="nextseq()"> para continuar.@

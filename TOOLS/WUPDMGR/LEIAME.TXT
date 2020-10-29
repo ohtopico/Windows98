@@ -1,0 +1,14 @@
+Esta atualização do WUPDMGR.EXE permite que o recurso Windows Update seja desativado com êxito através das configurações de diretivas nas versões do Windows 98, que não sejam em inglês.
+
+Para informações sobre como desativar o Windows Update através das configurações de diretivas, consulte o Microsoft Technical Resource Kit capítulos 8 e 29
+para opções de Editor de diretivas.
+
+Nos computadores sem esta atualização do WUPDMGR.EXE, o acesso  ao site do Windows Update 
+pode ser desativado através das configurações de diretivas mas o ícone na parte superior do menu Iniciar não será automaticamente removido como deveria.
+
+Para resolver este problema dentro de sua organização, coloque esta versão do WUPDMGR.EXE 
+nos servidores de instalação para que seja instalado nos computadores clientes, em vez da versão original do WUPDMGR.EXE.
+
+
+
+

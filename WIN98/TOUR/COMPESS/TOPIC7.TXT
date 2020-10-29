@@ -1,0 +1,8 @@
+value:string
+Se você tiver dúvidas sobre como alguma coisa funciona, a maioria dos software aplicativo inclui um recurso interno de ajuda que fornece informações e sugestões.@
+Na área de trabalho do Windows, a 'Ajuda' está disponível a partir do menu <B>Iniciar</B>.@
+A maioria dos aplicativos tem um botão <B>Ajuda</B> ou um ícone <B>Ajuda</B> na barra de ferramentas. Geralmente esse botão é parecido com um ponto de interrogação.@
+Na maioria dos aplicativos, a tecla de função F1 abre o recurso 'Ajuda'.@
+Não importa em que parte do Windows você esteja trabalhando, a 'Ajuda' nunca está muito longe.@
+<P><BR><P>Parabéns! Você acaba de concluir com êxito o tutorial <B>Básico sobre computação </B>.<P>Se você quiser rever alguma parte do material, clique em um dos tópicos na lista à esquerda de sua janela.<P>Para aprender mais sobre o Microsoft Windows, clique no botão <B>Conteúdo</B> e escolha o tutorial <B>Visão geral do Microsoft Windows 98 </B>.@
+Pressione a <B>SETA À ESQUERDA</B> <IMG class="always" id=backarr SRC="images/bkbtn.gif" style="cursor:hand" ALIGN=MIDDLE onclick="prevseq()"> para voltar; <B>SETA À DIREITA</B> <IMG class="always" id=frwdarr SRC="images/fwdbtn.gif" style="cursor:hand" ALIGN=MIDDLE onclick="nextseq()"> para continuar.

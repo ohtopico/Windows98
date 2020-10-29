@@ -1,0 +1,9 @@
+Serviço remoto de Registro Microsoft (REGSERV.EXE e arquivos relacionados)
+
+Instale este software em computadores Windows 95 ou Windows 98 para permitir que os administradores alterem as entradas do Registro em outros computadores na rede.
+
+Os computadores remoto e local devem estar executando o Serviço remoto de Registro, e a segurança em nível de usuário deve estar ativada no computador sendo administrado. Para alterar o Registro, você pode usar o Editor do Registro ou o Editor de diretivas do sistema.
+
+Para instalar este serviço, use a opção Rede no Painel de controle, clique no botão 'Adicionar', selecione 'Serviço' como o tipo de componente de rede a ser instalado, clique no botão 'Adicionar', clique no botão 'Com disco' e instale da pasta TOOLS\RESKIT\NETADMIN\REMOTREG.
+
+Para mais informações sobre o Serviço remoto de Registro, consulte esse tópico no Windows 98 Resource Kit ou na ajuda on-line das ferramentas do Windows 98 Resource Kit (WIN98RK.HLP). Você pode ter acesso a esta ajuda instalando a amostra das ferramentas do Windows 98 Resource Kit da pasta TOOLS\RESKIT do CD do Windows 98.

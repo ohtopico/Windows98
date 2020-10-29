@@ -1,0 +1,142 @@
+       -----------------------------------------------------------
+                      LEIAME do Microsoft Windows 98 para o 
+                      Microsoft Exchange e FAX
+       -----------------------------------------------------------
+
+              (c) Copyright Microsoft Corporation, 1998
+
+------------------------
+Como usar este documento
+------------------------
+
+Para visualizar o WMS-FAX.TXT na tela com o Bloco de Notas, maximize a 
+janela do Bloco de notas.
+
+Para imprimir o WMS-FAX.TXT, abra-o no Bloco de notas ou em outro 
+processador de texto, em seguida, use o comando Imprimir do menu Arquivo. 
+
+-------- 
+CONTEÚDO
+--------
+
+O QUE É O MICROSOFT EXCHANGE? 
+O QUE É A AGÊNCIA DE CORREIO DO MICROSOFT MAIL?
+O QUE É O MICROSOFT FAX?
+INSTALAÇÃO
+DESINSTALAÇÃO
+USANDO O MICROSOFT EXCHANGE COM O MICROSOFT SCHEDULE+ 1.0
+USANDO O MICROSOFT EXCHANGE COM O MICROSOFT MAIL
+DICAS PARA A SOLUÇÃO DE PROBLEMAS 
+
+
+O QUE É O MICROSOFT EXCHANGE? 
+============================
+
+O Microsoft Exchange permite que o usuário envie e receba correio eletrônico, fax e documentos no formato de mensagem. Os serviços de informação que podem ser usados com o Microsoft Exchange incluem o Microsoft Mail e o Microsoft Fax. O Microsoft Exchange é um cliente MAPI completo. 
+
+
+O QUE É A AGÊNCIA DE CORREIO DO MICROSOFT MAIL?
+===============================================
+
+A agência de correio do Microsoft Mail foi incluída no Windows para Workgroups, Windows 95, OSR2 e OSR2.5. A agência de correio do Microsoft Mail fornece um local centralizada para administradores de rede ou de pequenos escritórios criarem e manterem uma agência de correio de grupo de trabalho. O administrador deve criar uma conta para cada usuário dentro da agência de correio do grupo de trabalho. Esta conta fornece aos usuários o recurso de enviar e receber correio eletrônico de ou para usuários dentro da rede da empresa. 
+
+O QUE É O MICROSOFT FAX?
+=======================
+
+O Microsoft Fax é um aplicativo de fax que requer um cliente MAPI completo para operar, como: Microsoft Exchange, Microsoft Exchange Server Client ou Outlook97. O Microsoft Fax foi fornecido originalmente com o Windows para Workgroups como At Work Fax  e mais tarde foi atualizado para Microsoft Fax e incluído no Windows 95, OSR2 e OSR2.5. Esta é a mesma atualização e não inclui nenhuma alteração de recurso. O Microsoft Fax requer um fax modem.  
+
+
+
+INSTALAÇÃO
+===========
+
+WMS.EXE
+
+Localize o WMS.EXE no CD-ROM do Windows 98 na pasta Tools\OldWin95\Message. Para iniciar o arquivo executável clique duas vezes no arquivo ou selecione o arquivo e tecle Enter. Siga os avisos fornecidos pela instalação. Se for solicitado a reinicializar quando a instalação for concluída, selecione OK para que o Programa de Instalação reinicialize e finalize as configurações. Uma vez que a instalação for finalizada, os usuários que estiverem se conectando pela primeira vez terão que criar um perfil. Para criar um novo perfil clique duas vezes no ícone da Caixa de entrada na área de trabalho ou selecione esse ícone e tecle Enter. Siga as instruções do assistente de instalação da Caixa de entrada.
+
+Este arquivo instala o Microsoft Exchange e a Agência de correio do Microsoft Mail, também conhecida como uma agência de correio do grupo de trabalho. O Microsoft Exchange é um cliente MAPI completo. O WMS.EXE é fornecido para o Microsoft Technical Support (MTS), ou para usuários de atualização do Windows 95, OSR2 e OSR2.5 para reparar os clientes Microsoft Exchange existentes do Windows 95, OSR2 e OSR2.5 e da agência de correio do Microsoft Mail se eles forem corrompidos. ("existentes" significa que o Microsoft Exchange e a agência de correio do Microsoft Mail funcionavam totalmente antes da atualização para o Windows 98.) Se os arquivos do Microsoft Exchange forem corrompidos, isto instalará as versões atualizadas 
+daqueles arquivos. O WMS.EXE adicionará um ícone da Caixa de entrada na área de trabalho assim como um ícone do Mail e da agência de correio do Microsoft Mail no Painel de controle, se não houver um. Se o At Work Fax foi configurado no Microsoft Mail do Windows para Workgroups antes de atualizar para o Windows 98, este arquivo removerá a funcionalidade do At Work Fax no Microsoft Mail e removerá o ícone At Work Fax no Painel de controle. O ícone da Caixa de entrada na área de trabalho abrirá o Microsoft Exchange uma vez que o perfil foi criado. O sistema deve ser capaz de ter acesso à conta da agência de correio do grupo de trabalho para criar um perfil.   
+
+AVISO: Este arquivo não contém nenhuma alteração de recursos do Microsoft Exchange ou da agência de correio do Microsoft Mail. Todas as questões conhecidas em relação ao Microsoft Exchange e à agência de correio do Microsoft Mail se aplicam a esta atualização. Este arquivo não deve ser usado com o Microsoft Exchange Server Client ou com o Outlook 97. Se ocorrerem erros no Microsoft Exchange Server Client ou no Outlook 97, recomenda-se reinstalar o aplicativo original. Se for necessário instalar o WMS.EXE para restaurar a funcionalidade da agência de correio do Microsoft Mail, recomenda-se reinstalar o Microsoft Exchange Server Client ou o Outlook 97 após a instalação do WMS.EXE ter sido concluída.
+
+
+
+AWFAX.EXE
+Localize o AWFAX.EXE no CD-ROM do Windows 98 na pasta Tools\OldWin95\Message. Para iniciar o arquivo executável clique duas vezes no arquivo ou selecione o arquivo e tecle Enter. Siga os avisos fornecidos pela instalação. O Programa de Instalação solicitará a reinicialização do computador, selecione OK para que o Programa de Instalação reinicialize e finalize as configurações. Adicione o Microsoft Fax como um serviço de perfil de cliente MAPI usando o ícone 'Mail e Fax' no Painel de controle.
+
+O AWFAX.EXE instala o Microsoft Fax. O Microsoft Fax requer um cliente MAPI completo para funcionar, como: Microsoft Exchange, Microsoft Exchange Server Client ou Outlook 97. O AWFAX.EXE é fornecido para o Microsoft Technical Support (MTS) ou para usuários de atulaização do Windows 95, OSR2 e OSR2.5 para reparar uma instalação existente do Microsoft Fax se ela for corrompida. ("existente" significa que o Microsoft Fax funcionava totalmente antes da atualização para o Windows 98.) Se os arquivos do Microsoft Fax forem corrompidos, isto instalará versões atualizadas daqueles arquivos. O AWFAX.EXE adicionará uma impressora do Microsoft Fax à pasta Impressoras, se não houver uma. Se o At Work Fax estava configurado no Microsoft Mail do Windows para Workgroups antes da atualização para o Windows 98, este arquivo removerá a funcionalidade do At Work Fax no Microsoft Mail e removerá o ícone 'At Work Fax' do Painel de controle. O Microsoft Fax deve ser adicionado aoperfil do cliente MAPI para funcionar.
+
+AVISO: Este arquivo não contém nenhuma alteração de recursos do Microsoft Fax. Todas as questões conhecidas do Microsoft Fax se aplicam a esta atualização.  
+
+Para que o Microsoft Fax responda a uma chamada e receba um fax, o cliente MAPI deve ter sido iniciado e estar sendo executado.
+
+
+
+DESINSTALAÇÃO
+==============
+ 
+Para desisntalar qualquer um destes pacotes, vá para o Painel de controle e clique 
+clique duas vezes em 'Adicionar ou remover programas'. O componente será exibido na primeira guia, 'Instalar/desinstalar'. Selecione o pacote que deseja desinstalar 
+e clique no botão 'Adicionar ou remover'. 
+
+
+USANDO O MICROSOFT EXCHANGE COM O MICROSOFT SCHEDULE+ 1.0
+========================================================
+
+O Microsoft Exchange foi criado para funcionar com o Microsoft Schedule+ 7.0. Quando o Microsoft Exchange estiver instalado, ele desabilitará parcialmente o Microsoft Schedule+ 1.0. Você poderá continuar a usar o Microsoft Schedule+ 1.0 no modo isolado,
+mas não poderá enviar ou receber solicitações de reunião. Você verá
+uma mensagem de erro ao iniciar o Microsoft Schedule+ 1.0, informando
+que o spooler de correio não pode ser iniciado. Clique em "Sim" para
+continuar, e o Microsoft Schedule+ 1.0 continuará. 
+
+O Microsoft Schedule+ é desabilitado mudando-se Mailspl.exe para 
+Mailspl.bak e colocando uma linha StartupOffline=1 em Schdplus.ini. 
+
+OBSERVAÇÃO:  Não há mensagem de aviso sobre essas mudanças.
+
+
+USANDO O MICROSOFT EXCHANGE COM O MICROSOFT MAIL
+===============================================
+
+O Microsoft Exchange foi criado para substituir o programa Microsoft Mail que acompanha o Windows para Workgroups e o Microsoft Mail versão 3.x. O WMS.EXE contém o conversor MMF que permite que suas mensagens do Microsoft Mail sejam importadas para o Microsoft Exchange. 
+
+
+
+DICAS PARA A SOLUÇÃO DE PROBLEMAS 
+=================================
+
+Se você tiver problemas para conectar-se com a agência de correio do
+Microsoft Mail, certifique-se de que tenha acesso de rede na sua agência. Você também pode obter detalhes de diagnóstico sobre o motivo das falhas dentro do Microsoft Exchange clicando no menu Ferramentas, clicando em Ferramentas do Microsoft Mail e em "Exibir log da sessão". 
+
+Se tiver algum problema para redigir ou ler uma mensagem que provoque um
+erro dizendo  "Não foi possível iniciar formulário", pode ser que o arquivo
+de formulários esteja danificado. Para corrigir esse problema, encerre o Microsoft Exchange, vá para a pasta {Windows}\Forms
+e exclua Frmcache.dat. Em {Windows}\Forms, copie o arquivo
+Frmcache.bak para Frmcache.dat e reinicie o Microsoft Exchange. 
+
+Algumas extensões do Microsoft Mail 3.x não são compatíveis com o 
+Microsoft Exchange--por exemplo, WinRules e Conference+. O Microsoft Exchange desativa automaticamente algumas dessas extensões para prevenir problemas de sistema. Se uma extensão do Microsoft Mail 3.x estiver causando um problema, ela pode ser desativada
+colocando-se ';' na frente da linha correspondente em Msmail.ini. Entre em contato com os fornecedores do produto para maiores informações. 
+
+Se o problema for a retenção de mensagens na Caixa de Saída, é possível
+que o serviço de informações errado esteja tentando processar a
+mensagem. Para corrigir esse problema, clique no menu Ferramentas,
+clique em Opções, clique em Entrega e certifique-se de que
+os serviços de informação estejam relacionados na ordem desejada. 
+
+Depois de encerrar o Microsoft Exchange, talvez você observe que o MAPISP32
+continua sendo executado. O Mapisp32 continua sendo executado por 20 segundos
+depois que você encerrar o Microsoft Exchange. 
+
+Os formulários eletrônicos criados com o Microsoft Electronic 
+Forms Designer não abrem corretamente quando foram salvos no formato
+de arquivo .msg. Transfira o arquivo .msg do sistema de arquivos para a
+Caixa de entrada para abrir o formulário eletrônico corretamente.
+
+Se ao clicar em "Enviar" no comando Arquivo do Lotus Approach não
+funcionar, certifique-se de que exista um arquivo chamado Msmail.ini
+na pasta {Windows}\. Se o arquivo não existir, crie um
+arquivo vazio com auqele. 
+
+Dois clientes usando o Microsoft Mail não devem ser executados na mesma
+caixa de correio do Microsoft Mail. Essa configuração não é aceita.

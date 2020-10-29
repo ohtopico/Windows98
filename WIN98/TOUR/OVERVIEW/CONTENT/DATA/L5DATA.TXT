@@ -1,0 +1,84 @@
+%<!-- version 9.15.8 --><!--lesson5.htm--><!-- Connecting to the Internet -->
+Nesta lição você aprenderá a conectar-se à Internet. Uma vez conectado, você começará a explorar a Internet e a World Wide Web.
+<P>
+<br>
+<p>
+Clique no botão <b>Avançar</b>, acima, para continuar.
+%~%
+Esta lição mostra como conectar-se à <a id=a1 href="javascript:;" onclick="javascript:popup('Column27', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'"
+>Internet</a> por meio de um modem e através de um <a id=a2 href="javascript:;" onclick="javascript:popup('Column28', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'"
+>provedor de serviços de Internet</a> (ISP, Internet Service Provider).  Você deve ter um modem adequadamente instalado
+e configurado para executar as etapas desta lição.
+<br><a id=a3 id="tiplink" href="javascript:;" onClick="javascript:popup('Column29', window.event.x, window.event.y+65);" onmouseOver="tip.style.borderColor='#000099'" onmouseOut="tip.style.borderColor='white'" onfocus="tip.style.borderColor='#000099'" onblur="tip.style.borderColor='white'"><span id="tip" class=tip>
+Dica!</span></a>
+%~%
+A primeira etapa da conexão à Internet é escolher um ISP.
+%~%
+O processo de inscrição varia conforme o ISP.
+%~%
+Para concluir as demais etapas desta lição, você precisa estar conectado à Internet.
+%~%
+
+
+Depois de ter estabelecido uma conexão on-line, clique duas vezes no ícone <b>Internet Explorer</b> em sua área de trabalho.
+<p>
+<a id=a1 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">Mostre-me</span></a>
+%~%
+Na janela do <b>Internet Explorer</b>, clique na caixa <b>Endereço</b> na <a id=a1 href="javascript:;" onclick="javascript:popup('Column43', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'"
+>barra de ferramentas</a> de endereços, digite <i>www.microsoft.com/</i> e pressione a tecla ENTER. Observe que a 
+<a id=a2 href="javascript:;" onclick="javascript:popup('Column59', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'"
+>home page</a> da Microsoft Corporation é aberta.
+<br><a id=a3 id="tiplink" href="javascript:;" onClick="javascript:popup('Column32', window.event.x, window.event.y+65);" onmouseOver="tip.style.borderColor='#000099'" onmouseOut="tip.style.borderColor='white'" onfocus="tip.style.borderColor='#000099'" onblur="tip.style.borderColor='white'"><span id="tip" class=tip>
+Dica!</span></a>
+<p>
+<a id=a4 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">Mostre-me</span></a>
+%~%
+Na janela do <b>Internet Explorer</b>, clique no botão <b>Novidades do Internet Explorer</b> na barra de ferramentas <b>Links</b>.
+<p>
+Se você não vir o botão <b>Novidades do Internet Explorer</b>, ele pode estar escondido atrás da janela auxiliar. Mova a janela do <b>Internet Explorer</b> para cima até que você veja o botão <b>Novidades do Internet Explorer</b> na barra de ferramentas <b>Links</b>.
+</a>
+Se você não vir o botão <b>Novidades do Internet Explorer</b> na barra de ferramentas <b>Links</b>, clique em <b>Links</b> na barra de ferramentas <b>Links</b> e <a id=a2 href="javascript:;" onclick="javascript:popup('Column57', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'">arraste</a> a barra de ferramentas <b>Links</b> diretamente para baixo da barra de ferramentas de <b>Endereço</b>. Agora a barra de ferramentas <b>Links</b> aparecerá abaixo da barra de ferramentas <b>Endereço</b>.<br><a id=a2 id="tiplink" href="javascript:;" onClick="javascript:popup('Column74', window.event.x, window.event.y+65);" onmouseOver="tip.style.borderColor='#000099'" onmouseOut="tip.style.borderColor='white'" onfocus="tip.style.borderColor='#000099'" onblur="tip.style.borderColor='white'"><span id="tip" class=tip>
+Dica!</span>
+<p>
+<a id=a3 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">Mostre-me</span></a>
+%~%
+O <a id=a1 href="javascript:;" onclick="javascript:popup('Column60', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'"
+> site da Web</a> <b>Novidades do Internet Explorer</b> é aberto com as últimas informações sobre seu navegador da Web.
+%~%
+Para retornar à página da <a id=a1 href="javascript:;" onclick="javascript:popup('Column75', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'"
+>Web</a> anterior, clique no botão <b>Voltar</b>  <img src="images/turbkbtn.gif"> na barra de ferramentas da janela do <b>Internet Explorer</b>.
+Para retornar ao site da Web que você acabou de visitar, o Novidades do Internet Explorer, clique no botão <b>Avançar</b> 
+<img src="images/turforwd.gif"> da barra de ferramentas.
+<p>
+<a id=a2 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">Mostre-me</span></a>
+%~%
+Para visualizar o conteúdo de um site diferente, clique em <b>O melhor da Web</b> na barra de ferramentas <b>Links</b>.
+<p>
+Aparece uma página da Web com links para sites recomendados da Web.
+<p>
+<a id=a1 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">Mostre-me</span></a>
+%~%
+Mova o ponteiro do mouse sobre algumas das imagens e textos em <b>O melhor da Web</b>.  O
+ponteiro do mouse transforma-se em uma mão quando passa sobre um <a id=a1 href="javascript:;" onclick="javascript:popup('Column64', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'"
+>hyperlink</a>.  Clique em um dos <a id=a2 href="javascript:;" onclick="javascript:popup('Column65', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'"
+>links</a> de texto.
+<p>
+Você talvez precise <a id=a3 href="javascript:;" onclick="javascript:popup('Column78', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'"
+>rolar</a> a página para baixo para visualizar os links.
+<p>
+<a id=a4 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">Mostre-me</span></a>
+%~%
+Para voltar à sua <a id=a1 href="javascript:;" onclick="javascript:popup('Column79', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'"
+>Página Inicial </a> da Internet, clique no botão <b>Página inicial</b> <img src="images/turhome.gif"> na barra de ferramentas Padrão.
+<br><a id=a2 id="tiplink" href="javascript:;" onClick="javascript:popup('Column82', window.event.x, window.event.y+65);" onmouseOver="tip.style.borderColor='#000099'" onmouseOut="tip.style.borderColor='white'" onfocus="tip.style.borderColor='#000099'" onblur="tip.style.borderColor='white'"><span id="tip" class=tip>
+Dica!</span></a>
+<p>
+<a id=a2 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">Mostre-me</span></a>
+%~%
+Para fechar o <b>Internet Explorer</b>, clique no botão <b>Fechar</b> <img src="images/stdclose.gif"> na barra de título da janela. Se o seu ISP perguntar se deseja desconectar-se da Internet, clique em <b>Sim</b>.
+<p>
+Agora você sabe como explorar a Internet e a World Wide Web.
+<p>
+<a id=a1 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">Mostre-me</span></a>
+%
+

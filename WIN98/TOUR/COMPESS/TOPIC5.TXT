@@ -1,0 +1,33 @@
+value:string
+Quando você clica no botão <B>Iniciar</B>, o Microsoft Windows mostra o menu <B>Iniciar</B>.@
+Um menu é uma lista de software aplicativo, documentos e outras opções disponíveis em seu computador.@
+O menu <B>Iniciar</B> é dividido em três seções. A seção inferior contém tarefas ou comandos operacionais básicos, como <b>Desligar...</b>.@
+A seção intermediária é um modo de abrir aplicativos e personalizar opções.@
+A seção superior é personalizada com funções que podem ser adicionadas ao menu <B>Iniciar</B>.@
+À direita de alguns dos itens do menu <B>Iniciar</B> há uma seta triangular preta apontando para a margem direita do menu.@
+Você pode apontar para uma dessas setas com o mouse para exibir um submenu (também chamado menu em cascata).@
+A seguir você verá como abrir um programa a partir do menu <B>Iniciar</B>.@
+Clique no botão <B>Iniciar</B> para visualizar o menu <B>Iniciar</B>. Aponte para <B>Programas</B> e aparecerá o menu em cascata <B>Programas</B>.@
+No menu <B>Programas</B>, aponte para <B>Acessórios</B> e aparecerá outro menu em cascata. Clique em <B>WordPad</B>, na parte inferior da lista, e o aplicativo será aberto.@
+Pronto para uma revisão do que aprendeu? Conforme você já fez antes, pressione o número adequado para responder às perguntas.@
+Qual parte do menu <B>Iniciar</B> inclui os comandos para desligar o computador?@
+<IMG SRC="images/num1.gif" align="bottom"> Correto! A seção inferior do menu <B>Iniciar</B> é reservada para comandos operacionais básicos, como desligar o computador.@
+Você selecionou a seção intermediária, que é um modo de selecionar aplicativos e opções. Tente novamente.@
+Esta é a seção superior, que pode ser personalizada com funções que você pode adicionar. Tente novamente.@
+Você selecionou uma área diferente da área de trabalho do Microsoft Windows. Tente novamente.@
+A seção inferior do menu <B>Iniciar</B> é reservada para tarefas ou comandos operacionais básicos, como desligar o computador.@
+Qual seção do menu <B>Iniciar</B> fornece um modo de abrir aplicativos e opções?@
+Você selecionou a seção inferior, que é reservada para tarefas operacionais básicas, como desligar o computador. Tente novamente.@
+<IMG SRC="images/num2.gif" align="bottom"> Está certo! A seção intermediária inclui programas, documentos e outras opções que você pode escolher.@
+Esta é a seção superior, que pode ser personalizada com funções que você pode adicionar. Tente novamente.@
+Você selecionou uma área diferente da área de trabalho do Microsoft Windows. Tente novamente.@
+A seção intermediária do menu <B>Iniciar</B> inclui programas, documentos e outras opções que você pode escolher.@
+Qual seção do menu <B>Iniciar</B> pode ser personalizada com funções à sua escolha?@
+Você selecionou a seção inferior, que é reservada para tarefas operacionais básicas, como desligar o computador. Tente novamente.@
+Você selecionou a seção intermediária, que é um modo de selecionar aplicativos e opções. Tente novamente.@
+<IMG SRC="images/num3.gif" align="bottom"> Correto! Você selecionou a seção superior do menu <B>Iniciar</B>, que pode ser personalizada adicionando diversos software, documentos e funções.@
+Você selecionou uma área diferente da área de trabalho do Microsoft Windows. Tente novamente.@
+É possível personalizar a seção superior do menu <B>Iniciar</B> com qualquer software, documento e função que você queira adicionar.@
+A partir do menu <B>Iniciar</B> é possível abrir rapidamente software aplicativo, documentos e funções que você utiliza com freqüência.@
+Na próxima lição, <B>Trabalhando com o Windows</B>, você aprenderá a trabalhar com os programas abertos a partir do menu <B>Iniciar</B>.@
+Pressione a <B>SETA À ESQUERDA</B> <IMG class="always" id=backarr SRC="images/bkbtn.gif" style="cursor:hand" ALIGN=MIDDLE onclick="prevseq()"> para voltar; <B>SETA À DIREITA</B> <IMG class="always" id=frwdarr SRC="images/fwdbtn.gif" style="cursor:hand" ALIGN=MIDDLE onclick="nextseq()"> para continuar.

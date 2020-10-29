@@ -1,0 +1,10 @@
+value:string
+Introdução@
+1. Conhecendo o computador@
+Utilizando o teclado@
+2. Utilizando o mouse@
+3. Explorando a área de trabalho do Windows@
+Utilizando o menu 'Iniciar'@
+Trabalhando com o Windows@
+Obtendo ajuda@
+Conteúdo@

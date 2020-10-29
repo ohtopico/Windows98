@@ -7,8 +7,8 @@
 (c) Copyright Microsoft Corporation, 1998
 
 
-Este documento fornece informa√ß√µes complementares ou mais recentes
-que completam a documenta√ß√£o do Microsoft Windows 98.
+Este documento fornece informaÁıes complementares ou mais recentes
+que completam a documentaÁ„o do Microsoft Windows 98.
 
 ---------------------------------------------------
 COMO UTILIZAR ESTE DOCUMENTO
@@ -21,16 +21,16 @@ Para imprimir o arquivo 'MTSutil.txt', abra-o no 'Bloco de notas' ou
 em outro processador de textos e, em seguida, no menu 'Arquivo', clique em 'Imprimir'.
 
 ----------------
-CONTE√öDO
+CONTE⁄DO
 ----------------
 
- AUTOLOG.INF - REMOVE A ENTRADA DE REGISTRO DO LOGON AUTOM√ÅTICO
-  DEFRAG.INF - DESFRAGMENTA TODAS AS UNIDADES DE INICIALIZA√á√ÉO SUBSEQ√úENTES DO WINDOWS 
-IPAC_OFF.INF - DESATIVA A CONFIGURA√á√ÉO AUTOM√ÅTICA DE TCP/IP IP 
- IPAC_ON.INF - ATIVA A CONFIGURA√á√ÉO AUTOM√ÅTICA DE TCP/IP IP 
-    JAVA.INF - REINSTALA A M√ÅQUINA VIRTUAL JAVA 
-MAPC_OFF.INF - DESATIVA O MAPEAMENTO DE P√ÅGINAS DE CACHE 
- MAPC_ON.INF - ATIVA O MAPEAMENTO DE P√ÅGINAS DE CACHE 
+ AUTOLOG.INF - REMOVE A ENTRADA DE REGISTRO DO LOGON AUTOM¡TICO
+  DEFRAG.INF - DESFRAGMENTA TODAS AS UNIDADES DE INICIALIZA«√O SUBSEQ‹ENTES DO WINDOWS 
+IPAC_OFF.INF - DESATIVA A CONFIGURA«√O AUTOM¡TICA DE TCP/IP IP 
+ IPAC_ON.INF - ATIVA A CONFIGURA«√O AUTOM¡TICA DE TCP/IP IP 
+    JAVA.INF - REINSTALA A M¡QUINA VIRTUAL JAVA 
+MAPC_OFF.INF - DESATIVA O MAPEAMENTO DE P¡GINAS DE CACHE 
+ MAPC_ON.INF - ATIVA O MAPEAMENTO DE P¡GINAS DE CACHE 
      NNT.INF - REMOVE O VALOR NAMENUMERICTALE DO REGISTRO 
    NOIDE.INF - REMOVE A ENTRADA DE REGISTRO NOIDE 
  PINBALL.EXE - INSTALA O 3D PINBALL A PARTIR DO MICROSOFT PLUS! PARA WINDOWS 95
@@ -42,53 +42,53 @@ CHNGINBX.EXE - DESATIVA A MENSAGEM MICROSOFT NETWORK DETECTADO
 
 
 ================================================================
-AUTOLOG.INF - REMOVE A ENTRADA DE REGISTRO DO LOGON AUTOM√ÅTICO
+AUTOLOG.INF - REMOVE A ENTRADA DE REGISTRO DO LOGON AUTOM¡TICO
 ================================================================
 
-Ao iniciar o Windows 98 voc√™ pode n√£o receber uma caixa de di√°logo de logon do Windows ou Network.  Ou ainda, receber uma das seguintes mensagens de erro:
+Ao iniciar o Windows 98 vocÍ pode n„o receber uma caixa de di·logo de logon do Windows ou Network.  Ou ainda, receber uma das seguintes mensagens de erro:
 
  - Nenhum provedor de rede aceitou o caminho de rede fornecido.
 
- - A opera√ß√£o solicitada n√£o foi executada porque o 
-   usu√°rio n√£o efetuou logon na rede. O servi√ßo especificado
-   n√£o existe.
+ - A operaÁ„o solicitada n„o foi executada porque o 
+   usu·rio n„o efetuou logon na rede. O serviÁo especificado
+   n„o existe.
 
-Al√©m disso, a guia 'Alterar senha' pode n√£o estar presente na
-caixa de di√°logo 'Propriedades de Senha'.
+AlÈm disso, a guia 'Alterar senha' pode n„o estar presente na
+caixa de di·logo 'Propriedades de Senha'.
 
-Esse comportamento pode ocorrer se a entrada de Logon autom√°tico aparecer na 
+Esse comportamento pode ocorrer se a entrada de Logon autom·tico aparecer na 
 chave de registro a seguir:
 
 HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Network\Real Mode Net 
 
       AutoLogon=<x>
 
-   onde <x> √© um n√∫mero.
+   onde <x> È um n˙mero.
 
 ------------------------------------------------------------
-Para remover a entrada de Logon autom√°tico do Registro:
+Para remover a entrada de Logon autom·tico do Registro:
 ------------------------------------------------------------
 
 1. Selecione 'AUTOLOG.INF' na pasta \Tools\MTSutil no CD do 
    Windows 98.
 
-2. Clique com o bot√£o direito do mouse em 'AUTOLOG.INF'.
+2. Clique com o bot„o direito do mouse em 'AUTOLOG.INF'.
 	-ou-
-   Mantenha pressionada a tecla SHIFT e pressione a tecla de fun√ß√£o F10.
+   Mantenha pressionada a tecla SHIFT e pressione a tecla de funÁ„o F10.
 
-3. Escolha 'INSTALAR' para remover a entrada de Logon autom√°tico.
+3. Escolha 'INSTALAR' para remover a entrada de Logon autom·tico.
 
 
 ================================================================
-DEFRAG.INF - DESFRAGMENTA TODAS AS UNIDADES DE INICIALIZA√á√ÉO SUBSEQ√úENTES DO WINDOWS
+DEFRAG.INF - DESFRAGMENTA TODAS AS UNIDADES DE INICIALIZA«√O SUBSEQ‹ENTES DO WINDOWS
 ================================================================
 
 O 'Desfragmentador de disco' para Windows 98 (DEFRAG.EXE) pode ser iniciado e 
-n√£o concluir sua tarefa. Se diversas tentativas de desfragmenta√ß√£o da unidade 
-n√£o tiverem √™xito, um aplicativo poder√° estar gravando no disco. 
-O 'Desfragmentador de disco' n√£o pode compartilhar o acesso a uma unidade com outras tarefas. 
+n„o concluir sua tarefa. Se diversas tentativas de desfragmentaÁ„o da unidade 
+n„o tiverem Íxito, um aplicativo poder· estar gravando no disco. 
+O 'Desfragmentador de disco' n„o pode compartilhar o acesso a uma unidade com outras tarefas. 
 
-Um aplicativo automaticamente carregado na inicializa√ß√£o poder√° interferir no DEFRAG. Execute o DEFRAG antes que os aplicativos sejam carregados na inicializa√ß√£o, adicionando um valor em DEFRAG.EXE /ALL para a chave de RunServicesOnce no Registro.
+Um aplicativo automaticamente carregado na inicializaÁ„o poder· interferir no DEFRAG. Execute o DEFRAG antes que os aplicativos sejam carregados na inicializaÁ„o, adicionando um valor em DEFRAG.EXE /ALL para a chave de RunServicesOnce no Registro.
 
 ------------------------------------------------------------------------------------------------
 Para adicionar um valor em DEFRAG.EXE /ALL para a chave RunServicesOnce:
@@ -97,27 +97,27 @@ Para adicionar um valor em DEFRAG.EXE /ALL para a chave RunServicesOnce:
 1. Selecione 'DEFRAG.INF' na pasta \Tools\MTSutil no CD do 
    Windows 98.
 
-2. Clique com o bot√£o direito do mouse em 'DEFRAG.INF'.
+2. Clique com o bot„o direito do mouse em 'DEFRAG.INF'.
 	-ou-
-   Mantenha pressionada a tecla SHIFT e pressione a tecla de fun√ß√£o F10.
+   Mantenha pressionada a tecla SHIFT e pressione a tecla de funÁ„o F10.
 
 3. Escolha 'INSTALAR' para adicionar o valor em DEFRAG.EXE /ALL.
 
 
 ============================================================
-IPAC_OFF.INF - DESATIVA A CONFIGURA√á√ÉO AUTOM√ÅTICA DE TCP/IP IP
+IPAC_OFF.INF - DESATIVA A CONFIGURA«√O AUTOM¡TICA DE TCP/IP IP
 ============================================================
 
-A pilha TCP/IP do Windows 98 suporta um novo mecanismo para atribui√ß√£o autom√°tica de endere√ßos de endere√ßos IP para configura√ß√µes de rede simples baseadas em rede local (LAN, Local Area Network). O Endere√ßamento de configura√ß√£o autom√°tica de IP √© uma extens√£o da atribui√ß√£o din√¢mica de endere√ßo IP para adaptadores de rede local. Ela ativa a configura√ß√£o de endere√ßos de IP sem o uso da atribui√ß√£o est√°tica de endere√ßos de IP ou a instala√ß√£o de um servidor de protocolo de configura√ß√£o din√¢mica de hosts (DHCP, Dynamic Host Configuration Protocol). 
+A pilha TCP/IP do Windows 98 suporta um novo mecanismo para atribuiÁ„o autom·tica de endereÁos de endereÁos IP para configuraÁıes de rede simples baseadas em rede local (LAN, Local Area Network). O EndereÁamento de configuraÁ„o autom·tica de IP È uma extens„o da atribuiÁ„o din‚mica de endereÁo IP para adaptadores de rede local. Ela ativa a configuraÁ„o de endereÁos de IP sem o uso da atribuiÁ„o est·tica de endereÁos de IP ou a instalaÁ„o de um servidor de protocolo de configuraÁ„o din‚mica de hosts (DHCP, Dynamic Host Configuration Protocol). 
 
 Se um adaptador de rede local estiver configurado para TCP/IP e se 'Obter um
-endere√ßo IP automaticamente' estiver selecionado na guia 'Endere√ßo IP' da caixa de di√°logo 'Propriedades de TCP/IP', o TCP/IP do Windows 98 tentar√° encontrar e utilizar um servi√ßo de DHCP na rede conectada para obter um endere√ßo IP dinamicamente atribu√≠do. Caso n√£o encontre um servi√ßo DHCP,
-o Windows 98 utilizar√° o Endere√ßamento de configura√ß√£o autom√°tica de IP, atribuindo ao adaptador  um endere√ßo IP de Classe B, fora do espa√ßo de endere√ßo IP n√∫mero 169.254.x.x da rede. Dessa forma, dois PCs poder√£o estar conectados em um concentrador de rede local
-e poder√£o ser iniciados sem qualquer configura√ß√£o de endere√ßo IP, al√©m de poder utilizar a rede 
-TCP/IP para comunica√ß√£o na Internet. Cada computador que utiliza o Endere√ßamento de configura√ß√£o autom√°tica de IP recebe um endere√ßo IP e o testa para determinar se √© um endere√ßo exclusivo e n√£o est√° sendo utilizado na 
+endereÁo IP automaticamente' estiver selecionado na guia 'EndereÁo IP' da caixa de di·logo 'Propriedades de TCP/IP', o TCP/IP do Windows 98 tentar· encontrar e utilizar um serviÁo de DHCP na rede conectada para obter um endereÁo IP dinamicamente atribuÌdo. Caso n„o encontre um serviÁo DHCP,
+o Windows 98 utilizar· o EndereÁamento de configuraÁ„o autom·tica de IP, atribuindo ao adaptador  um endereÁo IP de Classe B, fora do espaÁo de endereÁo IP n˙mero 169.254.x.x da rede. Dessa forma, dois PCs poder„o estar conectados em um concentrador de rede local
+e poder„o ser iniciados sem qualquer configuraÁ„o de endereÁo IP, alÈm de poder utilizar a rede 
+TCP/IP para comunicaÁ„o na Internet. Cada computador que utiliza o EndereÁamento de configuraÁ„o autom·tica de IP recebe um endereÁo IP e o testa para determinar se È um endereÁo exclusivo e n„o est· sendo utilizado na 
 rede local.
 
-O Endere√ßamento de configura√ß√£o autom√°tica de IP √© ativado como padr√£o. Ele pode ser controlado atrav√©s da defini√ß√£o do valor de IPAutoconfigurationEnabled (digite 'DWORD') na chave do Registro
+O EndereÁamento de configuraÁ„o autom·tica de IP È ativado como padr„o. Ele pode ser controlado atravÈs da definiÁ„o do valor de IPAutoconfigurationEnabled (digite 'DWORD') na chave do Registro
  
 	HKEY_LOCAL_MACHINE\System
 	   \CurrentControlSet
@@ -126,11 +126,11 @@ O Endere√ßamento de configura√ß√£o autom√°tica de IP √© ativado como padr√£o. El
 	            \DHCP
 	               
 Se o valor de IPAutoconfigurationEnabled for diferente de zero ou se a 
-chave do Registro n√£o estiver presente, o Endere√ßamento de configura√ß√£o autom√°tica de IP ser√° ativado.
-O valor 0 de IPAutoconfigurationEnabled desativa o recurso de Endere√ßamento de configura√ß√£o autom√°tica de IP. 
+chave do Registro n„o estiver presente, o EndereÁamento de configuraÁ„o autom·tica de IP ser· ativado.
+O valor 0 de IPAutoconfigurationEnabled desativa o recurso de EndereÁamento de configuraÁ„o autom·tica de IP. 
 
-Se, inicialmente, o Windows 98 n√£o detectar um servi√ßo DHCP e configurar um endere√ßo IP da Configura√ß√£o autom√°tica de IP e, em seguida, detectar um servi√ßo DHCP na rede, o Windows 98 utilizar√° o servi√ßo DHCP e alternar√° do endere√ßamento 169.254.x.x para os endere√ßos IP 
-atribu√≠dos por um servidor DHCP.
+Se, inicialmente, o Windows 98 n„o detectar um serviÁo DHCP e configurar um endereÁo IP da ConfiguraÁ„o autom·tica de IP e, em seguida, detectar um serviÁo DHCP na rede, o Windows 98 utilizar· o serviÁo DHCP e alternar· do endereÁamento 169.254.x.x para os endereÁos IP 
+atribuÌdos por um servidor DHCP.
 
 --------------------------------------------------------------------
 Para definir o valor do Registro em IPAutoconfigurationEnabled como 0:
@@ -139,23 +139,23 @@ Para definir o valor do Registro em IPAutoconfigurationEnabled como 0:
 1. Selecione 'IPAC_OFF.INF', na pasta \Tools\MTSutil do 
    CD do Windows 98.
 
-2. Clique com o bot√£o direito do mouse em 'IPAC_OFF.INF'.
+2. Clique com o bot„o direito do mouse em 'IPAC_OFF.INF'.
 	-ou-
-   Mantenha pressionada a tecla SHIFT e pressione a tecla de fun√ß√£o F10.
+   Mantenha pressionada a tecla SHIFT e pressione a tecla de funÁ„o F10.
 
 3. Escolha 'INSTALAR' para modificar o valor de IPAutoconfigurationEnabled.
 
 
 =======================================================
-IPAC_ON.INF - ATIVA A CONFIGURA√á√ÉO AUTOM√ÅTICA DE TCP/IP IP
+IPAC_ON.INF - ATIVA A CONFIGURA«√O AUTOM¡TICA DE TCP/IP IP
 =======================================================
 
-Consulte a se√ß√£o anterior para obter informa√ß√µes sobre a 
-Configura√ß√£o autom√°tica de IP.
+Consulte a seÁ„o anterior para obter informaÁıes sobre a 
+ConfiguraÁ„o autom·tica de IP.
 
-O Endere√ßamento de configura√ß√£o autom√°tica de IP √© ativado se o valor de 
+O EndereÁamento de configuraÁ„o autom·tica de IP È ativado se o valor de 
 IPAutoconfigurationEnabled for diferente de zero ou se a chave do Registro
-n√£o estiver presente.
+n„o estiver presente.
  
 ---------------------------------------------------------------------------------------
 Para definir o valor do Registro em IPAutoconfigurationEnabled como 1:
@@ -164,75 +164,75 @@ Para definir o valor do Registro em IPAutoconfigurationEnabled como 1:
 1. Selecione 'IPAC_ON.INF' na pasta \Tools\MTSutil do 
    CD do Windows 98.
 
-2. Clique com o bot√£o direito do mouse em 'IPAC_ON.INF'.
+2. Clique com o bot„o direito do mouse em 'IPAC_ON.INF'.
 	-ou-
-   Mantenha pressionada a tecla SHIFT e pressione a tecla de fun√ß√£o F10.
+   Mantenha pressionada a tecla SHIFT e pressione a tecla de funÁ„o F10.
 
 3. Escolha 'INSTALAR' para modificar o valor de IPAutoconfigurationEnabled.
 
 
 ==============================================
-JAVA.INF - REINSTALA A M√ÅQUINA VIRTUAL JAVA
+JAVA.INF - REINSTALA A M¡QUINA VIRTUAL JAVA
 ==============================================
 
-Ao iniciar seu computador, voc√™ poder√° receber a seguinte mensagem de erro: 
+Ao iniciar seu computador, vocÍ poder· receber a seguinte mensagem de erro: 
 
-   N√£o foi poss√≠vel instalar pacotes Java. A linha de comando √© inv√°lida.
+   N„o foi possÌvel instalar pacotes Java. A linha de comando È inv·lida.
 
- N√£o √© poss√≠vel localizar arquivo especificado - Win32.cab
- N√£o √© poss√≠vel localizar arquivo especificado - xmldso4.cab
- N√£o √© poss√≠vel localizar arquivo especificado - dajava.cab
- N√£o √© poss√≠vel localizar arquivo especificado - iejava.cab
- N√£o √© poss√≠vel localizar arquivo especificado - osp.zip
+ N„o È possÌvel localizar arquivo especificado - Win32.cab
+ N„o È possÌvel localizar arquivo especificado - xmldso4.cab
+ N„o È possÌvel localizar arquivo especificado - dajava.cab
+ N„o È possÌvel localizar arquivo especificado - iejava.cab
+ N„o È possÌvel localizar arquivo especificado - osp.zip
 
-Este comportamento poder√° ocorrer por qualquer um dos seguintes motivos: 
+Este comportamento poder· ocorrer por qualquer um dos seguintes motivos: 
 
- - Voc√™ utilizou o arquivo 'System.1st' para testar ou corrigir quest√µes relacionadas ao 
+ - VocÍ utilizou o arquivo 'System.1st' para testar ou corrigir questıes relacionadas ao 
    Registro. 
 
- - O Programa de Instala√ß√£o parou de responder e voc√™ reiniciou o computador. 
+ - O Programa de InstalaÁ„o parou de responder e vocÍ reiniciou o computador. 
 
-Para contornar este comportamento, utilize o m√©todo apropriado. 
+Para contornar este comportamento, utilize o mÈtodo apropriado. 
 
-   OBSERVA√á√ÉO: Se voc√™ reiniciou seu computador para concluir o Programa de Instala√ß√£o, ap√≥s a conclus√£o da Instala√ß√£o o Microsoft Virtual Machine (VM) para Java estar√° funcional e a mensagem de erro n√£o ser√° exibida. 
+   OBSERVA«√O: Se vocÍ reiniciou seu computador para concluir o Programa de InstalaÁ„o, apÛs a conclus„o da InstalaÁ„o o Microsoft Virtual Machine (VM) para Java estar· funcional e a mensagem de erro n„o ser· exibida. 
 
 ----------------------------------------------
-Para reinstalar a M√°quina Virtual Java:
+Para reinstalar a M·quina Virtual Java:
 ----------------------------------------------
 
 1. Selecione 'JAVA.INF' na pasta \Tools\MTSutil do 
    CD do Windows 98.
 
-2. Clique com o bot√£o direito do mouse em 'JAVA.INF'.
+2. Clique com o bot„o direito do mouse em 'JAVA.INF'.
 	-ou-
-   Mantenha pressionada a tecla SHIFT e pressione a tecla de fun√ß√£o F10.
+   Mantenha pressionada a tecla SHIFT e pressione a tecla de funÁ„o F10.
 
 3. Escolha 'INSTALAR' para reinstalar o VM Java.
 
 
 =========================================================
-MAPC_OFF.INF - DESATIVA O MAPEAMENTO DE P√ÅGINAS DE CACHE
+MAPC_OFF.INF - DESATIVA O MAPEAMENTO DE P¡GINAS DE CACHE
 =========================================================
 
-O Windows 98 suporta o mapeamento de p√°ginas de cache para aumentar a quantidade de mem√≥ria dispon√≠vel para aplicativos em execu√ß√£o. A arquitetura do gerenciador de mem√≥ria do Windows 98
-divide a mem√≥ria em 2 partes:
+O Windows 98 suporta o mapeamento de p·ginas de cache para aumentar a quantidade de memÛria disponÌvel para aplicativos em execuÁ„o. A arquitetura do gerenciador de memÛria do Windows 98
+divide a memÛria em 2 partes:
 
  - Cache de disco em modo protegido (VCACHE)
 
- - Mem√≥ria alocada para execu√ß√£o de programas e armazenamento de dados (VMM) 
+ - MemÛria alocada para execuÁ„o de programas e armazenamento de dados (VMM) 
 
-A leitura da mem√≥ria √© muito mais r√°pida que a leitura do disco r√≠gido.
-O VCACHE melhora o desempenho reduzindo o n√∫mero de vezes em que o disco r√≠gido √© acessado.  Um processo na mem√≥ria ir√° requer uma determinada se√ß√£o de c√≥digo; se essa se√ß√£o de c√≥digo estiver em VCACHE, poder√° ser acessada e utilizada com muito mais rapidez do que se tivesse que ser lida de um arquivo em disco. Por exemplo, se voc√™ iniciar um aplicativo, fech√°-lo e, em seguida, reinici√°-lo, seu tempo de inicializa√ß√£o ser√° sensivelmente reduzido. Isso ocorre porque grande parte do aplicativo foi copiada do VCACHE, e n√£o do disco r√≠gido.
+A leitura da memÛria È muito mais r·pida que a leitura do disco rÌgido.
+O VCACHE melhora o desempenho reduzindo o n˙mero de vezes em que o disco rÌgido È acessado.  Um processo na memÛria ir· requer uma determinada seÁ„o de cÛdigo; se essa seÁ„o de cÛdigo estiver em VCACHE, poder· ser acessada e utilizada com muito mais rapidez do que se tivesse que ser lida de um arquivo em disco. Por exemplo, se vocÍ iniciar um aplicativo, fech·-lo e, em seguida, reinici·-lo, seu tempo de inicializaÁ„o ser· sensivelmente reduzido. Isso ocorre porque grande parte do aplicativo foi copiada do VCACHE, e n„o do disco rÌgido.
 
-A mem√≥ria alocada para o cache de disco n√£o fica dispon√≠vel para a execu√ß√£o de processos. A redu√ß√£o da quantidade de mem√≥ria dispon√≠vel para a execu√ß√£o de aplicativos prejudica o desempenho, pois aumenta a quantidade de dados permutados da mem√≥ria para o disco r√≠gido. Mais uma vez, a leitura da mem√≥ria √© muito mais r√°pida que a leitura do arquivo de permuta no disco r√≠gido. 
+A memÛria alocada para o cache de disco n„o fica disponÌvel para a execuÁ„o de processos. A reduÁ„o da quantidade de memÛria disponÌvel para a execuÁ„o de aplicativos prejudica o desempenho, pois aumenta a quantidade de dados permutados da memÛria para o disco rÌgido. Mais uma vez, a leitura da memÛria È muito mais r·pida que a leitura do arquivo de permuta no disco rÌgido. 
 
-No Windows 95, existem duas inst√¢ncias de um determinado c√≥digo na mem√≥ria f√≠sica; uma inst√¢ncia armazenada no cache de disco para reduzir o tempo necess√°ria para carregar o aplicativo caso seja chamado novamente e outra inst√¢ncia em VMM para o aplicativo em execu√ß√£o. A elimina√ß√£o da inst√¢ncia dos dados no cache aumenta a quantidade de mem√≥ria dispon√≠vel para VMM, por√©m eleva o tempo necess√°rio para recarregar o aplicativo.
+No Windows 95, existem duas inst‚ncias de um determinado cÛdigo na memÛria fÌsica; uma inst‚ncia armazenada no cache de disco para reduzir o tempo necess·ria para carregar o aplicativo caso seja chamado novamente e outra inst‚ncia em VMM para o aplicativo em execuÁ„o. A eliminaÁ„o da inst‚ncia dos dados no cache aumenta a quantidade de memÛria disponÌvel para VMM, porÈm eleva o tempo necess·rio para recarregar o aplicativo.
 
-O Windows 98 suporta o mapeamento de p√°ginas de cache para aumentar a quantidade de mem√≥ria dispon√≠vel para a execu√ß√£o de aplicativos. A E/S de mem√≥ria mapeada do cache elimina a duplica√ß√£o desnecess√°ria de dados durante a execu√ß√£o do aplicativo. O c√≥digo do aplicativo √© carregado em VCACHE e,
-em seguida, √© executado a partir do cache, sem precisar ser antes copiado para outra parte da mem√≥ria. Quando o aplicativo √© fechado, o gerenciador de mem√≥ria nomeia o espa√ßo que estava sendo utilizado pelo aplicativo como se n√£o estivesse sendo usado, para manter as vantagens do cache - se o aplicativo n√£o for reiniciado, esse espa√ßo ser√° dado para outras tarefas. Se o aplicativo for reiniciado, continuar√° existindo no cache, mantendo um tempo menor de reinicializa√ß√£o.
+O Windows 98 suporta o mapeamento de p·ginas de cache para aumentar a quantidade de memÛria disponÌvel para a execuÁ„o de aplicativos. A E/S de memÛria mapeada do cache elimina a duplicaÁ„o desnecess·ria de dados durante a execuÁ„o do aplicativo. O cÛdigo do aplicativo È carregado em VCACHE e,
+em seguida, È executado a partir do cache, sem precisar ser antes copiado para outra parte da memÛria. Quando o aplicativo È fechado, o gerenciador de memÛria nomeia o espaÁo que estava sendo utilizado pelo aplicativo como se n„o estivesse sendo usado, para manter as vantagens do cache - se o aplicativo n„o for reiniciado, esse espaÁo ser· dado para outras tarefas. Se o aplicativo for reiniciado, continuar· existindo no cache, mantendo um tempo menor de reinicializaÁ„o.
 
-O Windows 98 mapeia p√°ginas de cache, como padr√£o. Esse aperfei√ßoamento do
- desempenho pode ser desativado atrav√©s da cria√ß√£o de uma entrada MapCache na chave do Registro
+O Windows 98 mapeia p·ginas de cache, como padr„o. Esse aperfeiÁoamento do
+ desempenho pode ser desativado atravÈs da criaÁ„o de uma entrada MapCache na chave do Registro
  
 	HKEY_LOCAL_MACHINE\System
 	   \CurrentControlSet
@@ -240,7 +240,7 @@ O Windows 98 mapeia p√°ginas de cache, como padr√£o. Esse aperfei√ßoamento do
 	         \VXD
 	            \VMM
 	               
-Se a entrada MapCache n√£o existir, o Windows 98 mapear√° p√°ginas de cache. A cria√ß√£o da entrada MapCache desativa o mapeamento de p√°ginas de cache.  
+Se a entrada MapCache n„o existir, o Windows 98 mapear· p·ginas de cache. A criaÁ„o da entrada MapCache desativa o mapeamento de p·ginas de cache.  
 
 ---------------------------------------------------------
 Para criar a entrada do Registro para MapCache:
@@ -249,20 +249,20 @@ Para criar a entrada do Registro para MapCache:
 1. Selecione 'MAPC_OFF.INF' na pasta \Tools\MTSutil do 
    CD do Windows 98.
 
-2. Clique com o bot√£o direito do mouse em 'MAPC_OFF.INF'.
+2. Clique com o bot„o direito do mouse em 'MAPC_OFF.INF'.
 	-ou-
-   Mantenha pressionada a tecla SHIFT e pressione a tecla de fun√ß√£o F10.
+   Mantenha pressionada a tecla SHIFT e pressione a tecla de funÁ„o F10.
 
 3. Escolha 'INSTALAR' para criar a entrada MapCache.
 
 
 =====================================================
-MAPC_ON.INF - ATIVA O MAPEAMENTO DE P√ÅGINAS DE CACHE
+MAPC_ON.INF - ATIVA O MAPEAMENTO DE P¡GINAS DE CACHE
 =====================================================
 
-Consulte a se√ß√£o anterior para obter informa√ß√µes sobre o mapeamento de p√°ginas de cache.
+Consulte a seÁ„o anterior para obter informaÁıes sobre o mapeamento de p·ginas de cache.
 
-O Windows 98 mapear√° p√°ginas de cache se a entrada MapCache n√£o estiver presente.
+O Windows 98 mapear· p·ginas de cache se a entrada MapCache n„o estiver presente.
  
 -----------------------------------------------------------
 Para remover a entrada do Registro de MapCache:
@@ -271,9 +271,9 @@ Para remover a entrada do Registro de MapCache:
 1. Selecione 'MAPC_ON.INF' na pasta \Tools\MTSutil do
    CD do Windows 98.
 
-2. Clique com o bot√£o direito do mouse em 'MAPC_ON.INF'.
+2. Clique com o bot„o direito do mouse em 'MAPC_ON.INF'.
 	-ou-
-   Mantenha pressionada a tecla SHIFT e pressione a tecla de fun√ß√£o F10.
+   Mantenha pressionada a tecla SHIFT e pressione a tecla de funÁ„o F10.
 
 3. Escolha 'INSTALAR' para remover a entrada MapCache.
 
@@ -282,21 +282,21 @@ Para remover a entrada do Registro de MapCache:
 NNT.INF - REMOVE O VALOR NAMENUMERICTALE DO REGISTRO
 ============================================================
 
-Se voc√™ adicionar o valor "NameNumericTail=0" ao Registro (como 
-documentado na p√°gina 688 do Microsoft Windows 95 Resource Kit)
-e, em seguida, executar o Programa de Instala√ß√£o do Windows 98, o Programa de Instala√ß√£o do Microsoft Plus! 98 ou a ferramenta 'Adicionar/Remover programas do Painel de controle', os programas da pasta 'Arquivos de programa' poder√£o deixar de funcionar corretamente.
+Se vocÍ adicionar o valor "NameNumericTail=0" ao Registro (como 
+documentado na p·gina 688 do Microsoft Windows 95 Resource Kit)
+e, em seguida, executar o Programa de InstalaÁ„o do Windows 98, o Programa de InstalaÁ„o do Microsoft Plus! 98 ou a ferramenta 'Adicionar/Remover programas do Painel de controle', os programas da pasta 'Arquivos de programa' poder„o deixar de funcionar corretamente.
 
-Quando voc√™ adiciona o valor "NameNumericTail=0" ao Registro,
-o Programa de Instala√ß√£o do Windows 98, o Programa de Instala√ß√£o do Microsoft Plus! 98 ou a ferramenta 'Adicionar/Remover programas' pode alterar o nome curto da pasta 'Arquivo de programas'. Por exemplo, se voc√™ executar a ferramenta 'Adicionar/Remover programas' depois de adicionar o valor 
-"NameNumericTail=0" ao Registro, o nome curto da pasta 'Arquivos de programa' poder√° ser alterado de 'Progra~1' para 'Programf'.
+Quando vocÍ adiciona o valor "NameNumericTail=0" ao Registro,
+o Programa de InstalaÁ„o do Windows 98, o Programa de InstalaÁ„o do Microsoft Plus! 98 ou a ferramenta 'Adicionar/Remover programas' pode alterar o nome curto da pasta 'Arquivo de programas'. Por exemplo, se vocÍ executar a ferramenta 'Adicionar/Remover programas' depois de adicionar o valor 
+"NameNumericTail=0" ao Registro, o nome curto da pasta 'Arquivos de programa' poder· ser alterado de 'Progra~1' para 'Programf'.
 
-Se o nome curto da pasta 'Arquivos de programa' for diferente do nome esperado pelo programa a ser executado, o programa poder√° n√£o localizar as pastas e arquivos de que necessita.
+Se o nome curto da pasta 'Arquivos de programa' for diferente do nome esperado pelo programa a ser executado, o programa poder· n„o localizar as pastas e arquivos de que necessita.
 
-V√°rias ferramentas e componentes instalados na pasta 'Arquivos de programas'
-podem utilizar nomes de arquivos curtos internamente ou durante a instala√ß√£o. Se o 
-nome curto da pasta 'Arquivos de programas' for diferente do nome curto esperado por uma ferramenta ou componente, os problemas descritos nesse t√≥pico poder√£o ocorrer. Esse problema pode afetar qualquer programa instalado na pasta 'Arquivos de programas'.
+V·rias ferramentas e componentes instalados na pasta 'Arquivos de programas'
+podem utilizar nomes de arquivos curtos internamente ou durante a instalaÁ„o. Se o 
+nome curto da pasta 'Arquivos de programas' for diferente do nome curto esperado por uma ferramenta ou componente, os problemas descritos nesse tÛpico poder„o ocorrer. Esse problema pode afetar qualquer programa instalado na pasta 'Arquivos de programas'.
 
-O valor "NameNumericTail=0" n√£o √© suportado no Windows 98.
+O valor "NameNumericTail=0" n„o È suportado no Windows 98.
 Embora este valor de Registro funcione da forma esperada, pode causar problemas para componentes do Windows 98.
 
 Para corrigir este problema, siga as etapas a seguir:
@@ -310,7 +310,7 @@ Para corrigir este problema, siga as etapas a seguir:
 
 3. Renomeie a pasta 'Programs.fld' para 'Arquivos de programas'.
 
-   Observa√ß√£o: a renomea√ß√£o da pasta for√ßa a cria√ß√£o de um novo nome curto para que a pasta seja gerada.
+   ObservaÁ„o: a renomeaÁ„o da pasta forÁa a criaÁ„o de um novo nome curto para que a pasta seja gerada.
 
 ----------------------------------------------------------------
 Para remover o valor NameNumericTail do Registro:
@@ -319,9 +319,9 @@ Para remover o valor NameNumericTail do Registro:
 1. Selecione 'NNT.INF' na pasta \Tools\MTSutil do 
    CD do Windows 98.
 
-2. Clique com o bot√£o direito do mouse em 'NNT.INF'.
+2. Clique com o bot„o direito do mouse em 'NNT.INF'.
 	-ou-
-   Mantenha pressionada a tecla SHIFT e pressione a tecla de fun√ß√£o F10.
+   Mantenha pressionada a tecla SHIFT e pressione a tecla de funÁ„o F10.
 
 3. Escolha 'INSTALAR' para remover o valor de NameNumericTail.
 
@@ -330,23 +330,23 @@ Para remover o valor NameNumericTail do Registro:
 NOIDE.INF - REMOVE A ENTRADA DE REGISTRO NOIDE 
 ==============================================
 
-Se seu computador contiver um controlador de disco r√≠gido PCI-IDE que utilize serializa√ß√£o entre os dois canais de IDE, voc√™ poder√° ter os seguintes problemas:
+Se seu computador contiver um controlador de disco rÌgido PCI-IDE que utilize serializaÁ„o entre os dois canais de IDE, vocÍ poder· ter os seguintes problemas:
 
- - O acesso ao sistema de arquivos de 32 bits e a mem√≥ria virtual de 32 bits n√£o estar√£o dispon√≠veis.
+ - O acesso ao sistema de arquivos de 32 bits e a memÛria virtual de 32 bits n„o estar„o disponÌveis.
 
- - O Gerenciador de dispositivos exibir√° um ponto de exclama√ß√£o em um c√≠rculo amarelo para os canais IDE prim√°rio e secund√°rio.
+ - O Gerenciador de dispositivos exibir· um ponto de exclamaÁ„o em um cÌrculo amarelo para os canais IDE prim·rio e secund·rio.
 
-A remo√ß√£o e reinstala√ß√£o do controlador de disco r√≠gido n√£o resolve o problema.
+A remoÁ„o e reinstalaÁ„o do controlador de disco rÌgido n„o resolve o problema.
 
-Isso poder√° ocorrer se o driver em modo protegido do controlador de disco r√≠gido n√£o tiver sido inicializado corretamente na inicializa√ß√£o do Windows 98 anterior. Quando isso acontece, uma entrada NOIDE √© inserida no Registro, impedindo que o Windows 98 fa√ßa tentativas futuras de inicializar o driver em modo protegido.
+Isso poder· ocorrer se o driver em modo protegido do controlador de disco rÌgido n„o tiver sido inicializado corretamente na inicializaÁ„o do Windows 98 anterior. Quando isso acontece, uma entrada NOIDE È inserida no Registro, impedindo que o Windows 98 faÁa tentativas futuras de inicializar o driver em modo protegido.
 
-Esse problema pode ocorrer com um controlador de IDE que necessite de serializa√ß√£o entre os canais IDE prim√°rio e secund√°rio. 
-Os drivers em modo protegido desses controladores IDE podem falhar na inicializa√ß√£o, caso uma das seguintes situa√ß√µes ocorra:
+Esse problema pode ocorrer com um controlador de IDE que necessite de serializaÁ„o entre os canais IDE prim·rio e secund·rio. 
+Os drivers em modo protegido desses controladores IDE podem falhar na inicializaÁ„o, caso uma das seguintes situaÁıes ocorra:
 
- - Um canal IDE tem disco r√≠gido suportado e o segundo canal tem um CD-ROM ou outro tipo de unidade que requer que os drivers em modo real sejam carregados. Devido a essa serializa√ß√£o entre os dois canais IDE, n√£o √© poss√≠vel acessar o disco r√≠gido em modo protegido e utilizar o outro dispositivo em modo real. Isto faz com que o driver em modo protegido n√£o possa ser inicializado e a chave NOIDE
+ - Um canal IDE tem disco rÌgido suportado e o segundo canal tem um CD-ROM ou outro tipo de unidade que requer que os drivers em modo real sejam carregados. Devido a essa serializaÁ„o entre os dois canais IDE, n„o È possÌvel acessar o disco rÌgido em modo protegido e utilizar o outro dispositivo em modo real. Isto faz com que o driver em modo protegido n„o possa ser inicializado e a chave NOIDE
 seja colocada no Registro a fim de evitar futuros erros. Em seguida, os dois dispositivos de disco operam em modo real.
 
- - O driver do controlador IDE √© removido manualmente do Gerenciador de dispositivos e, em seguida, √© reinstalado, ou o driver em modo protegido √© desativado e, em seguida, reativado. Alguns drivers de controladores PCI n√£o s√£o projetados para ativa√ß√£o e desativa√ß√£o din√¢mica, podendo causar falhas na inicializa√ß√£o do driver em modo protegido.
+ - O driver do controlador IDE È removido manualmente do Gerenciador de dispositivos e, em seguida, È reinstalado, ou o driver em modo protegido È desativado e, em seguida, reativado. Alguns drivers de controladores PCI n„o s„o projetados para ativaÁ„o e desativaÁ„o din‚mica, podendo causar falhas na inicializaÁ„o do driver em modo protegido.
 
 Para que o Windows 98 tente reinicializar o driver IDE em modo protegido, 
 remova a entrada NOIDE da seguinte chave de Registro:
@@ -360,33 +360,33 @@ Para remover a entrada NOIDE do Registro:
 1. Selecione 'NOIDE.INF' na pasta \Tools\MTSutil do 
    CD do Windows 98.
 
-2. Clique com o bot√£o direito do mouse em 'NOIDE.INF'.
+2. Clique com o bot„o direito do mouse em 'NOIDE.INF'.
 	-ou-
-   Mantenha pressionada a tecla SHIFT e pressione a tecla de fun√ß√£o F10.
+   Mantenha pressionada a tecla SHIFT e pressione a tecla de funÁ„o F10.
 
 3. Escolha 'INSTALAR' para remover a entrada NOIDE.
 
-Depois de atualizar o Registro, reinicie o Windows 98. Em seguida, o Windows 98 tentar√° 
-inicializar o driver em modo protegido para o controlador. Se nenhum problema for encontrado, o sistema de arquivos e a mem√≥ria virtual ir√£o operar em modo de 32 bits e o Gerenciador de dispositivos n√£o exibir√° o ponto de exclama√ß√£o em um c√≠rculo amarelo para os canais 
+Depois de atualizar o Registro, reinicie o Windows 98. Em seguida, o Windows 98 tentar· 
+inicializar o driver em modo protegido para o controlador. Se nenhum problema for encontrado, o sistema de arquivos e a memÛria virtual ir„o operar em modo de 32 bits e o Gerenciador de dispositivos n„o exibir· o ponto de exclamaÁ„o em um cÌrculo amarelo para os canais 
 IDE.
 
-Se o driver em modo protegido n√£o for inicializado corretamente, uma mensagem de erro ser√° exibida e a entrada de registro NOIDE ser√° recriada. O Windows 98 utilizar√° o sistema de arquivos em modo de compatibilidade com MS-DOS a pr√≥xima vez que o computador for inicializado.
+Se o driver em modo protegido n„o for inicializado corretamente, uma mensagem de erro ser· exibida e a entrada de registro NOIDE ser· recriada. O Windows 98 utilizar· o sistema de arquivos em modo de compatibilidade com MS-DOS a prÛxima vez que o computador for inicializado.
 
 
 ====================================================================
 PINBALL.EXE - INSTALA O 3D PINBALL A PARTIR DO MICROSOFT PLUS! PARA WINDOWS 95
 ====================================================================
 
-Quando voc√™ tenta executar o Programa de Instala√ß√£o do Microsoft Plus! para Windows 95,
-o seguinte erro √© exibido:
+Quando vocÍ tenta executar o Programa de InstalaÁ„o do Microsoft Plus! para Windows 95,
+o seguinte erro È exibido:
 
-   O Programa de Instala√ß√£o detectou que voc√™ est√° executando uma vers√£o do Windows
-   que j√° inclui os arquivos atualizados ou aperfei√ßoamentos que voc√™ est√° tentando instalar.
+   O Programa de InstalaÁ„o detectou que vocÍ est· executando uma vers„o do Windows
+   que j· inclui os arquivos atualizados ou aperfeiÁoamentos que vocÍ est· tentando instalar.
 
-O Microsoft Plus! para Windows 95 cont√©m vers√µes mais antigas de alguns arquivos do Windows. Os aperfei√ßoamentos que ele instala j√° foram incorporados ao Windows 98. Contudo, o jogo 3D Pinball do Plus!
-para Windows 95 n√£o est√° inclu√≠do no Microsoft Windows 98. 
+O Microsoft Plus! para Windows 95 contÈm versıes mais antigas de alguns arquivos do Windows. Os aperfeiÁoamentos que ele instala j· foram incorporados ao Windows 98. Contudo, o jogo 3D Pinball do Plus!
+para Windows 95 n„o est· incluÌdo no Microsoft Windows 98. 
 
-O arquivo 'PINBALL.EXE' instala o jogo 3D Pinball inclu√≠do no Plus! para
+O arquivo 'PINBALL.EXE' instala o jogo 3D Pinball incluÌdo no Plus! para
 Windows 95 em seu sistema do Windows 98.
 
 --------------------------------------------------------------------------------------------
@@ -402,29 +402,29 @@ Para instalar o 3D Pinball a partir do Plus! para Windows 95 em seu sistema:
 
 3. Escolha 'Sim' para adicionar o 3D Pinball ao sistema.
 
-4. Insira o CD na unidade de CD, quando solicitado, e insira a letra da Unidade de CD ROM na caixa de di√°logo. 
+4. Insira o CD na unidade de CD, quando solicitado, e insira a letra da Unidade de CD ROM na caixa de di·logo. 
 
-   Observa√ß√£o: Se uma mensagem do Plus! para Windows 95 perguntar se voc√™ deseja executar o Programa de Instala√ß√£o, feche essa janela.
+   ObservaÁ„o: Se uma mensagem do Plus! para Windows 95 perguntar se vocÍ deseja executar o Programa de InstalaÁ„o, feche essa janela.
 
 -------------------------------------------------------------------------------
 Para remover o 3D Pinball do Plus! para Windows 95 do sistema:
 -------------------------------------------------------------------------------
 
-1. V√° para o 'Painel de controle' e escolha 'Adicionar/Remover programas'
+1. V· para o 'Painel de controle' e escolha 'Adicionar/Remover programas'
 
 2. Selecione '3D Pinball do Microsoft Plus! para Windows 95'
 
-3. Clique no bot√£o 'Adicionar/Remover'.
+3. Clique no bot„o 'Adicionar/Remover'.
 
 
 ===============================================================
 PTXT_ON.INF - ENVIA SENHAS DE TEXTO SIMPLES AO SERVIDOR DA REDE
 ===============================================================
 
-Por motivos de seguran√ßa, o Windows 98 n√£o permite o envio de senhas em formato de texto simples. A senha √© criptografada, como padr√£o. Entretanto, servidores
-Samba requerem senhas em texto simples, portanto, n√£o ser√° poss√≠vel conectar-se a esses tipos de servidores, a n√£o ser que voc√™ altere uma entrada de Registro para ativar senhas em texto simples.
+Por motivos de seguranÁa, o Windows 98 n„o permite o envio de senhas em formato de texto simples. A senha È criptografada, como padr„o. Entretanto, servidores
+Samba requerem senhas em texto simples, portanto, n„o ser· possÌvel conectar-se a esses tipos de servidores, a n„o ser que vocÍ altere uma entrada de Registro para ativar senhas em texto simples.
 
-   Cuidado: A ativa√ß√£o de senhas em texto simples pode comprometer a seguran√ßa.
+   Cuidado: A ativaÁ„o de senhas em texto simples pode comprometer a seguranÁa.
 
 Para ativar senhas em texto simples, adicione a entrada de Registro em 
 EnablePlainTextPassword (como uma Dword) e defina o valor como 1 no local de Registro a seguir:
@@ -439,9 +439,9 @@ Para definir o valor de EnablePlainTextPassword como 1:
 1. Selecione 'PTXT_ON.INF' na pasta \Tools\MTSutil do 
    CD do Windows 98.
 
-2. Clique com o bot√£o direito do mouse em 'PTXT_ON.INF'.
+2. Clique com o bot„o direito do mouse em 'PTXT_ON.INF'.
 	-ou-
-   Mantenha pressionada a tecla SHIFT e pressione a tecla de fun√ß√£o F10.
+   Mantenha pressionada a tecla SHIFT e pressione a tecla de funÁ„o F10.
 
 3. Escolha 'INSTALAR' para adicionar a entrada EnablePlainTextPassword e defina seu valor como 1.
 
@@ -463,9 +463,9 @@ Para definir o valor de EnablePlainTextPassword como 0:
 1. Selecione 'PTXT_OFF.INF' na pasta \Tools\MTSutil do 
    CD do Windows 98.
 
-2. Clique com o bot√£o direito do mouse em 'PTXT_OFF.INF'.
+2. Clique com o bot„o direito do mouse em 'PTXT_OFF.INF'.
 	-ou-
-   Mantenha pressionada a tecla SHIFT e pressione a tecla de fun√ß√£o F10.
+   Mantenha pressionada a tecla SHIFT e pressione a tecla de funÁ„o F10.
 
 3. Escolha 'INSTALAR' para adicionar a entrada EnablePlainTextPassword e definir seu valor como 0.
 
@@ -474,10 +474,10 @@ Para definir o valor de EnablePlainTextPassword como 0:
 REMFDMA.INF - DESATIVA O FDMA EM DISPOSITIVOS DE PONTE PCI-ISA
 =====================================================
 
-Ter a capacidade de FDMA ativada em alguns dispositivos de ponte PCI-ISA pode resultar na perda de √°udio nas grava√ß√µes utilizando um dispositivo de √°udio baseado no Aztech 2320 
-e no driver de √°udio Aztech 2320 WDM.  O arquivo 'REMFDMA.INF' desativar√° a capacidade de 
-FDMA na ponte PCI-ISA, permitindo que a grava√ß√£o de √°udio funcione corretamente.  Entretanto, com o recurso FDMA desativado, os 
-joysticks digitais podem n√£o funcionar corretamente.
+Ter a capacidade de FDMA ativada em alguns dispositivos de ponte PCI-ISA pode resultar na perda de ·udio nas gravaÁıes utilizando um dispositivo de ·udio baseado no Aztech 2320 
+e no driver de ·udio Aztech 2320 WDM.  O arquivo 'REMFDMA.INF' desativar· a capacidade de 
+FDMA na ponte PCI-ISA, permitindo que a gravaÁ„o de ·udio funcione corretamente.  Entretanto, com o recurso FDMA desativado, os 
+joysticks digitais podem n„o funcionar corretamente.
 
 -----------------------------
 Para desativar o FDMA:
@@ -486,26 +486,26 @@ Para desativar o FDMA:
 1. Selecione 'REMFDMA.INF' na pasta \Tools\MTSutil do
     CD do Windows98.
 
-2. Clique com o bot√£o direito do mouse em 'REMFDMA.INF'
+2. Clique com o bot„o direito do mouse em 'REMFDMA.INF'
 	-ou-
-    Mantenha pressionada a tecla SHIFT e pressione a tecla de fun√ß√£o F10.
+    Mantenha pressionada a tecla SHIFT e pressione a tecla de funÁ„o F10.
 
 3. Escolha 'INSTALAR' para desativar o recurso FDMA.
 
-4. Reinicialize o sistema para que as altera√ß√µes tenham efeito.
+4. Reinicialize o sistema para que as alteraÁıes tenham efeito.
 
 
 =================================================================
 ADDFDMA.INF - ATIVA O FDMA EM (ALGUNS) DISPOSITIVOS DE PONTE PCI-ISA
 =================================================================
 
-Ter a capacidade de FDMA desativada em alguns dispositivos de ponte PCI-ISA pode resultar na degrada√ß√£o ou perda da funcionalidade de joysticks digitais durante uma execu√ß√£o de √°udio. O arquivo 'ADDFDMA.INF' restaura as capacidades de FDMA que foram desativadas atrav√©s do 'REMFDMA.INF'. 
+Ter a capacidade de FDMA desativada em alguns dispositivos de ponte PCI-ISA pode resultar na degradaÁ„o ou perda da funcionalidade de joysticks digitais durante uma execuÁ„o de ·udio. O arquivo 'ADDFDMA.INF' restaura as capacidades de FDMA que foram desativadas atravÈs do 'REMFDMA.INF'. 
 
-   Observa√ß√£o: Nem todos os dispositivos de ponte PCI-ISA podem aproveitar o recurso de 
-         FDMA, quer voc√™ utilize ou n√£o o 'ADDFDMA.INF' ou 
-         'REMFDMA.INF'.  Al√©m disso, ativar o FDMA em alguns dispositivos de ponte PCI-ISA
-         pode resultar na perda de √°udio durante opera√ß√µes de grava√ß√£o, quando se utiliza um 
-         dispositivo de √°udio baseado no Aztech 2320 e seu driver de √°udio
+   ObservaÁ„o: Nem todos os dispositivos de ponte PCI-ISA podem aproveitar o recurso de 
+         FDMA, quer vocÍ utilize ou n„o o 'ADDFDMA.INF' ou 
+         'REMFDMA.INF'.  AlÈm disso, ativar o FDMA em alguns dispositivos de ponte PCI-ISA
+         pode resultar na perda de ·udio durante operaÁıes de gravaÁ„o, quando se utiliza um 
+         dispositivo de ·udio baseado no Aztech 2320 e seu driver de ·udio
           WDM.
 
 -------------------------
@@ -515,43 +515,43 @@ Para ativar o FDMA:
 1. Selecione 'ADDFDMA.INF' na pasta \Tools\MTSutil do
     CD do Windows98.
 
-2. Clique com o bot√£o direito do mouse em 'ADDFDMA.INF'
+2. Clique com o bot„o direito do mouse em 'ADDFDMA.INF'
 	-ou-
-    Mantenha pressionada a tecla SHIFT e pressione a tecla de fun√ß√£o F10.
+    Mantenha pressionada a tecla SHIFT e pressione a tecla de funÁ„o F10.
 
 3. Escolha 'INSTALAR' para ativar o recurso FDMA.
 
-4. Reinicialize o sistema para que as altera√ß√µes tenham efeito.
+4. Reinicialize o sistema para que as alteraÁıes tenham efeito.
 
 
 =============================================================
 CHNGINBX.EXE - DESATIVA A MENSAGEM MICROSOFT NETWORK DETECTADO
 =============================================================
 
-Depois de atualizar para o Windows 98, a seguinte mensagem poder√° ser exibida quando voc√™ clicar duas vezes em um √≠cone da √°rea de trabalho:
+Depois de atualizar para o Windows 98, a seguinte mensagem poder· ser exibida quando vocÍ clicar duas vezes em um Ìcone da ·rea de trabalho:
 
  Microsoft Network Detectado
 
-   Detectamos que o MSN j√° foi instalado neste computador.
+   Detectamos que o MSN j· foi instalado neste computador.
 
-   Se voc√™ estiver atualmente inscrito no MSN (ou quiser se inscrever), clique em "Instala√ß√£o do MSN", antes de poder conectar-se ao MSN atrav√©s do Internet Explorer.
+   Se vocÍ estiver atualmente inscrito no MSN (ou quiser se inscrever), clique em "InstalaÁ„o do MSN", antes de poder conectar-se ao MSN atravÈs do Internet Explorer.
 
-   Para continuar utilizando o Internet Explorer para outras finalidades al√©m de acessar o MSN, clique em 'Internet Explorer', abaixo.
+   Para continuar utilizando o Internet Explorer para outras finalidades alÈm de acessar o MSN, clique em 'Internet Explorer', abaixo.
 
-   [ ] N√£o mostrar este di√°logo novamente.
+   [ ] N„o mostrar este di·logo novamente.
 
-   [Cancelar] [Internet Explorer] [Instala√ß√£o do MSN]
+   [Cancelar] [Internet Explorer] [InstalaÁ„o do MSN]
 
-O Windows 98 adiciona esta mensagem como um servi√ßo aos clientes do MSN. Essa mensagem 
-√© adicionada aos √≠cones da √°rea de trabalho se for detectada uma vers√£o anterior do Microsoft Network (MSN) cliente ou se o segundo est√°gio do processo de instala√ß√£o do MSN n√£o tiver sido conclu√≠do. O Windows 98 n√£o faz a atualiza√ß√£o autom√°tica do MSN cliente. 
+O Windows 98 adiciona esta mensagem como um serviÁo aos clientes do MSN. Essa mensagem 
+È adicionada aos Ìcones da ·rea de trabalho se for detectada uma vers„o anterior do Microsoft Network (MSN) cliente ou se o segundo est·gio do processo de instalaÁ„o do MSN n„o tiver sido concluÌdo. O Windows 98 n„o faz a atualizaÁ„o autom·tica do MSN cliente. 
 
-Para desativar o aviso, atualize o MSN cliente clicando no bot√£o 'Instala√ß√£o do MSN' ou, quando a mensagem for exibida, clique na caixa de verifica√ß√£o 'N√£o mostrar esse di√°logo novamente'. 
+Para desativar o aviso, atualize o MSN cliente clicando no bot„o 'InstalaÁ„o do MSN' ou, quando a mensagem for exibida, clique na caixa de verificaÁ„o 'N„o mostrar esse di·logo novamente'. 
 
-Se o √≠cone da √°rea de trabalho do Outlook 98 continuar solicitando a atualiza√ß√£o do
+Se o Ìcone da ·rea de trabalho do Outlook 98 continuar solicitando a atualizaÁ„o do
 MSN cliente, execute o arquivo 'CHNGINBX.EXE' para desativar a mensagem.
 
 ------------------------------------------------------------------------------------------------------------------------------
-Para desativar a mensagem Microsoft Network Detectado do √≠cone da √°rea de trabalho do Outlook 98:
+Para desativar a mensagem Microsoft Network Detectado do Ìcone da ·rea de trabalho do Outlook 98:
 -------------------------------------------------------------------------------------------------------------------------------
 
 1. Selecione 'CHNGINBX.EXE' na pasta \Tools\MTSutil do 
@@ -561,4 +561,4 @@ Para desativar a mensagem Microsoft Network Detectado do √≠cone da √°rea de trab
 	-ou-
    Pressione a tecla ENTER.
 
-3. Escolha 'Sim' para alterar o √≠cone 'Caixa de entrada' para o √≠cone 'Microsoft Outlook 98'.
+3. Escolha 'Sim' para alterar o Ìcone 'Caixa de entrada' para o Ìcone 'Microsoft Outlook 98'.

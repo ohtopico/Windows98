@@ -1,0 +1,159 @@
+-------------------------------------------------
+         LEIAME do Microsoft Windows 98 
+                 para recuperação do sistema
+                   Março de 1998            
+-------------------------------------------------
+
+(c) Copyright Microsoft Corporation, 1998
+
+
+Este documento fornece informações complementares ou mais recentes 
+que complementam a documentação do
+Microsoft Windows 98. 
+
+------------------------
+COMO UTILIZAR ESTE DOCUMENTO
+------------------------
+
+Para visualizar o arquivo 'Recover.txt' na tela do 'Bloco de notas', maximize a 
+janela do 'Bloco de notas'.
+
+Para imprimir o arquivo 'Recover.txt', abra-o no 'Bloco de notas' ou em outro 
+processador de textos e, em seguida, no menu 'Arquivo', clique em 'Imprimir'.
+
+--------
+CONTEÚDO
+--------
+
+RESTAURANDO SEU SISTEMA UTILIZANDO O SYSTEM RECOVERY 
+
+SOLUÇÃO DE PROBLEMAS
+---------------------------------------------
+
+RESTAURANDO SEU SISTEMA UTILIZANDO O SYSTEM RECOVERY 
+
+==============================================
+
+O programa System Recovery restaura seu sistema do Windows 98 
+utilizando o backup completo que você criou com o
+Microsoft Backup. Para utilizar o System Recovery para restaurar 
+seu sistema, você deve ter:
+
+- O CD-ROM do Windows 98 
+
+- Um dispositivo de backup conectado ao seu computador
+
+- Um backup de sistema completo criado com o Microsoft Backup
+
+
+>>>Para restaurar o Windows 98 em seu computador:
+
+1. Insira seu disco de inicialização do Windows na unidade de disquete, 
+   e, em seguida, inicie o computador.
+
+2. No menu de inicialização, escolha o seu tipo de CD-ROM.
+
+3. No prompt de comando do MS-DOS, digite
+       
+	'n:'
+	(onde N é a letra da unidade do seu CD-ROM)
+
+   e, em seguida, pressione ENTER.
+	
+4. No prompt de comando do MS-DOS, digite   
+
+	'CD tools\sysrec'
+
+   e, em seguida, pressione ENTER.
+
+5. No prompt de comando do MS-DOS, digite   
+ 
+	'pcrestor'
+
+   e, em seguida, pressione ENTER.
+
+6. Siga as instruções que aparecem na tela.
+
+   O Windows 98 é reinstalado em seu computador. Quando a Instalação 
+   for concluída, o 'Assistente do System Recovery' é iniciado.
+
+>>>Para utilizar o 'Assistente do System Recovery' para restaurar seus arquivos:
+
+1. No 'Assistente do System Recovery', clique em 'Avançar'.
+
+2. Digite seu nome e o da empresa e, em seguida, clique em 'Avançar'.
+
+3. Clique em 'Detalhes'.
+
+4. Na janela 'Ajuda', leia todo o tópico 'Ajuda do Backup'.
+   Ela explica todo o processo de recuperação.
+
+5. Quando terminar de ler o tópico da 'Ajuda', clique no 
+   botão 'Fechar'.
+
+6. No 'Assistente do System Recovery', clique em 'Concluir'. 
+   A tela 'Bem-Vindo ao Microsoft Backup' aparece.
+
+IMPORTANTE: Se você clicar em 'Cancelar', clique em 'Sim' e, em seguida, reinicie 
+o sistema. O 'Assistente do System Recovery' é iniciado automaticamente.
+
+
+7. Na caixa de diálogo 'Microsoft Backup ', clique em 'Restaurar os
+   arquivos do backup'. 
+
+8. Siga as instruções que aparecem na tela.
+
+   IMPORTANTE: Você deve restaurar as configurações de hardware SOMENTE 
+   se o hardware for o mesmo do qual o backup foi feito.
+
+   Todo o backup do Registro é restaurado, bem como 
+   todos as unidades locais selecionadas.
+
+
+   -OU-
+
+
+   Se você não clicar em 'Restaurar hardware e configurações do sistema 
+   para o Registo' mas continuar com a operação, os 
+   parâmetros e configurações de software também serão restaurados 
+   com todas as unidades locais selecionadas. 
+
+   Restaure todos os backups de arquivos novos e alterados (incremental).
+   Comece com o backup incremental mais antigo e avance até 
+   o mais recente. 
+
+
+SOLUÇÃO DE PROBLEMAS
+===============
+
+Sem acesso ao dispositivo de backup
+--------------------------
+
+Se você não obtiver acesso ao dispositivo de backup enquanto 
+está executando o 'Assistente do System Recovery', isso ocorre, 
+provavelmente, porque o driver para o dispositivo de backup 
+não está instalado. 
+
+>>>Para instalar o driver para o dispositivo de backup:
+
+1. Clique em 'Iniciar', aponte para 'Configurações', clique em 'Painel de 
+   controle e, em seguida, clique duas vezes em 'Sistema'.
+
+2. Clique em 'Gerenciador de dispositivos', clique duas vezes no dispositivo
+   de backup e, em seguida, clique em 'Driver'.
+
+3. Clique em 'Atualizar Driver' e, em seguida, siga as instruções 
+   na tela. Quando um disco for solicitado, 
+   insira o disco que vem com o dispositivo de backup.
+
+
+
+
+
+
+
+
+
+
+
+

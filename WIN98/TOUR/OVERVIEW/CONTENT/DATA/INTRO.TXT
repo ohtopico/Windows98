@@ -1,0 +1,19 @@
+%
+Bem-vindo ao Descubra o Windows 98!
+%|%
+Familiarize-se com o Windows 98 explorando seis lições sobre tópicos que você utilizará diariamente.
+%|%
+Cada lição consiste em instruções passo a passo que aparecem no lado inferior direito da tela.
+%|%
+Para ver a demonstração de uma etapa, basta clicar no botão Mostre-me. Quando estiver pronto para
+retornar à instrução da etapa, clique em qualquer lugar da tela para fechar a janela Mostre-me.
+Em seguida, tente realizar a etapa por si mesmo.
+%|%
+Você pode voltar e avançar entre a janela da etapa e a janela Mostre-me a qualquer momento.
+E, além disso, para orientar seu treinamento prático, definições de palavras-chave e dicas úteis
+estão disponíveis em cada lição.
+%|%
+Clique aqui para continuar
+%|%
+Clique aqui para continuar
+%

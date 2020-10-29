@@ -1,0 +1,33 @@
+value:string
+Seu computador consiste em duas partes principais: hardware e software.@
+As instruções que dizem a seu computador o que fazer são chamadas de software.@
+Seu software principal, chamado sistema operacional, controla e gerencia o computador traduzindo suas instruções para uma linguagem que seu hardware possa entender.@
+Esta é a área de trabalho do Windows. É o espaço de trabalho em sua tela no qual aparecem os ícones, os componentes da área de trabalho, as janelas de aplicativos e as caixas de diálogo.@
+A barra de tarefas é um elemento da área de trabalho do Windows. A barra de tarefas é uma barra cinza retangular localizada, como padrão, ao longo da parte inferior da área de trabalho do Windows.@
+A barra de tarefas inclui o botão <B>Iniciar</B>, um botão para cada programa que esteja aberto e o relógio do sistema.@
+Um dos items mais úteis da barra de tarefas é o botão <B>Iniciar</B>.@
+A partir dele, você pode iniciar rapidamente um programa, localizar ou abrir um documento, alterar as configurações de seu computador, desligar o computador e muito mais.@
+Sua área de trabalho do Windows inclui várias figuras pequenas. Elas são chamadas ícones.@
+Os ícones são uma maneira fácil de abrir os programas ou documentos que você utiliza diariamente.@
+Pronto para mostrar o que aprendeu sobre a sua área de trabalho do Windows? Pressione o número adequado para responder às perguntas.@
+Você consegue localizar a barra de tarefas?@
+<IMG SRC="images/num1.gif" align="bottom"> Ótimo! Você selecionou a barra de tarefas, a barra retangular que geralmente fica localizada na parte inferior da área de trabalho do Windows.@
+Você selecionou o botão <B>Iniciar</B>, que é um item da barra de tarefas. Agora, tente selecionar a barra de tarefas inteira.@
+Isto é um ícone: uma representação gráfica de um programa, comando ou página da Web. Agora selecione a barra de tarefas.@
+Você selecionou uma área diferente da área de trabalho do Windows. Tente novamente.@
+A barra de tarefas está usualmente localizada ao longo da parte inferior da área de trabalho do Windows. Ela inclui o botão <B>Iniciar</B>, um botão para cada programa aberto e um relógio do sistema.@
+Onde está o botão <B>Iniciar</B>?@
+Você selecionou a barra de tarefas, que inclui o botão <B>Iniciar</B>, um botão para cada programa aberto e um relógio do sistema. Agora selecione o botão <b>Iniciar</b>.@
+<IMG SRC="images/num2.gif" align="bottom"> Muito bem! Você selecionou o botão <B>Iniciar</B>. Clicar neste botão traz uma lista de software e documentos que podem ser abertos.@
+Isto é um ícone: uma representação gráfica de um programa, comando ou página da Web. Agora selecione o botão <B>Iniciar</B>.@
+Você selecionou uma área diferente da área de trabalho do Windows. Tente novamente.@
+Clicar no botão <B>Iniciar</B> traz uma lista de software e documentos que podem ser abertos, bem como tarefas que podem ser executadas.@
+Localize um ícone em sua área de trabalho do Windows.@
+Você selecionou a barra de tarefas, que inclui o botão <B>Iniciar</B>, um botão para cada programa aberto e um relógio do sistema. Agora selecione um ícone.@
+Você selecionou o botão <B>Iniciar</B>, que é um item da barra de tarefas. Agora selecione um ícone.@
+<IMG SRC="images/num3.gif" align="bottom"> Correto! Isto é um ícone, uma representação gráfica de um programa, comando ou página da Web.@
+Você selecionou uma área diferente da área de trabalho do Windows. Tente novamente.@
+Há vários tipos diferentes de ícones. Ícones são imagens gráficas que representam um programa, comando ou página da Web.@
+Como você aprendeu, a tela básica do Microsoft Windows é chamada de área de trabalho.@
+O próximo tópico enfoca o local para onde você normalmente vai iniciar qualquer atividade: o menu <B>Iniciar</B>.@
+Pressione <B>SETA À ESQUERDA</B> <IMG class="always" id=backarr SRC="images/bkbtn.gif" style="cursor:hand" ALIGN=MIDDLE onclick="prevseq()"> para voltar; <B>SETA À DIREITA</B> <IMG class="always" id=frwdarr SRC="images/fwdbtn.gif" style="cursor:hand" ALIGN=MIDDLE onclick="nextseq()"> para continuar.

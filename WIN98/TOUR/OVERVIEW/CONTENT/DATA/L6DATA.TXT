@@ -1,0 +1,102 @@
+%<!-- version 9.15.8 --><!--lesson6.htm--><!-- Exploring the Active Desktop -->
+Nesta lição, você aprenderá a alternar entre o 'Active Desktop'
+e a área de trabalho padrão do Windows, bem como a utilizar os atalhos da barra de ferramentas <b>Iniciar rapidamente</b> para iniciar programas. Finalmente, você aprenderá a visualizar e adicionar canais, que trazem conteúdo da Web para seu computador.
+<p>
+<br>
+<p>
+Clique no botão <b>Avançar</b>, acima, para continuar.
+%~%
+O <a id=a1 href="javascript:;" onclick="javascript:popup('Column37', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'">
+Active Desktop</a> integra seu
+<a id=a2 href="javascript:;" onclick="javascript:popup('Column38', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'">
+navegador</a> Internet Explorer com a <a id=a3 href="javascript:;" onclick="javascript:popup('Column19', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'">
+área de trabalho</a> padrão do Windows. Você pode voltar e avançar entre o 'Active Desktop' e
+a área de trabalho padrão do Windows a qualquer hora.
+<br><a id=a4 id="tiplink" href="javascript:;" onClick="javascript:popup('Column39', window.event.x, window.event.y+65);" onmouseOver="tip.style.borderColor='#000099'" onmouseOut="tip.style.borderColor='white'" onfocus="tip.style.borderColor='#000099'" onblur="tip.style.borderColor='white'"><span id="tip" class=tip>
+Dica!</span></a>
+%~%
+Para voltar à área de trabalho padrão, clique com o <a id=a1 href="javascript:;" onclick="javascript:popup('Column8', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'">
+botão direito</a> do mouse em um local vazio da área de trabalho,
+aponte para <b>Active Desktop,</b> no <a id=a2 href="javascript:;" onclick="javascript:popup('Column40', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'">
+menu de atalho</a> e clique em <b>Exibir como página da Web</b>.
+<br><a id=a3 id="tiplink" href="javascript:;" onClick="javascript:popup('Column41', window.event.x, window.event.y+65);" onmouseOver="tip.style.borderColor='#000099'" onmouseOut="tip.style.borderColor='white'" onfocus="tip.style.borderColor='#000099'" onblur="tip.style.borderColor='white'"><span id="tip" class=tip>
+Dica!</span></a>
+<p>
+<a id=a4 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">Mostre-me</span></a>
+%~%
+Para restaurar o 'Active Desktop', clique com o botão direito do mouse em um local vazio da
+área de trabalho, clique em <b>Active Desktop</b> e em <b>Exibir como página da Web</b>. O Active
+Desktop reaparece.
+<br><a id=a1 id="tiplink" href="javascript:;" onClick="javascript:popup('Column42', window.event.x, window.event.y+65);" onmouseOver="tip.style.borderColor='#000099'" onmouseOut="tip.style.borderColor='white'" onfocus="tip.style.borderColor='#000099'" onblur="tip.style.borderColor='white'"><span id="tip" class=tip>
+Dica!</span></a>
+<p>
+<a id=a2 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">Mostre-me</span></a>
+%~%
+Para concluir as etapas a seguir, seu computador deve estar conectado à Internet. Para aprender a se conectar, clique no botão <b>Lições</b> <img src="images/ovhome.gif"> 
+na <a id=a1 href="javascript:;" onclick="javascript:popup('Column43', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'">
+barra de ferramentas</a> da janela auxiliar e clique na lição <b>Conectando-se à Internet</b>.
+%~%
+Localize a barra de ferramentas <b>Iniciar rapidamente</b> à direita do botão <b>Iniciar</b> 
+na <a id=a1 href="javascript:;" onclick="javascript:popup('Column2', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'">
+barra de tarefas</a> do Windows. A barra de ferramentas <b>Iniciar rapidamente</b> contém botões que iniciam o Internet Explorer e o Outlook Express, um botão que minimiza todas as <a id=a2 href="javascript:;" onclick="javascript:popup('Column17', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'">
+janelas</a> abertas de uma só vez e um botão que exibe sua lista de Active channel.
+<br><a id=a3 id="tiplink" href="javascript:;" onClick="javascript:popup('Column45', window.event.x, window.event.y+65);" onmouseOver="tip.style.borderColor='#000099'" onmouseOut="tip.style.borderColor='white'" onfocus="tip.style.borderColor='#000099'" onblur="tip.style.borderColor='white'"><span id="tip" class=tip>
+Dica!</span></a>
+%~%
+Na barra de ferramentas <b>Iniciar rapidamente</b>, clique no
+botão <b>Iniciar o navegador Internet Explorer</b> <img src="images/TurQwkie.gif"> para abrir o Internet Explorer.
+<br><a id=a1 id="tiplink" href="javascript:;" onClick="javascript:popup('Column46', window.event.x, window.event.y+65);" onmouseOver="tip.style.borderColor='#000099'" onmouseOut="tip.style.borderColor='white'" onfocus="tip.style.borderColor='#000099'" onblur="tip.style.borderColor='white'"><span id="tip" class=tip>
+Dica!</span></a>
+<p>
+<a id=a2 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">Mostre-me</span></a>
+%~%
+Com o Internet Explorer, você pode visualizar páginas da Web e explorar a <a id=a1 href="javascript:;" onclick="javascript:popup('Column47', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'">
+World Wide Web</a>. Clique no botão <b>Fechar</b> <img src="images/StdClose.gif"> na <a id=a2 href="javascript:;" onclick="javascript:popup('Column3', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'">
+barra de título</a> da janela do <b>Internet Explorer</b>.
+<p>
+<a id=a3 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">Mostre-me</span></a>
+%~%
+Localize a barra de ferramentas <b>Iniciar rapidamente</b> na barra de tarefas e clique no
+botão <b>Exibir canais</b> <img src="images/TurVwChn.gif">. Mova o ponteiro para a
+margem direita da janela para ocultar temporariamente a <a id=a1 href="javascript:;" onclick="javascript:popup('Column48', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'">
+Barra de canais</a> e visualizar a janela em tela inteira.
+<br><a id=a2 id="tiplink" href="javascript:;" onClick="javascript:popup('Column49', window.event.x, window.event.y+65);" onmouseOver="tip.style.borderColor='#000099'" onmouseOut="tip.style.borderColor='white'" onfocus="tip.style.borderColor='#000099'" onblur="tip.style.borderColor='white'"><span id="tip" class=tip>
+Dica!</span></a>
+<p>
+<a id=a3 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">Mostre-me</span></a>
+%~%
+Para visualizar novamente a 'Barra de canais', mova o ponteiro para a margem esquerda da
+janela. Para dividir a janela em dois painéis, clique no botão de pressão <img src="images/TurPshPn.gif"> na
+barra de título da 'Barra de canais'.
+<br><a id=a1 id="tiplink" href="javascript:;" onClick="javascript:popup('Column50', window.event.x, window.event.y+65);" onmouseOver="tip.style.borderColor='#000099'" onmouseOut="tip.style.borderColor='white'" onfocus="tip.style.borderColor='#000099'" onblur="tip.style.borderColor='white'"><span id="tip" class=tip>
+Dica!</span></a>
+<p>
+<a id=a2 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">Mostre-me</span></a>
+%~%
+Clique no <a id=a1 href="javascript:;" onclick="javascript:popup('Column51', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'">
+canal</a> <b>MSNBC News</b> na 'Barra de canais'. Será exibida uma visualização desse canal no
+<a id=a2 href="javascript:;" onclick="javascript:popup('Column52', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'">
+painel</a> direito da janela. Para adicionar esse canal, clique no botão <b>Add Active Channel </b> quando ele for exibido.
+<p>
+Convém <a id=a3 href="javascript:;" onclick="javascript:popup('Column57', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'">
+arrastar</a> a janela auxiliar para a esquerda para ver o botão <b>Add Active Channel</b>.
+<br><a id=a4 id="tiplink" href="javascript:;" onClick="javascript:popup('Column53', window.event.x, window.event.y+65);" onmouseOver="tip.style.borderColor='#000099'" onmouseOut="tip.style.borderColor='white'" onfocus="tip.style.borderColor='#000099'" onblur="tip.style.borderColor='white'"><span id="tip" class=tip>
+Dica!</span></a>
+<p>
+<a id=a5 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">Mostre-me</span></a>
+%~%
+Na caixa de diálogo <b>Modificar utilização do canal</b>, clique na opção <b>Sim, mas somente notificar
+atualizações</b>. Clique em <b>OK</b>.
+<p>
+Agora você tem uma inscrição no canal <b>MSNBC News</b>. O Internet Explorer o notificará quando o conteúdo do canal for alterado.
+<br><a id=a1 id="tiplink" href="javascript:;" onClick="javascript:popup('Column80', window.event.x, window.event.y+65);" onmouseOver="tip.style.borderColor='#000099'" onmouseOut="tip.style.borderColor='white'" onfocus="tip.style.borderColor='#000099'" onblur="tip.style.borderColor='white'"><span id="tip" class=tip>
+Dica!</span></a>
+<p>
+<a id=a2 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">Mostre-me</span></a>
+%~%
+Clique no botão <b>Fechar</b> <img src="images/TurChCls.gif"> na barra de ferramentas para fechar a janela.
+<p>
+Agora você sabe como explorar o 'Active Desktop'.
+<p>
+<a id=a1 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">Mostre-me</span></a>
+%

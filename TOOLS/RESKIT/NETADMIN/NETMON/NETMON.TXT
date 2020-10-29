@@ -1,0 +1,35 @@
+Agente monitor de rede (NMAGENT.* e arquivos relacionados)
+
+A pasta NETMON inclui o software para um driver de protocolo e 
+agente para o Monitor de rede Microsoft. O driver de protocolo fornece 
+contadores de desempenho que podem ser visualizados usando o Monitor do sistema 
+se você quiser ter acesso a determinadas estatísticas de tráfego de rede para 
+adaptadores de rede de modo protegido NDIS 3.1. 
+
+O Agente moitor de rede, que pode ser executado como um serviço do Windows 95 
+ou do Windows 98, funciona com o driver de protocolo para ser usado com o 
+aplicativo Monitor de rede Microsoft. Você pode usar este aplicativo 
+para detectar e solucionar problemas em LANs, WANs e conexões de serviço de 
+acesso remoto (RAS) Microsoft.
+
+OBS.: O aplicativo monitor de rede é fornecido com o Servidor de 
+gerenciamento de sistemas Microsoft, que é um sistema cliente-servidor 
+que permite aos administradores desempenhar funções chave de gerenciamento 
+em computadores distribuídos a partir de um local central. 
+
+Para usar o Agente monitor de rede para solucionar problemas na rede, 
+é preciso instalá-lo (NMAGENT.EXE) em cada computador que você deseja 
+monitorar na rede. 
+
+Para instalar o Agente monitor de rede em um computador que já esteja 
+executando o Windows 95 ou o Windows 98, use o ícone 'Rede' no Painel de 
+controle, clique no botão 'Adicionar', selecione 'Serviço' como o tipo 
+de componente de rede a ser instalado, clique no botão 'Adicionar', 
+clique no botão 'Com disco' e instale da pasta TOOLS\RESKIT\NETADMIN\NETMON.
+ 
+Você também pode instalar o Agente monitor de rede usando declarações nos 
+scripts de instalação. Para mais informações sobre o Agente monitor de rede, 
+consulte esse tópico no Windows 98 Resource Kit ou na ajuda on-line das 
+ferramentas do Windows 98 (WIN98RK.HLP). Você pode ter acesso a esta ajuda 
+instalando a amostra das ferramentas do Windows 98 Resource Kit da pasta 
+TOOLS\RESKIT no CD do Windows 98.

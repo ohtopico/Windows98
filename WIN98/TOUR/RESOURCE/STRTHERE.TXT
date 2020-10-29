@@ -1,0 +1,32 @@
+%<!-- version 7.13.6 -->
+<!-- updated localized version of Starts Here 11/18/97 -->
+Microsoft Windows 98 <br>O Início
+%|%
+O parceiro oficial de treinamento interativo do Microsoft Windows 98
+%|%
+Se você explorou a <i>Visão geral do Windows 98 </i> ou o <i>Básico sobre computação</i>, está pronto para continuar seu treinamento com o <b><i>Microsoft Windows 98 O Início</i></b>, informativo e fácil de usar. A mesma fonte
+confiável, Microsoft<SUP>&#174;</SUP> Press, traz cada um destes tutoriais até você.<br>
+<span style="line-height:6pt;">&nbsp;<br></span>
+
+O CD-ROM <i>Microsoft Windows 98 O Início</i> oferece um extenso treinamento multimídia sobre o Microsoft
+Windows 98. Utilizando os exercícios passo a passo e os questionários de auto-avaliação, você aprende trabalhando no
+ambiente real do Windows.<br>
+<span style="line-height:6pt;">&nbsp;<br></span>
+
+Clique em <a id=a1 href="http://www.microsoft.com/isapi/redir.dll?prd=mspress&ar=win98tour&sba=win98demo" target="_blank" onmouseover="over(1)" onmouseout="out(1)" onfocus="over(1)" onblur="out(1)"><i>O Microsoft
+Windows 98 O Início</i></a> (Versão em inglês) para ter acesso a uma visão geral abrangente e a uma breve demonstração.<br>
+<span style="line-height:6pt;">&nbsp;<br></span>
+
+Para localizar em seu país um distribuidor da série O Início da Microsoft<SUP>&#174;</SUP> Press, clique
+<a id=a2 href="http://www.microsoft.com/isapi/redir.dll?prd=mspress&ar=win98tour&sba=shintl" target="_blank" onmouseover="over(2)" onmouseout="out(2)" onfocus="over(2)" onblur="out(2)">aqui</a>.
+%|%
+Voltar
+%|%
+Fechar
+%|%Descubra o Windows 98%
+
+
+
+
+
+

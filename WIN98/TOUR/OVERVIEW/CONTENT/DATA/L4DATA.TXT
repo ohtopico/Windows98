@@ -1,0 +1,95 @@
+%<!-- version 9.15.8 --><!--lesson4.htm--><!-- Managing Open Windows -->
+Nesta lição, você aprenderá a gerenciar janelas abertas utilizando a barra de tarefas. Você também
+aprenderá a utilizar os botões <b>Minimizar</b> e <b>Maximizar</b> para alterar a forma como as janelas são exibidas.
+<P>
+<br>
+<p>
+Clique no botão <b>Avançar</b>, acima, para continuar.
+%~%
+Utilizando a <a id=a1 href="javascript:;" onclick="javascript:popup('Column2', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'"
+>barra de tarefas</a> do <b>Windows</b>, você pode mover-se rápida e facilmente entre as <a id=a2 href="javascript:;" onclick="javascript:popup('Column44', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'"
+>janelas</a> abertas.
+%~%
+Clique no botão <b>Iniciar</b> <img src="images/stdstart.gif" align=absmiddle> 
+da barra de tarefas do <b>Windows</b>, aponte para <b>Programas</b> e clique em <b>Windows Explorer</b>.
+A janela do <B>Windows Explorer</B> é aberta.
+<p>
+<a id=a1 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">Mostre-me</span></a>
+%~%
+Clique e mantenha pressionado o botão esquerdo do mouse sobre a <a id=a1 href="javascript:;" onclick="javascript:popup('Column3', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'"
+>barra de título</a> da janela do <b>Windows Explorer</b> e <a id=a2 href="javascript:;" onclick="javascript:popup('Column57', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'"
+>arraste</a> a janela de forma que você possa ver o
+<a id=a3 href="javascript:;" onclick="javascript:popup('Column18', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'"
+>ícone</a> <b>Meu computador</b> em sua <a id=a4 href="javascript:;" onclick="javascript:popup('Column19', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'"
+>área de trabalho</a>.
+<br><a id=a5 id="tiplink" href="javascript:;" onClick="javascript:popup('Column20', window.event.x, window.event.y+65);" onmouseOver="tip.style.borderColor='#000099'" onmouseOut="tip.style.borderColor='white'" onfocus="tip.style.borderColor='#000099'" onblur="tip.style.borderColor='white'"><span id="tip" class=tip>
+Dica!</span></a>
+<p>
+<a id=a6 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">Mostre-me</span></a>
+%~%
+Para abrir uma segunda janela, <a id=a1 href="javascript:;" onclick="javascript:popup('Column76', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'"
+>clique duas vezes</a> no ícone <b>Meu computador</b> em sua área de trabalho.
+<p>
+<a id=a2 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">Mostre-me</span></a>
+%~%
+Para abrir uma terceira janela, clique duas vezes no ícone <b>Ambiente de rede</b> em sua área de trabalho.<br>
+<p>
+Observe que a janela aberta mais recentemente aparece na frente das outras janelas.
+<br><a id=a1 id="tiplink" href="javascript:;" onClick="javascript:popup('Column70', window.event.x, window.event.y+65);" onmouseOver="tip.style.borderColor='#000099'" onmouseOut="tip.style.borderColor='white'" onfocus="tip.style.borderColor='#000099'" onblur="tip.style.borderColor='white'"><span id="tip" class=tip>
+Dica!</span></a>
+<p>
+<a id=a2 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">Mostre-me</span></a>
+%~%
+Para exibir a janela <b>Meu computador</b> na frente das outras janelas, clique no botão <b>Meu computador</b>, na barra de tarefas.
+<br><a id=a1 id="tiplink" href="javascript:;" onClick="javascript:popup('Column71', window.event.x, window.event.y+65);" onmouseOver="tip.style.borderColor='#000099'" onmouseOut="tip.style.borderColor='white'" onfocus="tip.style.borderColor='#000099'" onblur="tip.style.borderColor='white'"><span id="tip" class=tip>
+Dica!</span></a>
+<p>
+<a id=a2 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">Mostre-me</span></a>
+%~%
+Retorne ao Windows Explorer clicando em seu respectivo botão (intitulado <b>Explorando - (C:)</b>) na
+barra de tarefas.
+<p>
+<a id=a1 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">Mostre-me</span></a>
+%~%
+Clique no botão <b>Ambiente de rede</b> da barra de tarefas para exibir a janela <b>Ambiente de rede</b> na frente das outras janelas.
+<br><a id=a1 id="tiplink" href="javascript:;" onClick="javascript:popup('Column22', window.event.x, window.event.y+65);" onmouseOver="tip.style.borderColor='#000099'" onmouseOut="tip.style.borderColor='white'" onfocus="tip.style.borderColor='#000099'" onblur="tip.style.borderColor='white'"><span id="tip" class=tip>
+Dica!</span></a>
+<p>
+<a id=a2 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">Mostre-me</span></a>
+%~%
+É possível utilizar os botões <b>Minimizar</b> e <b>Maximizar</b> para ocultar e exibir as janelas abertas.
+%~%
+Clique no botão <b>Minimizar</b> <img src="images/turminmz.gif"> na barra de título da janela 
+<b>Ambiente de rede</b> para <a id=a1 href="javascript:;" onclick="javascript:popup('Column23', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'"
+>minimizar</a> a janela.
+<br><a id=a2 id="tiplink" href="javascript:;" onClick="javascript:popup('Column72', window.event.x, window.event.y+65);" onmouseOver="tip.style.borderColor='#000099'" onmouseOut="tip.style.borderColor='white'" onfocus="tip.style.borderColor='#000099'" onblur="tip.style.borderColor='white'"><span id="tip" class=tip>
+Dica!</span></a>
+<p>
+<a id=a3 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">Mostre-me</span></a>
+%~%
+Clique no botão <b>Maximizar</b> <img src="images/TurMaxmz.gif"> na barra de título da
+janela do <b>Windows Explorer</b> (intitulada  <b>Explorando - (C:)</b>) para <a id=a1 href="javascript:;" onclick="javascript:popup('Column24', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'"
+>maximizar</a> a janela.
+<p>
+<a id=a2 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">Mostre-me</span></a>
+%~%
+Clique no botão <b>Restaurar</b> <img src="images/turrstor.gif"> na barra de título da janela do <b>Windows Explorer</b> (intitulada <b>Explorando - (C:)</b>) para que a janela volte ao tamanho anterior.
+<br><a id=a1 id="tiplink" href="javascript:;" onClick="javascript:popup('Column25', window.event.x, window.event.y+65);" onmouseOver="tip.style.borderColor='#000099'" onmouseOut="tip.style.borderColor='white'" onfocus="tip.style.borderColor='#000099'" onblur="tip.style.borderColor='white'"><span id="tip" class=tip>
+Dica!</span></a>
+<p>
+<a id=a2 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">Mostre-me</span></a>
+%~%
+Clique no botão <b>Fechar</b> <img src="images/stdclose.gif"> nas barras de título das janelas do
+<b>Windows Explorer</b> (intitulada <b>Explorando - (C:)</b>) e do <b>Meu computador</b>.
+<br><a id=a1 id="tiplink" href="javascript:;" onClick="javascript:popup('Column26', window.event.x, window.event.y+65);" onmouseOver="tip.style.borderColor='#000099'" onmouseOut="tip.style.borderColor='white'" onfocus="tip.style.borderColor='#000099'" onblur="tip.style.borderColor='white'"><span id="tip" class=tip>
+Dica!</span></a>
+<p>
+<a id=a2 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">Mostre-me</span></a>
+%~%
+Clique no botão <b>Ambiente de rede</b> na barra de tarefas para restaurá-lo e clique no botão <b>Fechar</b> 
+<img src="images/stdclose.gif"> na barra de título da janela <b>Ambiente de rede</b>.
+<p>
+Agora você sabe como gerenciar janelas abertas rápida e facilmente.
+<P>
+<a id=a1 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">Mostre-me</span></a>
+%

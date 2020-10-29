@@ -1,0 +1,89 @@
+%<!-- version 9.15.8 --><!-- lesson2.htm --> <!-- Exploring files and folders -->
+Nesta lição, você aprenderá a visualizar os arquivos e pastas armazenados em seu computador.
+Além disso, você aprenderá a utilizar o Windows para gerenciar seus arquivos e pastas.
+<P>
+<br>
+<p>
+Clique no botão <b>Avançar</b>, acima, para continuar.
+%~%
+Utilizando <b>Meu computador</b>, aprenda a criar e organizar
+<a id=a1 href="javascript:;" onclick="javascript:popup('Column62', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'">
+arquivos</a> e
+<a id=a2 href="javascript:;" onclick="javascript:popup('Column63', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'">
+pastas</a>.
+%~%
+<a id=a1 href="javascript:;" onclick="javascript:popup('Column76', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'">
+Clique duas vezes</a> no <a id=a2 href="javascript:;" onclick="javascript:popup('Column18', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'">
+ícone</a> <b>Meu computador</b> em sua área de trabalho.
+<p>
+A janela <b>Meu computador</b> mostra o conteúdo de seu computador.
+<br><a id=a3 id="tiplink" href="javascript:;" onClick="javascript:popup('Column67', window.event.x, window.event.y+65);" onmouseOver="tip.style.borderColor='#000099'" onmouseOut="tip.style.borderColor='white'" onfocus="tip.style.borderColor='#000099'" onblur="tip.style.borderColor='white'"><span id="tip" class=tip>
+Dica!</span></a>
+<p>
+<a id=a4 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">Mostre-me</span></a>
+%~%
+Clique duas vezes em <b>(C:)</b>, na janela <b>Meu computador</b> para visualizar o conteúdo de seu <a id=a1 href="javascript:;" onclick="javascript:popup('Column6', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'"
+>disco rígido</a>.
+<p>
+<a id=a2 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">Mostre-me</span></a>
+%~%
+Clique duas vezes na pasta <b>Meus documentos</b> para abri-la e visualizar todos os arquivos ou pastas que ela possa conter.
+<br><a id=a1 id="tiplink" href="javascript:;" onClick="javascript:popup('Column7', window.event.x, window.event.y+65);" onmouseOver="tip.style.borderColor='#000099'" onmouseOut="tip.style.borderColor='white'" onfocus="tip.style.borderColor='#000099'" onblur="tip.style.borderColor='white'"><span id="tip" class=tip>
+Dica!</span></a>
+<p>
+<a id=a2 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">Mostre-me</span></a>
+%~%
+Crie uma nova pasta clicando no menu <b>Arquivo</b> na janela <b>Meus documentos</b>, apontando
+para <b>Novo</b> e clicando em <b>Pasta</b>.
+<P>
+Sua pasta recém-criada, chamada <b>Nova pasta</b>, agora está na janela <b>Meus documentos</b>.
+<p>
+<a id=a1 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">Mostre-me</span></a>
+%~%
+Utilizando o (<a id=a1 href="javascript:;" onclick="javascript:popup('Column8', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'"
+>botão direito</a>) do mouse, clique no ícone <b>Nova pasta</b> e em <b>Renomear</b> no <a id=a2 href="javascript:;" onclick="javascript:popup('Column40', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'"
+>menu de atalho</a>. Digite <i>Pasta de exemplo</i> para substituir o nome <a id=a3 href="javascript:;" onclick="javascript:popup('Column13', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'"
+>padrão</a> da pasta, <b>Nova pasta</b>, e pressione ENTER.
+<p>
+<a id=a4 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">Mostre-me</span></a>
+%~%
+Você pode também criar um novo arquivo enquanto estiver em 'Meu computador'.
+<p>
+Para criar um novo arquivo, clique no menu <b>Arquivo</b> da janela <b>Meus documentos</b>,
+aponte para <b>Novo</b> e, em seguida, clique em <b>Documento do WordPad</b>.
+<br><a id=a1 id="tiplink" href="javascript:;" onClick="javascript:popup('Column81', window.event.x, window.event.y+65);" onmouseOver="tip.style.borderColor='#000099'" onmouseOut="tip.style.borderColor='white'" onfocus="tip.style.borderColor='#000099'" onblur="tip.style.borderColor='white'"><span id="tip" class=tip>
+Dica!</span></a>
+<p>
+<a id=a2 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">Mostre-me</span></a>
+%~%
+Clique com o botão direito do mouse no ícone <b>Novo documento do WordPad</b> e em <b>Renomear</b>.  Digite
+<i>Arquivo de exemplo</i> para substituir o nome padrão do documento e pressione
+ENTER.
+<p>
+Agora você criou um novo arquivo e uma nova pasta.
+<p>
+<a id=a1 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">Mostre-me</span></a>
+%~%
+Agora que você aprendeu a criar arquivos e pastas, aprenderá a organizar seu trabalho colocando os arquivos em pastas.
+%~%
+Clique e mantenha pressionado o botão esquerdo do mouse sobre o ícone <b>Arquivo de exemplo</b>, mova o ponteiro para o ícone <b>Pasta de exemplo</b> e solte o botão do mouse. Esse procedimento é chamado <a id=a1 href="javascript:;" onclick="javascript:popup('Column9', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'"
+>arrastar</a>.
+<p>
+<a id=a2 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">Mostre-me</span></a>
+%~%
+Seu arquivo agora está dentro de sua pasta.
+<p>
+Clique duas vezes no ícone <b>Pasta de exemplo</b> para visualizar o <b>Arquivo de exemplo</b>.
+<br><a id=a1 id="tiplink" href="javascript:;" onClick="javascript:popup('Column10', window.event.x, window.event.y+65);" onmouseOver="tip.style.borderColor='#000099'" onmouseOut="tip.style.borderColor='white'" onfocus="tip.style.borderColor='#000099'" onblur="tip.style.borderColor='white'"><span id="tip" class=tip>
+Dica!</span></a>
+<p>
+<a id=a2 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">Mostre-me</span></a>
+%~%
+Para fechar a janela <b>Pasta de exemplo</b>, clique no botão <b>Fechar</b> <img src="images/stdclose.gif"> da
+<a id=a1 href="javascript:;" onclick="javascript:popup('Column3', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'"
+>barra de título</a>.
+<P>
+Agora você sabe como utilizar o Windows para gerenciar seus arquivos e pastas.
+<p>
+<a id=a2 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">Mostre-me</span></a>
+%

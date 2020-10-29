@@ -1,0 +1,50 @@
+Infinst.exe
+
+O que o 'Infinst.Exe' faz:
+Ele adiciona um arquivo inf e os drivers associados a um compartilhamento de instalação do Windows 98. 
+Quando o Windows 98 é instalado em outros computadores do compartilhamento, os drivers adicionados serão 
+instalados como se fossem parte da instalação original do Windows 98. Estes drivers podem ser de qualquer tipo de hardware ou de clientes, protocolos ou serviços de rede adicionais. 
+Para instalar clientes, protocolos ou serviços de rede automaticamente, você precisará adicioná-los em seu arquivo 'msbatch.inf'. Isto pode ser feito através do Microsoft Batch 98.
+
+Como utilizar o Infinst:
+Observação: a ferramenta requer um compartilhamento de instalação do Windows 98 com permissão de gravação. 
+Ela não adicionará arquivos a um CD-ROM.
+1.  Inicie a ferramenta clicando duas vezes nela.
+2.  Insira o caminho e o nome do arquivo inf que você deseja adicionar à instalação do Windows 98.
+3.  Insira o caminho e nome do arquivo do 'Setup.exe' no compartilhamento de instalação do Windows 98 a que você deseja adicionar o inf.
+4.  Clique em 'Adicionar Inf'.
+
+Ao adicionar um inf, o Infinst faz o que se segue: 
+*  Ele copia o inf e os arquivos de driver necessários (listados no CopyFiles= sections do
+   inf) para o compartilhamento da instalação do Windows 98.  Se um arquivo catálogo (.cat) ou 
+   arquivo layout (.inf) for especificado no inf, o Infinst irá adicioná-lo também.
+*  Ele adiciona as entradas apropriadas para os seguintes arquivos: todos os arquivos inf anteriores com 
+   os identificadores PnP correspondentes, o 'Custom.inf' e o 'Infinst.log'. Os arquivos são alterados como exibido abaixo. 
+   Observação: O Infinst copia todos os arquivos listados no CopyFiles= section do inf para o 
+   compartilhamento de instalação; entretanto, o Infinst não processa automaticamente qualquer inf listado no 
+    CopyFiles= section.  Estes infs podem precisar ser adicionados manualmente para que a configuração seja concluída com êxito.
+
+Como funciona o 'Infinst.Exe':
+1.  Ele cria duas pastas no compartilhamento de instalação do Windows 98. Um (Oldinf) para 
+    infs que são substituídos por novos infs de mesmo nome e outro (Wininf) para armazenar 
+    os infs incluídos no Windows 98. 
+2.  Ele verifica as versões dos infs a serem adicionadas (somente infs com versão $CHICAGO$ 
+    devem ser adicionados, apesar de o 'Infinst.Exe' corrigir certas versões do $CHICAGO$ 
+    automaticamente).
+3.  Ele pesquisa o inf a ser adicionado aos seus identificadores PnP (identificadores Plug and Play).
+4.  Ele compara os identificadores PnP do novo inf encontrados com os identificadores PnP contidos em todos os 
+    infs na pasta 'Wininf'.
+5.  Se um inf com um identificador PnP correspondente for encontrado, o 'Infinst.Exe' irá copiá-lo para a pasta que contiver os arquivos de instalação do Windows 98, contanto que já não haja um arquivo inf com o mesmo nome nesta pasta. 
+6.  Ele compara os identificadores PnP encontrados do novo inf com os identificadores PnP contidos em todos os infs contidos no compartilhamento de instalação do Windows 98.
+7.  Se um inf com um identificador PnP correspondente for encontrado, os identificadores PnP serão retirados dos comentários. 
+8.  Ele copia o novo inf e todos os arquivos de driver necessários para a pasta onde residem os arquivos de instalação do Windows 98.
+9.  Ele edita o arquivo 'Custom.inf'.  Observação: Infs e drivers de classes de mídia de instalação (como uma rede) são adicionados a mais seções do 'Custom.inf' do que os de outras classes, pois podem ser necessários mais cedo na instalação.
+10. Ele é acrescentado ao 'Infinst.log'.
+
+O 'Infinst.Exe' pode adicionar infs para um ou múltiplos dispositivos PnP, suportados ou não pelo Windows 98.  Drivers adicionados pelo 'Infinst.Exe' devem instalar corretamente com o 
+Windows 98 configurado localmente ou em uma rede, independente de ser uma instalação inicial ou uma atualização.  Em outras palavras, você pode instalar todos os infs que quiser e executar a instalação da maneira que desejar.
+
+Limitações de criação:
+1.  Adicionar um inf com o mesmo nome de um inf incluído com o Windows 98 ou um adicionado anteriormente eliminará toda a funcionalidade do inf anterior, independente dos identificadores PnP.
+2.  Você precisa ter permissão de gravação no local dos arquivos de configuração do Windows 98 para que o 'Infinst.Exe' funcione.  (Por exemplo, ele não funcionará em um CD-ROM).
+3.  Adicionar um inf que contenha os mesmos identificadores PnP que um inf já incluído no compartilhamento de configuração resultará na eliminação dos identificadores PnP do inf já incluídos.

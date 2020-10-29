@@ -1,0 +1,1301 @@
+------------------------------------------
+  LEIAME do Microsoft Windows 98 para Instalação
+             Abril de 1998
+------------------------------------------
+
+      (c) Copyright Microsoft Corporation, 1998
+
+Este documento fornece informações complementares ou mais recentes 
+que completam a documentação do Microsoft Windows 98.
+
+CONTEÚDO
+
+DICAS RÁPIDAS PARA UMA INSTALAÇÃO SEM ERROS
+QUESTÕES GERAIS DE INSTALAÇÃO
+INSTALANDO O WINDOWS 98 A PARTIR DO MS-DOS 
+SOFTWARE ANTIVÍRUS 
+LOCALIZANDO E CORRIGINDO PROBLEMAS DE DISCO RÍGIDO DURANTE A INSTALAÇÃO 	(UTILIZANDO O SCANDISK)
+REMOVENDO O WINDOWS 98
+SE VOCÊ TIVER UMA UNIDADE COMPACTADA
+INSTALANDO O WINDOWS 98 EM UM SISTEMA EXECUTANDO O WINDOWS NT 
+INSTALANDO O WINDOWS 98 EM UM SISTEMA EXECUTANDO O OS/2
+MENSAGENS DE ERRO DE INSTALAÇÃO
+EDITANDO OS ARQUIVOS CONFIG.SYS E AUTOEXEC.BAT
+NOTAS DE HARDWARE
+GERENCIADORES DE MEMÓRIA
+PROGRAMAS DE CACHE DE DISCO
+DEFININDO UMA CONFIGURAÇÃO DE DUPLA INICIALIZAÇÃO COM O WINDOWS NT
+CRIANDO UMA PARTIÇÃO DE INICIALIZAÇÃO DO MS-DOS
+UTILIZANDO PROGRAMAS E DRIVERS RESIDENTES (TSR, TERMINATE-AND-STAY-	RESIDENT) 
+PROBLEMAS POSSÍVEIS DE INSTALAÇÃO CONHECIDOS
+
+
+DICAS RÁPIDAS PARA UMA INSTALAÇÃO SEM ERROS
+
+Desative todos os programas antivírus que estejam sendo executados em seu sistema. 
+Se esses utilitários continuarem sendo executados durante a Instalação, seu 
+sistema pode parar de responder. 
+
+OBSERVAÇÃO: Alguns sistemas têm recursos antivírus 
+internos. Se essa opção continuar ativada nas configurações do 
+BIOS/CMOS, talvez você receba um aviso sobre 
+"atividade de vírus" ou alterações de "Registro de inicialização mestre". 
+Você deve permitir que essas alterações façam efeito 
+para que a Instalação se complete com êxito. Consulte a documentação de seu 
+software antivírus para mais informações.
+
+Execute o 'ScanDisk' para verificar e corrigir problemas em seu(s) disco(s) rígido(s).
+
+Feche todos os programas que estejam sendo executados. Isso inclui a desativação 
+de qualquer protetor de tela, configurações de Advanced Power Management 
+e outros programas que podem fazer com que a Instalação pare 
+de responder. Para garantir uma nova atualização a partir do 
+Windows 95, pressione CTRL+ALT+DEL e "Finalizar tarefa" em 
+todos os programas que estejam sendo executados, com exceção do SYSTRAY e EXPLORER, 
+antes de executar a Instalação. Consulte "Executando uma inicialização nova" 
+para mais informações.
+
+QUESTÕES GERAIS DE INSTALAÇÃO
+Se você tiver o adaptador de vídeo Number Nine Imagine 128 
+ou o STB Velocity 128 3D AGP (Nvidia
+Riva 128), deverá executar a Instalação a partir do MS-DOS ou 
+alterar seu driver de vídeo para VGA.
+
+Versões de Atualização vs. Instalação completa do Windows 98. 
+Se você tiver a versão de atualização do Windows 98, 
+a Instalação tentará localizar um produto de atualização qualificado
+em seu sistema. Se a Instalação falhar na localização de 
+uma versão anterior do Windows, você será instruído a 
+inserir sua mídia anterior para análise de 
+compatibilidade. 
+
+Requisitos de espaço em disco para o Windows 98. 
+Devido aos vários fatores que entram no 
+cálculo da quantidade de espaço livre necessário para o 
+Windows 98, estas figuras são estimadas somente com base 
+na instalação típica do Windows 98.
+
+Atualização típica a partir do Windows 95: requer cerca de 
+   195 MB de espaço livre em disco, mas pode variar 
+   entre 120 MB e 295 MB, dependendo da configuração de seu
+   sistema e das opções selecionadas para a Instalação.
+Instalação completa do Windows 98 em uma unidade FAT16: requer
+   225 MB de espaço livre em disco, mas pode variar entre
+   165 MB e 355 MB, dependendo da configuração do sistema e
+   das opções selecionadas.
+Instalação completa do Windows 98 em uma unidade FAT32: requer
+   175 MB de espaço livre em disco, mas pode variar entre 
+   140 MB e 255 MB, dependendo da configuração do sistema e 
+   das opções selecionadas.
+
+Além disso, se estiver instalando o Windows 98 em uma unidade 
+diferente de C, a Instalação pode requerer até 25 MB de espaço 
+livre em disco na unidade C para o sistema e arquivos de log 
+criados durante a Instalação.
+
+Desinstalação: Se você deseja fazer backup 
+do Windows 95, pode escolher a opção 
+'Salvar seus arquivos de sistema' durante a Instalação. Isso 
+permitirá que você instale o Windows 98 no caso de 
+haver problemas. Entretanto, há certas situações em que 
+você não pode fazer isso:
+
+*  Sua instalação atual do Windows está em uma 
+   unidade compactada.
+*  Você está instalando em uma nova pasta ou configurando 
+   uma nova instalação sem uma versão anterior disponível.
+*  Você está executando uma versão do MS-DOS anterior 
+   à 5.0.
+
+CRIE UM NOVO DISCO DE INICIALIZAÇÃO! Como as alterações de 
+núcleos em modo real e modo protegido aceitam FAT32, 
+os discos de inicialização do Windows 98 
+não são compatíveis com versões anteriores do Windows. 
+Entretanto, ao configurar 
+Windows 98 pela primeira vez, certifique-se 
+de criar um novo disco de inicialização, MESMO QUE NÃO ESTEJA PLANEJANDO 
+UTILIZAR O FAT32.
+
+'Gerenciador de programas' do Windows 3.x.
+O 'Gerenciador de programas' não é mais aceito no Windows 98. 
+O 'Gerenciador de programas' (Progman.exe) foi mantido no sistema 
+com a finalidade de solucionar problemas, mas NÃO conterá 
+grupos. Além disso, se você estiver atualizando sobre 
+o Windows 95, seus arquivos.grp existentes serão removidos. 
+Esses arquivos são conhecidos por causarem alguns problemas durante a Instalação do 
+Windows 98. Se você estiver atualizando a partir do Windows 3.x, 
+os arquivos .grp antigos permanecerão no sistema e o 
+'Gerenciador de programas' ainda terá alguma funcionalidade. 
+Você deve fazer backup de seus arquivos progman.ini e *.grp 
+existentes antes de atualizar para o Windows 98 se pretender 
+usar o 'Gerenciador de programas'.
+
+INSTALANDO O WINDOWS 98 A PARTIR DO MS-DOS
+Se estiver iniciando com um disco rígido limpo ou novo, ou 
+se estiver tendo problemas na execução da Instalação da versão 
+anterior do Windows, você precisa executar a Instalação do 
+Windows 98 a partir do MS-DOS. Embora a instalação a partir do MS-DOS seja 
+normalmente o método mais lento de instalação, é 
+muitas vezes o mais seguro e deve ser utilizado quando outros tipos 
+de instalação falharem.
+
+Teclas de acesso de inicialização do MS-DOS:
+Há várias maneiras de inicializar seu sistema para um 
+prompt de comando do MS-DOS de forma segura. A maneira mais fácil é 
+utilizando estas teclas de acesso:
+
+* Windows 98
+Pressione a tecla CTRL enquanto seu computador estiver sendo inicializado. 
+Isso levará você diretamente para o 'Menu de inicialização' do 
+Windows 98 (a tecla F8 ainda funciona, mas não existe um 
+prompt "Iniciando o Windows 98", no Windows 98, por isso 
+é difícil saber exatamente quando pressioná-la).
+
+* Windows 95
+Pressione a tecla F8 no prompt "Iniciando o Windows 95".
+Isso levará você até o menu de inicialização do Windows 95.
+
+* MS-DOS 6.x
+Pressione a tecla F8 no prompt "Iniciando o MS-DOS". Isso 
+permitirá que você escolha manualmente os drivers para 
+carregar ou ignorar seus arquivos de sistema. 
+
+* Drivers de CD-ROM em modo real
+Você precisará de drivers de CD-ROM em modo real carregados para 
+poder acessar o CD do Windows 98. Se você executou a 
+Instalação do Windows 98 anteriormente e criou um disco de 
+inicialização, pode utilizar os drivers de CD-ROM incluídos nesse
+disco. Se não tiver um disco de inicialização, você 
+precisará executar o programa de instalação que acompanha 
+o hardware de CD-ROM.
+
+Depois que tiver acesso à unidade de CD-ROM, você poderá 
+alternar para a unidade contendo o CD do Windows 98 
+e digitar: SETUP. A Instalação deve continuar agora.
+
+Executando o Windows 95 no momento:
+Se estiver executando o Windows 95 no momento, talvez 
+já tenha uma parte dos drivers de CD-ROM carregada. 
+Se puder desligar para o modo MS-DOS e acessar 
+sua unidade de CD-ROM, tente o seguinte:
+
+* Reinicialize e pressione a tecla F8 em "Iniciando o Windows 95".
+* Escolha "Somente comando de prompt."
+* No prompt C:\, digite: 'DosStart.bat'.
+
+Agora você deve ter acesso à unidade de CD-ROM.
+
+Perda de acesso à unidade de CD-ROM durante a Instalação:
+Se você perder acesso ao CD-ROM durante a Instalação do 
+Windows 98, tente o seguinte:
+
+* Reinicialize e pressione a tecla F8 em "Iniciando o Windows 95," 
+  e, em seguida, escolha a opção 'Somente comando de prompt'. Se 
+
+  estiver executando o MS-DOS, inicialize diretamente para o prompt de comando.
+* Edite o arquivo 'Autoexec.bat' digitando: 'Edit Autoexec.bat'
+* Exclua o texto "Rem by Windows 98 Setup" na frente da 
+
+  linha que inclui a referência a 'Mscdex.exe'.
+* Saia de 'Editar' digitando ALT-F-X e salve o arquivo quando instruído.
+* Reinicialize. A Instalação deve continuar por conta própria ou 
+
+  você deve executá-la novamente, escolhendo 'Recuperação segura', 
+  se instruído.
+
+Executando a Instalação do Windows 98 a partir de seu disco rígido:
+Copiando todos os arquivos de Instalação para seu disco rígido e, 
+em seguida, instalando a partir de seu disco rígido, você pode eliminar 
+a maior parte dos problemas associados às questões de cópia de arquivo e disco 
+de E/S. Você pode carregar os drivers de CD-ROM e liberar 
+memória convencional para ajudar com erros de pouca memória 
+neste tipo de instalação. Para copiar os arquivos de Instalação localmente:
+
+A partir do Windows 95:
+* Libere um espaço de 120 MB no disco para adicionar 
+  às necessidades de Instalação. A Instalação normalmente 
+  requer 95 MB para uma atualização a partir do Windows 95.
+* Crie uma pasta temporária para armazenar os arquivos de Instalação 
+  nessa unidade.
+* Copie o conteúdo da pasta Win98 no 
+  CD do Windows 98 para a pasta temporária que você criou. 
+  Você deve também copiar as subpastas do Win98, mas isso não é 
+  essencial se tiver pouco espaço em disco.
+* Reinicialize. Pressione a tecla F8 em "Iniciando o Windows 95" e 
+  escolha 'Somente prompt do modo de segurança'.
+* Agora, alterne para a pasta temporária contendo os 
+  arquivos da Instalação do Windows 98 e digite: SETUP.
+
+A partir do MS-DOS:
+* Verifique se tem acesso à unidade de CD-ROM. Consulte 
+  as informações apresentadas anteriormente.
+* Libere um espaço de 120 MB no disco para adicionar 
+  às necessidades da Instalação. A Instalação normalmente 
+  requer 165 MB para  uma atualização a partir do Windows 95.
+* Crie uma pasta temporária na unidade com muito 
+  espaço livre para armazenar os arquivos de Instalação. Para criar uma 
+  pasta temporária, alterne para essa letra de unidade e digite: 'MD Win98tmp'.
+* Agora, alterne para a unidade de CD-ROM do Windows 98 e para a 
+  pasta 'Win98' digitando: <drive letter>\Win98.
+* Em seguida, copie o arquivo de Instalação do Windows 98 para a pasta 
+  temporária que você criou digitando: 
+  Copy *.* <drive letter>\Win98tmp
+* Após copiar todos os arquivos, reinicie seu sistema 
+
+  e execute uma inicialização nova ignorando os arquivos de inicialização. 
+  Consulte "Executando uma inicialização nova" para mais 
+  informações.
+* Alterne para a pasta temporária onde você acabou de copiar os arquivos 
+  e inicie a Instalação digitando: SETUP.
+
+Executando uma nova inicialização:
+Drivers de dispositivos de outros fornecedores, utilitários ou outros programas 
+podem impedir uma instalação com êxito. Uma nova inicialização de seu 
+sistema pode corrigir muitos desses problemas. Você pode executar 
+uma nova inicialização:
+
+Utilizando um disquete para iniciar seu computador:
+* Inicialize a partir de um disco de inicialização do Windows 98. Esse disco permite 
+  a opção de carregar com ou sem drivers de CD-ROM 
+  e é um ambiente novo para executar a Instalação.
+* Inicialize a partir de um disco de inicialização anterior do Windows 95 ou MS-DOS. 
+  Isso não dá acesso aos drivers de CD-ROM, mas 
+  pode ser utilizado se você copiar os arquivos de Instalação para seu disco rígido 
+  conforme descrito acima.
+
+Somente prompt do modo de segurança do Windows 95:
+* Inicialize seu sistema e pressione a tecla F8 no prompt "Iniciando 
+  o Windows 95".
+* Escolha 'Somente prompt de comando em modo seguro'. Isso também 
+  não fornece acesso à unidade de CD-ROM, mas pode ser 
+  utilizado se os arquivos de Instalação foram copiados para seu disco rígido 
+  conforme descrito acima.
+
+Inicialização do Windows 98 passo a passo:
+Se quiser carregar alguns drivers manualmente, faça isto:
+* Inicialize seu sistema e pressione a tecla F8 no prompt "Iniciando 
+  o Windows 95".
+* Escolha a opção 'Passo a passo'.
+* Agora, diga somente SIM para dispositivos que deseje carregar. Na 
+  maior parte dos casos, você deve dizer SIM para 'Himem.sys'
+
+Nova inicialização do Windows 95/MS-DOS com mais memória:
+Você pode aumentar a quantidade de memória disponível fazendo 
+as seguintes modificações em seu arquivo 'Config.sys'. Você 
+pode também fazer essas alterações em seu disco de inicialização.
+(OBSERVAÇÃO: Esses são os únicos drivers que você deve carregar.)
+
+Device=Himem.sys
+Device=EMM386.exe noems
+Dos=high,umb
+Device=drvspace.sys /move 
+	(Opcional - somente se estiver usando o sistema de compactação 'DriveSpace')
+
+Criando um disco de inicialização do Windows 98:
+Se ocorrer uma falha na Instalação do Windows 98 depois que a maioria dos arquivos 
+foi copiada para seu disco rígido, você poderá criar um disco de inicialização 
+por meio do utilitário 'bootdisk.bat'.
+* Inicialize para um prompt do MS-DOS.
+* Altere pastas para a pasta 'Windows\command'.
+* Execute o programa Bootdisk.bat, que solicitará 
+  a criação de um disco de inicialização.
+
+Esse disco contém drivers genéricos de CD-ROM em modo real que 
+podem ser úteis quando a Instalação for executada novamente.
+
+SOFTWARE ANTIVÍRUS 
+Certifique-se de que não esteja sendo executado um programa antivírus 
+enquanto estiver configurando o Windows 98. Se o programa 
+for residente, remova todas as referências a ele nos 
+arquivos 'Autoexec.bat', 'Config.sys' e 'Win.ini'.
+
+Se seu BIOS tiver proteção contra vírus interna, desative-a 
+antes de executar a Instalação. Para desativá-la, você deve usar o 
+programa de instalação CMOS para seu BIOS. Para mais informações, 
+consulte a documentação de seu computador.
+
+Consulte as observações para programas específicos de antivírus abaixo.
+
+CMOS/BIOS com proteção contra vírus:
+Alguns sistemas vêm com proteção interna contra vírus. 
+Se deixá-la ativada, poderá receber as mensagens 
+"Atividade de vírus" ou "Registro de inicialização mestre alterado". 
+Você deve permitir que essas alterações façam efeito. Se 
+optar por restaurar as configurações anteriores, seu sistema 
+pode não inicializar.
+
+Norton AntiVirus:
+Se o Norton AntiVirus estiver instalado, talvez você veja o 
+seguinte aviso no final do procedimento inicial de cópia de 
+arquivo: 
+
+	O aplicativo Wininst0.400\Suwin.exe está 
+	tentando atualizar o Registro de inicialização mestre". 
+
+Escolha 'Continuar (C)' para que a Instalação seja concluída 
+corretamente. Se você não permitir que essas alterações façam efeito, 
+a Instalação poderá parar de responder.
+
+Dr. Solomon's AntiVirus:
+Se estiver executando o utilitário Dr. Solomon's AntiVirus, você 
+poderá receber uma tela azul com um erro de exceção fatal em Ios.vxd 
+ao tentar criar um disco de inicialização durante a Instalação. Você 
+deve clicar em 'Cancelar' na tela do disco de inicialização quando a 
+barra de progresso estiver em 20%. Isso permitirá que a Instalação continue. 
+Procure uma atualização para o software Dr. Solomon's AntiVirus no 
+site da Web para resolver essa questão.
+
+LOCALIZANDO E CORRIGINDO PROBLEMAS DE DISCO RÍGIDO DURANTE A INSTALAÇÃO (UTILIZANDO O SCANDISK)
+Localizando problemas durante a Instalação do Windows 98
+A versão do 'Scandisk' executada durante a Instalação do Windows 98 verifica somente 
+se existem erros. Ela não os corrige. Se houver 
+problemas, a Instalação não poderá continuar até que eles sejam corrigidos. 
+Para corrigir esses problemas, encerre a Instalação e execute o 'ScanDisk' a partir do 
+Windows 95 ou do MS-DOS. Consulte mais informações abaixo 
+sobre como utilizar o 'ScanDisk' para resolver essas questões.
+
+Corrigindo problemas de disco rígido:
+Se durante a Instalação você receber uma mensagem informando que 
+o 'ScanDisk' deve ser executado para corrigir problemas em seu disco rígido, 
+siga estas etapas para corrigir os problemas.
+
+Se estiver configurando o Windows 98 sobre o MS-DOS ou uma 
+versão anterior do Windows, como o Windows 3.1:
+
+1. Saia do Windows.
+
+2. Se estiver configurando a partir de disquetes, insira o Disco de Instalação 1 
+   na unidade de disquete e, em seguida, digite 
+   o seguinte no prompt de comando:
+
+	a:scandisk.exe /all
+
+   onde "a" é a unidade que contém o disco do Windows.
+
+3.  Se estiver configurando a partir de um CD, insira o CD e, 
+   em seguida, digite o seguinte:
+
+        d:\win98\scandisk.exe /all
+
+   onde "d" é a unidade que contém o CD.
+
+4.  Siga as instruções na tela e corrija qualquer 
+   problema localizado pelo 'ScanDisk'.
+
+5. Inicie o Windows e, em seguida, execute a Instalação novamente.
+
+Se estiver configurando o Windows 98 sobre uma versão anterior do Windows 
+98 ou Windows 95:
+
+1. Saia da Instalação.
+
+2.  No menu 'Iniciar', aponte para 'Programas', para 
+   'Acessórios', para 'Ferramentas de sistema' e, em seguida, 
+clique em 'ScanDisk'.
+
+3.  Verifique se existem erros na unidade de seu disco rígido ou em outras 
+   unidades host, e repare os problemas encontrados. Certifique-se de 
+   efetuar um exame de superfície completo em todas as suas unidades 
+   para que a Instalação não encontre mais erros.
+
+Problemas na execução do 'ScanDisk':
+Há certas situações em que o 'ScanDisk' talvez não consiga 
+corrigir um problema ou está produzindo erros. 
+
+Se estiver executando o sistema de compactação 'DriveSpace 3':
+Se o sistema de compactação Drvspace3 estiver instalado em seu sistema, 
+você pode estar com pouca memória on com memória convencional. 
+Para liberar mais memória, você deve tentar o seguinte:
+
+* Se estiver executando o MS-DOS 6.x, execute o Memmaker.exe 
+   para liberar memória suficiente para o 'ScanDisk' ser completado. 
+* Consulte "INSTALANDO A PARTIR DO MS-DOS" para saber como executar
+  uma nova inicialização com mais memória.
+* Verifique suas unidades ao executar o Windows 95.
+
+Se ainda não tiver memória suficiente ou se tiver 
+outros problemas enquanto a Instalação estiver executando o 'ScanDisk', você poderá 
+ignorar o 'ScanDisk' na Instalação executando-a com a opção /IS. 
+Para isso, digite o seguinte comando:
+
+	setup /is
+
+OBSERVAÇÃO: Não é recomendável ignorar o 'ScanDisk' durante a Instalação. 
+Se fizer isso, poderá ter problemas com seu disco rígido 
+que impedirão que o Windows 98 seja instalado ou executado 
+corretamente.  
+
+
+REMOVENDO O WINDOWS 98
+Salvando arquivos de sistema:
+A Instalação do Windows 98 oferece aos usuários a opção de fazer backup 
+das versões anteriores do Windows no caso de o Windows 98 
+precisar ser desinstalado posteriormente. Para ativar essa opção, 
+você deve selecionar a opção 'Salvar seus arquivos de sistema', quando 
+instruído, durante a Instalação. Em seguida, a Instalação criará os arquivos ocultos necessários para a 
+desinstalação do Windows 98:
+  * Winundo.dat
+  * Winundo.ini
+  * Winlfn.ini
+
+OBSERVAÇÃO: A exclusão desses arquivos impedirá que o Windows 98 
+seja desinstalado.
+
+Se uma das situações a seguir se aplicarem, você não conseguirá 
+fazer a Desinstalação do Windows 98 e a Instalação não solicitará 
+'Salvar arquivos de sistema':
+
+* A instalação atual do Windows está em uma unidade 
+   compactada.
+* Você está instalando em uma nova pasta ou fazendo uma nova 
+  instalação sem uma versão anterior disponível.
+* Você está executando uma versão do MS-DOS anterior à 5.0.
+
+OBSERVAÇÃO: Os arquivos necessários para remover o Windows 98 devem 
+ser gravados em uma unidade de disco rígido local. Você não pode salvá-los 
+em uma unidade de rede ou em um disquete. Enquanto duas 
+ou mais unidades tiverem espaço disponível adequado, você poderá 
+selecionar a unidade na qual salvar as informações de
+desinstalação.
+
+Existem também várias ações que podem impedir que o 
+Windows 98 seja desinstalado depois que sua Instalação 
+estiver concluída. O que vem a seguir é uma lista de itens 
+que farão com que as informações de desinstalação sejam removidas 
+de seu sistema:
+
+* Convertendo seu disco rígido para FAT32
+* Compactando seu disco rígido com o 'DriveSpace'
+
+OBSERVAÇÃO: Esses utilitários devem avisá-lo, antes de 
+executarem a conversão ou compactação, de que as informações 
+de Desinstalação serão perdidas. 
+
+Removendo o Windows 98:
+Para remover o Windows 98 e restaurar completamente seu sistema 
+para as versões anteriores do MS-DOS e do Windows 3.x ou do 
+Windows 95:
+
+1. Clique em 'Iniciar' e, em seguida, aponte para 'Configurações' e clique em 'Painel de 
+   controle'.
+2. Clique duas vezes em 'Adicionar ou remover programas'.
+3. Na guia 'Instalar/desinstalar', clique em 'Desinstalar o Windows 98' 
+   e, em seguida, clique em 'Adicionar ou remover'.
+
+Ou, se estiver tendo problemas para iniciar o Windows 98, 
+use seu disco de inicialização para iniciar seu computador e, em seguida, 
+execute UNINSTAL a partir do disco de inicialização.
+
+OBSERVAÇÃO: UNINSTAL precisa fechar o Windows 98. Se houver 
+um problema em relação a isso em seu computador, reinicie-o e 
+pressione a tecla F8 quando vir a mensagem "Iniciando o 
+Windows 98." Em seguida, clique em 'Somente prompt de comando' e execute 
+UNINSTAL a partir do prompt de comando.
+
+Se a Instalação não for concluída com êxito e você quiser 
+restaurar suas versões anteriores do MS-DOS e do Windows 3.x 
+ou do Windows 95, poderá executar UNINSTAL a partir da 
+pasta \Windows\Command em seu disco rígido ou a partir do 
+disco de inicialização.
+
+Se você salvou seus arquivos em uma unidade diferente de C, pode 
+usar a opção /w para especificar a unidade onde os 
+arquivos estão localizados. Por exemplo:
+
+        uninstal /w e:
+
+onde e: é a unidade contendo seus arquivos de sistema 
+anteriores.
+
+Se o Windows 98 estiver sendo executado e você quiser remover os 
+arquivos de desinstalação para liberar espaço em disco, siga estas etapas:
+
+1. Clique em 'Iniciar', aponte para 'Configurações' e, em seguida, clique em 
+   'Painel de controle' .
+2. Clique duas vezes em 'Adicionar ou remover programas'.
+3. Na guia 'Instalar/desinstalar', clique no sistema de arquivos Old 
+Windows 3.x/MS-DOS e, em seguida, clique em
+    'Remover'. Ou clique em 'Remover os arquivos de sistema do Windows 95' 
+   (Informações de Desinstalação).
+
+Você não pode mais remover o Windows 98.
+
+SE VOCÊ TIVER UMA UNIDADE COMPACTADA
+Se você compactou seu disco rígido, poderá 
+receber uma mensagem de falta de espaço suficiente na 
+partição host da unidade compactada. Talvez a Instalação 
+precise copiar alguns arquivos para sua unidade de inicialização, o host 
+para sua unidade de inicialização ou o host para sua unidade do Windows. 
+Se receber essa mensagem, libere algum espaço na 
+unidade especificada e, em seguida, execute a Instalação novamente. Tente uma das 
+seguintes opções:
+
+* Configure o Windows em uma unidade descompactada, se possível.
+
+* Exclua os arquivos desnecessários em sua partição host.
+
+* Se estiver executando o Windows 3.1 e tiver um arquivo de 
+   permuta permanente, tente torná-lo menor. No 'Painel de controle', 
+   clique duas vezes em '386 avançado' e, 
+  em seguida, clique em 'Memória 
+   virtual'. Modifique o tamanho de seu arquivo de permuta.
+
+* Use seu software de compactação de disco para liberar algum espaço 
+   na unidade host para a unidade compactada. Se você 
+   compactou sua unidade utilizando o 'DriveSpace' ou o 'DoubleSpace', 
+   siga estas etapas:
+
+  1. Encerre o Windows.
+  2. Execute o Drvspace.exe ou Dblspace.exe.
+  3. Selecione a unidade compactada em cujo host deseja 
+    liberar espaço.
+  4. No menu 'Unidade', clique em 'Alterar tamanho' e ajuste o 
+    espaço livre conforme necessário.
+
+  Se você compactou sua unidade utilizando o 'Drivespace' do Windows 95 
+
+  ou o Drvspace3 a partir do Plus!, siga estas etapas:
+
+  1. Inicie o Windows.
+  2. Selecione 'Drivespace' em 
+     Iniciar/Programas/Acessórios/Ferramentas de sistema/Drivespace.
+  3. Selecione a unidade compactada em cujo host deseja liberar espaço.
+4.  No menu 'Unidade', clique em 'Alterar tamanho' e, em seguida, ajuste 
+     o espaço livre conforme necessário.
+
+Se você utilizou outro software de compactação, como o Stacker, 
+consulte a documentação de seu software.
+
+OBSERVAÇÃO: Talvez você note uma discrepância na quantidade de espaço 
+livre relatada pela Instalação e na quantidade de espaço que você acredita 
+estar disponível em sua unidade host. O Windows utiliza algum espaço 
+para criar um arquivo de permuta. Talvez esse espaço 
+não pareça estar alocado quando o Windows não estiver sendo executado. 
+
+OBSERVAÇÃO: Se você criar um disco de inicialização durante a Instalação, 
+certifique-se de que não esteja utilizando um disco compactado para o disco de inicialização.
+
+INSTALANDO O WINDOWS 98 EM UM SISTEMA EXECUTANDO O WINDOWS NT 
+Você não pode instalar o Windows 98 sobre uma versão do 
+Windows NT, mas as versões podem coexistir em um só 
+sistema. Entretanto, por razões de compatibilidade, é 
+recomendável que você instale cada uma em um disc
+rígido ou partição separado. Se o Windows NT já estiver instalado, 
+a Instalação do Windows 98 será adicionada ao menu de inicialização 
+do Windows NT para permitir ao usuário uma multi-inicialização entre o 
+Windows 98 e o Windows NT.
+
+Se você não puder mais inicializar o Windows NT, deverá inicializá-lo 
+a partir dos discos de recuperação do programa e escolher a opção 
+'Reparar' para restaurar os arquivos de inicialização do Windows NT.
+
+Ao instalar o Windows 98 em um sistema com unidades 
+criadas com o Windows NT, talvez você receba a seguinte mensagem de erro:
+
+"A Instalação detectou que seu disco rígido tem uma partição FAT 
+de cluster de 64 K . Como o 'ScanDisk' não funciona em discos 
+com esse tamanho de cluster, a Instalação não pode continuar. "Para concluir 
+a Instalação, você deve fazer a repartição de seu disco rígido, formatar a
+partição com um sistema de arquivos FAT que tenha um tamanho de cluster 
+igual a 32 K ou menos, e, em seguida, reiniciar a Instalação."
+
+A execução da Instalação com o parâmetro "/is" (por exemplo, Setup /is) 
+ignorará o 'ScanDisk' e evitará esse problema.
+
+
+INSTALANDO O WINDOWS 98 EM UM SISTEMA EXECUTANDO O OS/2
+
+A Instalação não será executada em OS/2. Você precisa iniciar o MS-DOS 
+e executar a Instalação a partir do prompt do MS-DOS.
+
+OBSERVAÇÃO: Se você estiver atualizando sobre o OS/2 em uma partição HPFS, 
+deverá ter seu disco 1 do OS/2 disponível durante a Instalação.
+
+Se você iniciar o MS-DOS a partir de um disquete e, em seguida, executar 
+a Instalação, não poderá mais iniciar o OS/2 depois que o 
+Windows 98 estiver instalado. Você precisará excluir os 
+arquivos 'Autoexec.bat' e 'Config.sys' que o OS/2 utiliza antes de 
+executar a Instalação do Windows 98.
+
+Se quiser remover o OS/2 de seu computador depois de 
+instalar o Windows 98:
+
+1. Faça backup dos arquivos de dados que deseja manter para uma 
+   unidade de disquete ou rede.
+2. Exclua os arquivos em cada uma de suas pastas e 
+   subpastas de OS/2 e, em seguida, exclua as pastas de OS/2.
+3. Em 'Meu computador' ou 'Windows Explorer', clique em 'Visualizar', em 
+   'Opções', em 'Mostrar todos os arquivos'. Em seguida, exclua 
+   estes arquivos OS/2:
+
+	Ea data.sf
+	OS2ldr.msg
+	OS2krnl
+	OS2boot
+	Wp data.sf
+
+MENSAGENS DE ERRO NA INSTALAÇÃO
+Esta seção lista as mensagens específicas que poderão ser 
+encontradas durante a Instalação e fornece informações sobre 
+o que fazer em seguida.
+
+Mensagem "Versão anterior do Setupx.dll":
+A Instalação detecta que uma versão anterior do SetupX.dll ou 
+NetDi.dll está em uso. Isso pode acontecer porque existem aplicativos 
+abertos em seu computador. Se quiser que a Instalação 
+substitua o arquivo existente e automaticamente reinicie 
+seu sistema, clique em 'OK'. Ou, para manter sua versão existente 
+de SetupX.dll e NetDi.dll, clique em 'Cancelar' para encerrar a Instalação, 
+feche os aplicativos abertos e, em seguida, execute a Instalação novamente.
+
+Alguns programas são conhecidos por causar esse erro:
+
+* "In Control Tools" da Diamond 
+* Drivers de placas de som da Ensonics AudioPCI
+* Drivers de placas de som da Aztech 
+* Utilitários de configuração da Hayes Modem
+* Alguns utilitários de sistema de impressão do Windows 
+  (série Canon BJ)
+
+Se a Instalação do Windows 98 ainda apresentar esse erro após a 
+reinicialização, você deverá executar a Instalação a partir do prompt de comando 
+do MS-DOS. Consulte "INSTALANDO O WINDOWS 98 A PARTIR DO MS-DOS" para mais 
+informações.
+
+Mensagem SU0018
+"A Instalação não pode criar arquivos em sua unidade de inicialização e 
+não pode configurar o Windows 98. Talvez existam arquivos demais 
+no diretório raiz de sua unidade de inicialização ou a letra de sua 
+unidade de inicialização tenha sido mapeada novamente."
+
+A pasta raiz de uma unidade contém no máximo 512 entradas 
+(arquivos ou pastas). Esta mensagem indica que a Instalação 
+detectou excesso de entradas de pasta na pasta raiz de seu computador e não pode criar os 
+arquivos necessários para configurar o Windows 98. Mova ou exclua 
+alguns arquivos da pasta raiz de sua unidade e, 
+em seguida, execute a Instalação novamente.
+
+Essa mensagem de erro pode também aparecer se a letra de sua unidade 
+de inicialização foi mapeada novamente. Várias situações podem 
+causar isso:
+* Você mapeou uma unidade de rede para C. Se esse for o 
+  caso, mapeie novamente a unidade de rede.
+* Você tem uma instrução LastDrive=C: em seu arquivo 'Config.sys'. 
+  Remova a instrução LastDrive ou defina-a para outra unidade.
+* Uma partição de outros fornecedores ou um programa gerenciador de inicialização 
+  mapeou a unidade novamente. Consulte a documentação do programa. 
+  Talvez você precise desinstalar o programa antes de instalar o 
+  Windows 98.
+
+Mensagem "Erro de instalação irrecuperável"
+"Erro de instalação irrecuperável. Não é possível continuar a Instalação nesta 
+configuração de sistema. Clique em 'OK' para encerrar a Instalação." Este erro 
+pode ter sido causado por várias condições. Consulte "Observações gerais de instalação" e 
+"INSTALANDO O WINDOWS 98 A PARTIR DO MS-DOS" para mais informações.
+
+Mensagens de erro de nomes extensos de arquivo
+Se aparecer a mensagem "A Instalação detectou que o 
+programa, Nomes extensos de arquivo, foi instalado nesta pasta. 
+A Instalação não pode continuar.", encerre a Instalação e, remova Nomes 
+extensos de arquivo de seu computador utilizando o recurso 'Desinstalar' 
+em 'Nomes extensos de arquivo'. Consulte "Exibir software" para mais informações.
+
+Mensagens de memória insuficiente
+Se você receber uma mensagem "Sem memória", poderá 
+aumentar a memória convencional observando as TSRs 
+e carregando drivers de dispositivos para a área de memória superior. 
+Para informações sobre como executar essas etapas, consulte 
+Microsoft Knowledge Base Article Q134399, "How to Increase 
+Conventional Memory for MS-DOS-Based Programs" em 
+http://www.microsoft.com/kb/articles/q134/3/99.htm
+
+Mensagens de espaço em disco insuficiente
+Você pode recuperar espaço em disco concluindo uma das 
+seguintes etapas:
+
+* Clique com o botão direito em 'Lixeira' e, em seguida, clique em 
+'Esvaziar lixeira'.
+
+* Exclua o conteúdo da pasta de cache do navegador da Internet.
+
+* Exclua os arquivos com extensão .bak e .tmp.
+
+* Exclua pastas de programa não utilizadas (certifique-se de fazer backup 
+dos dados antes).
+
+* Exclua a pasta antiga do MS-DOS, a não ser que pretenda 
+  configurar o computador para executar tanto o Windows 98 quanto o 
+  MS-DOS. (Primeiro certifique-se de que tenha um disco de inicialização 
+  que aceite acesso à unidade de CD-ROM.)
+
+* Exclua o arquivo oculto 'Winundo.dat' da instalação 
+  anterior do Windows 95.
+
+* Exclua a pasta antiga do Windows 3.1, a menos que pretenda 
+  configurar seu computador para executar tanto o Windows 3.1 
+  quanto o Windows 98.
+
+A Instalação não pode salvar no diretório temporário
+Esta mensagem pode aparecer em conseqüência de espaço em disco 
+insuficiente para a pasta temporária. Se houver espaço 
+disponível em outra unidade, use a seguinte linha de 
+comando para alterar o local da pasta temporária:
+
+	Setup /T:<drive letter>:\TEMP
+
+Se você não tiver espaço disponível em outra unidade, 
+libere algum espaço em disco e, em seguida, execute a Instalação novamente. Consulte 
+a seção "Mensagens de espaço insuficiente em disco" 
+para arquivos que podem ser excluídos.
+
+Mensagens de erro de arquivos CAB
+Erros em arquivos CAB são mais freqüentemente causados por um ou 
+mais dos seguintes fatores: vírus, pouca memória convencional, 
+mídia defeituosa ou hardware, especialmente unidades de CD-ROM. 
+
+Se você já criou um disco de inicialização, encerre a Instalação, 
+desligue seu computador, insira o disco de inicialização e 
+reinicie o computador. Essa ação cria um 
+ambiente controlado a partir do qual deve ser executada a Instalação. Em seguida, 
+execute a Instalação a partir do prompt de comando do MS-DOS.
+
+Para recuperar a partir de mensagens de erro de arquivo CAB defeituoso, tente 
+copiar os arquivos de Instalação para seu disco rígido e execute a 
+Instalação a partir de seu disco rígido utilizando estas etapas:
+
+1. Você precisa de 200 MB a mais livres em seu disco rígido 
+   e uma pasta temporária para armazenar arquivos.
+2. Inicialize o disco de inicialização do Windows 98 e escolha 
+   a opção para carregar seus drivers de CD-ROM. Se não 
+   tiver acesso à unidade de CD-ROM ao 
+   inicializar o disco de inicialização do Windows 98, 
+   carregue os drivers que acompanham a unidade de CD-ROM.
+3. Altere as unidades para a letra da unidade de CD-ROM indicada pelo 
+   prompt MSCD001 na tela e alterne para a 
+   pasta Win98. Digite: 'Copiar' *.* <unidade de destino e a pasta temporária criada>
+4. Altere para essa pasta e execute a Instalação escolhendo 'Recuperação 
+   segura' se instruído.
+
+Consulte "INSTALANDO A PARTIR DO MS-DOS" para mais informações.
+
+Se tiver o Multimedia Cloaking e estiver instalando o 
+Windows 98 a partir de disquetes, a Instalação poderá não ser 
+executada com êxito. Se aparecerem mensagens informando que a Instalação não 
+é capaz de ler arquivos .cab, siga estas etapas:
+
+1. Remova a linha que faz referência a 'Cacheclk.exe' de 
+   seus arquivos 'Config.sys' e 'Autoexec.bat'.
+2. Reinicie seu computador.
+3. Execute a Instalação novamente.
+
+Mensagem SU0010, SU0012, SU0015 ou SU0016
+Se receber uma destas mensagens durante a Instalação, 
+consulte "Instalando o Windows 98 em um sistema 
+executando o Windows NT" e "Instalando o 
+Windows 98 em um sistema executando o OS/2" para mais informações.
+
+Mensagem SU0011
+Se seu disco rígido for protegido por senha, a Instalação não será 
+concluída com êxito. Você deve primeiro remover a 
+proteção por senha. Para mais informações, consulte a documentação 
+de seu computador.
+
+Mensagem SU0013
+Para configurar o Windows 98, sua unidade de inicialização deve ser 
+uma partição de inicialização MS-DOS. Se sua unidade de inicialização estiver 
+formatada como HPFS ou NTFS, você deve criar uma partição de inicialização MS-DOS 
+antes de executar a Instalação. Para mais 
+informações sobre como criar uma partição de inicialização MS-DOS, 
+consulte a documentação de seu computador.
+
+Você pode receber também esta mensagem de erro se tiver software de 
+partição de outros fornecedores como unidade EZ ou Gerenciador de disco 
+instalado. Se for esse o caso, reinicialize seu sistema e execute a Instalação 
+a partir de um prompt de comando do MS-DOS. Para mais informações, 
+consulte "Executando a Instalação a partir do MS-DOS."
+
+Mensagens de modo padrão
+Se você receber uma das seguintes mensagens de erro, remova 
+qualquer gerenciador de memória (como EMM386.exe, QEMM ou 386Max) 
+de seu arquivo 'Config.sys' e execute a Instalação novamente.
+
+	Modo padrão: Retorno de DPMI inválido.
+	Modo padrão: Falha em MS-DOS Extender.
+	Modo padrão: Falha grave no MS-DOS Extender.
+	Modo padrão: Pilha desconhecida no dispatcher da falha.
+	Modo padrão: Estouro de pilha.
+
+OBSERVAÇÃO: Se ainda tiver problemas, adicione EMM386.EXE de volta 
+a seu arquivo 'Config.sys' e exclua todos os intervalos. Por 
+exemplo,
+
+	dispositivo=c:\windows\emm386.exe x=A000-FFFF
+
+Se você receber essas mensagens ou se seu computador parar de 
+responder durante a Instalação, ative o buffer duplo no 
+SmartDrive. Várias unidades de disco rígido SCSI e algumas unidades ESDI 
+requerem buffer duplo.
+
+Para ativar o buffer duplo, adicione a seguinte linha 
+no início do arquivo 'Config.sys':
+
+	dispositivo=c:\windows\smartdrv.exe /double_buffer+
+
+onde "c:\windows" é o caminho para sua pasta do Windows.
+
+Mensagem "A Instalação não pôde fazer backup de seus arquivos de sistema"
+Se você receber essa mensagem de erro enquanto a Instalação estiver salvando 
+seus arquivos de sistema, talvez não haja espaço em disco suficiente
+particularmente nos discos compactados. 
+Libere espaço na unidade 
+onde está salvando seus arquivos de 
+sistema (a unidade 
+padrão é C) removendo arquivos desnecessários.
+
+A desinstalação pode requerer até 75 MB em muitos sistemas. Se 
+a Instalação não oferecer a opção de salvar seus
+arquivos de sistema, talvez você fique 
+com muito pouco espaço livre em disco.
+
+"Não é possível continuar nesta configuração de sistema"
+Se receber essa mensagem, talvez você tenha uma
+partição de disco mais antiga e 
+incompatível. Antes de executar a Instalação, 
+será preciso fazer backup de seus 
+dados e, em seguida, fazer a repartição 
+de seu disco.
+
+Mensagem SU0167
+Existe um arquivo ou pasta chamado 'Área de trabalho' em seu computador. 
+Renomeie ou mova sua pasta 'Área de trabalho' atual e, em seguida, 
+execute a Instalação novamente.
+
+Mensagem SU0410
+A Instalação não pode abrir um arquivo necessário, possivelmente porque o 
+arquivo está faltando ou está danificado, ou porque seu computador 
+não tem memória suficiente. 
+
+Se você já tiver criado um disco de inicialização, encerre a Instalação, 
+desligue seu computador, insira o disco de inicialização e 
+reinicie seu computador. Em seguida, execute a Instalação a partir do 
+prompt de comando do MS-DOS.
+
+Mensagens "Não é possível copiar arquivos"
+Tente ignorar o arquivo; ele pode não ser essencial. Se a Instalação 
+não for concluída com êxito ou o Windows 98 não for 
+executado, encerre a Instalação, desligue seu computador, insira o 
+disco de inicialização na unidade de disquete e reinicie seu
+computador. Em seguida, execute a Instalação a partir do 
+prompt de comando do MS-DOS.
+
+Mensagens SU99xxxx
+SU99 é um prefixo adicionado a todos os erros para os quais a Instalação 
+não tem uma mensagem específica. Esses erros 
+são freqüentemente causados por memória convencional baixa. Se você 
+já criou um disco de inicialização, encerre a Instalação, desligue seu 
+computador, insira o disco de inicialização e reinicie o computador. 
+Em seguida, execute a Instalação a partir do prompt de comando do MS-DOS.
+
+"A Instalação não tem memória convencional suficiente para verificar os 
+discos rígidos de seu computador." 
+
+-ou-
+
+"A Instalação não pôde verificar as unidades rígidas de seu computador."
+
+Se você receber uma dessas mensagens de erro, a Instalação não conseguiu 
+executar o 'ScanDisk' para verificar suas unidades rígidas. Isso pode ter acontecido devido 
+à pouca memória convencional ou seu disco contém erros que o 
+Scandisk não pode corrigir ao ser executado a partir da Instalação. Para contornar esses 
+erros, reinicialize seu sistema no modo MS-DOS e execute ScanDisk 
+/all. Em seguida, execute a Instalação novamente. Se ela ainda falhar, reinicialize 
+no modo MS-DOS e execute Scandisk /all /surface. Isso demorará 
+um pouco, mas garantirá o bom estado de seus discos 
+rígidos. Se, após executar o 'ScanDisk' com essas opções, 
+a Instalação não for concluída, você deverá executar a Instalação /is para ignorar o 
+'ScanDisk'.
+
+OBSERVAÇÃO: Ignorar o 'ScanDisk' não é recomendado e isso deve acontecer 
+somente se você estiver seguro de que seu(s) disco(s) não contém(êm) erros. Se 
+ainda existirem erros, a Instalação poderá falhar e seu sistema não 
+poderá mais ser inicializado.
+
+EDITANDO OS ARQUIVOS CONFIG.SYS E AUTOEXEC.BAT
+Os arquivos 'Config.sys' e 'Autoexec.bat' de seu computador 
+informam que programas e dispositivos devem ser carregados na 
+inicialização (por exemplo, um programa de scanner de vírus para 
+o arquivo 'Autoexec.bat' pode orientar seu computador a carregar 
+automaticamente). A Instalação do Windows 98 não será executada corretamente com 
+alguns programas e dispositivos. Para remover ou desativar um programa 
+ou dispositivo desses, é preciso editar o arquivo 'Config.sys' e/ou 'Autoexec.bat'.
+
+Para editar os arquivos 'Config.sys' e 'Autoexec.bat':
+
+1. No Windows 3.1 ou 3.11, clique em 'Arquivo', em 'Executar', digite 
+   'Sysedit' e, em seguida, pressione ENTER. No Windows 95, clique em 
+   'Iniciar', em 'Executar', digite 'Sysedit' e, em seguida, pressione ENTER.
+
+2. Na caixa de diálogo 'Config.sys' ou 'Autoexec.bat', digite 
+  'REM' no início de qualquer linha(s) que deseje 
+   desativar.
+
+3. Salve as alterações e reinicie seu computador.
+
+OBSERVAÇÕES SOBRE HARDWARE
+Esta seção inclui observações sobre configurações específicas de 
+sistema que podem impedir que a Instalação do Windows 98 
+seja executada com êxito.
+
+Sager NP8200 ou Wedge Technologies 466/DX2
+IMPORTANTE: Se você instalar o Windows 98 em um computador 
+laptop Sager NP8200 ou Wedge Technologies 466/DX2, 
+ não conseguirá utilizar o computador 
+mesmo que reinstale uma versão
+anterior do Windows.
+
+Plug and Play Network Cards e 16-Bit Real-Mode Drivers
+Quando precisar executar o driver em modo real de 16 bits para 
+sua placa de interface de rede (NIC, network interface card) (que é comum se 
+você utiliza DLC ou outro protocolo em modo real), sua placa Plug 
+and Play pode dar a impressão de não estar funcionando porque os 
+drivers NIC de 16 bits são carregados antes de o Windows 98 conseguir 
+ativar as placas Plug and Play. Além disso, alguns 
+drivers NIC de 16 bits não reconhecem as placas Plug and Play 
+(a maior parte dos clones NE2000 Plug and Play se encaixam nessa 
+categoria).
+
+>>>Para utilizar sua placa Plug and Play com um driver NIC 
+   de 16 bits:
+
+1. Execute o utilitário 'Softset' que acompanha a placa Plug 
+   and Play e, em seguida, defina a placa como modo 
+   não-Plug and Play.
+
+2. Clique duas vezes em 'Rede' no 'Painel de controle' e, em seguida, 
+   remova a placa de rede.
+
+3. No 'Painel de controle', clique duas vezes em 'Adicionar novo hardware' e 
+   siga as instruções na tela. O Windows 98 detectará sua placa de rede.
+
+Se você alterar para um driver NIC em modo protegido de 32-bits 
+no futuro, poderá executar o Softset novamente para ativar o 
+modo Plug and Play para sua placa.
+
+Intel EtherExpress 16 NICs e Computadores PCI
+Seu sistema pode não responder ou você pode ter problemas na 
+inicialização se estiver utilizando um Intel 
+EtherExpress 16 NIC em um computador PCI com determinadas 
+placas de vídeo Diamond Speed Star PCI. Esses problemas 
+não estão relacionados ao Windows 98; eles ocorrem em uma variedade 
+de plataformas de sistema operacional. Se você tiver outros 
+problemas com o EtherExpress 16 em um computador PCI, 
+substitua a placa antes de relatar o problema à Microsoft.
+
+Se tiver uma destas placas de vídeo, entre em contato com seu 
+fornecedor para informações sobre como obter uma nova atualização do BIOS para vídeo.
+
+- Placa de vídeo Diamond Speed Star PCI com BIOS 
+  versão 1.01
+- Adaptador de vídeo Diamond Viper PCI VGA
+- Placa de vídeo Diamond Stealth, Bios v1.03
+
+IBM Thinkpad Model 750x/755x/360x
+Se tiver um desses modelos (incluindo submodelos 
+como C, CE, CX, CS e CSE), antes de instalar o 
+Windows 98 verifique o BBS da IBM ou o fórum 
+THINKPAD na CompuServe para um BIOS atualizado e/ou drivers 
+Mwave para seu computador.
+
+Se você não atualizar seu BIOS, poderá ter problemas 
+ao mover o mouse enquanto seu computador estiver ativando 
+ou desativando o modo suspenso.
+
+View Software
+Alguns utilitários para Windows 3.1, como 'Nomes extensos de arquivo', precisam ser 
+atualizados ou utilizados de maneira diferente com o Windows 98. 
+Para obter uma versão do View Software que funcione com o 
+Windows 98, ligue para (800) 536-8439 nos Estados Unidos. 
+Fora dos Estados Unidos, ligue para (415) 856-8439.
+
+GERENCIADORES DE MEMÓRIA
+Se você tiver o QEMM instalado em seu computador, é 
+recomendável que ele seja removido de seu arquivo 'Config.sys' 
+antes de configurar o Windows 98. Você pode adicioná-lo de
+volta depois que o Windows 98 estiver instalado.
+
+Os gerenciadores de memória a seguir são incompatíveis com o 
+Windows 98 ou podem causar problemas nele. É 
+recomendável que você remova todas as
+referências a eles dos arquivos 'Config.sys' e 'Autoexec.bat' e 
+dos arquivos 'useEmm386.exe' e 'Himem.sys', que são fornecidos 
+com o Windows 98, para gerenciar a memória.
+
+        Allemm4.sys - All Charge 386 versão 3.1
+        HPemm386.sys e HPemm486.sys
+        Gerenciador de memória HPmm.sys - HP (deve ser removido 
+            antes da Instalação)
+        Gerenciador de memória Iemm.sys
+        Intel(R) Expanded-Memory Emulator (Ilim386.sys)
+        Maximizer Memory Manager (Maximize.com)
+        NetRoom Memory Manager (RM386.sys)
+        QMAPS Memory Manager versão 5.16
+        UMB PRO versão 1.07
+
+OBSERVAÇÃO: A documentação do 386MAX recomenda que você não 
+defina o parâmetro EXT abaixo de 64. Se você definir esse parâmetro 
+como 0, a Instalação falhará.
+
+OBSERVAÇÃO: Se você remover a linha contendo Rm386.sys de 
+seu arquivo 'Config.sys', precisará instalar o 'Himem.sys', 
+que acompanha o Windows ou o MS-DOS. Isso pode ser feito 
+adicionando a seguinte linha ao arquivo 'Config.sys':
+
+        dispositivo=<caminho>\himem.sys                                       
+
+O <caminho> é o local de seus arquivos Windows ou MS-DOS 
+(por exemplo, C:\Windows).
+
+
+PROGRAMAS DE CACHE DE DISCO
+Antes de executar a Instalação, é recomendável remover 
+qualquer programa de cache de disco de outros fornecedores e substituí-los 
+por Smartdrv.exe, fornecido com o Windows 98.
+
+Se estiver executando um dos seguintes utilitários de cache 
+de disco, remova-o. Em alguns casos, a Instalação os removerá para você.
+
+  Utilitário de cache de disco 386MAX (Qcache.exe) (não o utilize 
+      com o SmartDrive)
+  Utilitário de cache de disco cache.exe
+  Utilitário de cache de disco Cache.sys
+  Utilitário de cache de disco Flash (Flash.exe) (não o utilize 
+      com o SmartDrive)
+  Hyperdisk Disk-Cache utility (não o utilize 
+      com o SmartDrive)
+  Utilitário de cache de disco Icache.sys
+  Utilitário de cache de disco IBMcache.sys
+  Utilitário de cache de disco Mace (Mcache.sys)
+  Utilitário de unidade de disco Norton Speed (SPEEDRV)
+  Utilitários Norton versão 5.0 and 6.1 (DISKREET, NCACHE)
+  Cache de PC (utilitário de cache de disco PC Tools) (deve ser removido 
+      antes da Instalação)
+  Utilitário de cache de disco PC-Kwik (Pc-kwik.exe)
+  Acelerador de disco PC_Kwik
+  PC-Kwik versão 1.59 (Pck.exe, Pskscrn.exe, Pckey.com)
+  Utilitário de cache de disco PC Tools(TM) (Pc-cache.com)
+  Utilitário de cache de disco Secretdisk I (Fast512.sys) (não o 
+      utilize com o 	SmartDrive.)
+  Utilitário de cache de disco Super PC-Kwik (Superpck.exe)
+
+DEFININDO UMA CONFIGURAÇÃO DE DUPLA INICIALIZAÇÃO COM O WINDOWS NT
+Para definir uma configuração de dupla inicialização em um computador x86, 
+instale o sistema operacional da forma habitual e, em seguida, 
+edite o arquivo 'Boot.ini' conforme descrito acima. Todas as informações 
+de inicialização do sistema ficam armazenadas no arquivo 'Boot.ini', criado 
+automaticamente durante a Instalação na raiz do 
+disco rígido do computador.
+
+>>>Para editar o arquivo 'Boot.ini':
+
+1. No Windows Explorer, clique em 'Exibir', em 'Opções' e, 
+   em seguida, clique em 'Mostrar todos os arquivos'.
+
+2. Certifique-se de que 'Ocultar extensões de arquivo para tipos de arquivo conhecidos
+   não esteja selecionado e, em seguida, clique em 'OK'.
+
+3. Clique com o botão direito do mouse no arquivo 'Boot.ini' e, em seguida, clique em 'Propriedades'.
+
+4. Clique para desmarcar a caixa de seleção 'Somente leitura' e, em seguida, 
+   clique em 'OK'.
+
+5. Clique com o botão direito do mouse no arquivo 'Boot.ini', clique em 'Copiar', 
+   clique com o botão direito em uma área em branco da caixa de diálogo do Explorer e, 
+   em seguida, clique em 'Colar'. Uma cópia de backup com o nome do arquivo 'Cópia de 
+   Boot.ini' será criada.
+
+6. Clique duas vezes no arquivo 'Boot.ini'.
+
+7.  Adicione o nome e o local do sistema alternativo 
+
+   na seção [sistemas operacionais] do arquivo, como no 
+   exemplo a seguir:
+
+	[sistemas operacionais]
+	C:\Winnt="Windows NT 4.0"
+	C:\="Microsoft Windows"
+
+8. Salve e feche o arquivo 'Boot.ini'.
+
+9. Clique com o botão direito do mouse no arquivo 'Boot.ini' e, em seguida, clique em 'Propriedades'.
+
+10. Marque a caixa de seleção 'Somente leitura' e, em seguida, clique em 'OK'.
+
+CRIANDO UMA PARTIÇÃO DE INICIALIZAÇÃO NO MS-DOS
+Para configurar o Windows 98, sua unidade de inicialização deve ser 
+uma partição de inicialização MS-DOS. Se sua unidade de inicialização estiver 
+formatada como HPFS ou NTFS, você precisará criar uma partição de inicialização do MS-DOS 
+antes de executar a Instalação. Para mais 
+informações sobre como criar uma partição de inicialização no MS-DOS, 
+consulte a documentação de seu computador.
+
+UTILIZANDO PROGRAMAS E DRIVERS RESIDENTES (TSR, 
+TERMINATE-AND-STAY-RESIDENT)
+APPEND (MS-DOS)
+Não use o utilitário APPEND com o Windows 98. Isso 
+impede que o Windows e programas baseados no Windows 
+criem nomes válidos Well-Formed-Path (WFP) para os 
+arquivos que estejam utilizando. (WFP é o nome completo de um 
+arquivo, incluindo a letra da unidade e a especificação do caminho total
+iniciando pela pasta raiz.)
+
+Autocon versão 2.0e, Bootcon versão 1.60 e Boot.sys
+Esses programas permitem que você selecione a partir de diferentes 
+configurações ao iniciar seu computador. Como a 
+Instalação do Windows 98 modifica somente as primeiras seções dos arquivos
+'Config.sys' e 'Autoexec.bat', você deve modificar esses arquivos manualmente
+ depois da Instalação. Para mais 
+informações, consulte a documentação do programa.
+
+Cubit versão 3.01
+Quando for utilizar o Cubit com o Windows 98, não 
+compacte a pasta 'Sistema do Windows' ou qualquer arquivo 
+carregado a partir do arquivo 'Config.sys'.
+
+Antes de atualizar para o Windows 98, certifique-se de que a 
+versão anterior do Windows esteja descompactada em seu 
+disco rígido. Você pode compactar novamente os 
+arquivos depois de configurar com êxito o Windows 98.
+
+Doubledisk versão 2.5
+O Windows 98 pode tentar acessar unidades de disco "fantasmas" 
+se for utilizado com o Doubledisk. As unidades fantasmas ocorrem quando 
+você utiliza o Doubledisk para criar uma unidade compactada. Por 
+exemplo, se você tiver unidades A, B e C no 
+computador e usar o Doubledisk para criar a unidade F, o 
+Windows 98 e o MS-DOS reconhecerão as unidades D e E como unidades válidas, 
+mesmo que elas não existam de fato. Você pode usar o 
+utilitário DRVOFF para impedir que o Windows reconheça 
+unidades fantasmas. Para solicitar uma cópia do utilitário DRVOFF, 
+entre em contato com a Vertisoft.
+
+Infinite Disk versão 2.1
+O Infinite Disk versão 2.1 não funciona corretamente com o 
+Windows 98. Remova o software Infinite Disk do 
+computador antes de executar a Instalação ou entre em contato com o 
+fornecedor do software para obter uma versão do Infinite Disk 
+compatível com o Windows 98.
+
+>>>Para remover o Infinite Disk de seu computador:
+
+1. Descompacte qualquer arquivo compactado.
+
+2. Remova as seguintes linhas dos arquivos 'Config.sys' e 
+   'Autoexec.bat':
+
+	iddrv.sys
+	idres.exe
+	protect /c
+
+3. Reinicie seu computador e, em seguida, execute a Instalação novamente.
+
+NetWare(R) NetBIOS
+Em muitas configurações, o TSR do NetWare NetBIOS é 
+incompatível com o Windows 98. Em muitos casos, a Instalação 
+detectará o NetWare NetBIOS e removerá o comando de 
+inicialização de seu computador. Entretanto, se você tiver
+o NetWare NetBIOS configurado para iniciar a partir de outro local 
+que não seu arquivo 'Autoexec.bat' (por exemplo, de um 
+arquivo em lote diferente), a Instalação não conseguirá detectá-lo. Nesse 
+caso, você precisará remover o NetWare NetBIOS manualmente. 
+O Windows 98 inclui um protocolo compatível com IPX/SPX que
+você pode usar no lugar do NetBIOS. Para informações 
+sobre como configurar o Windows 98 para funcionar com ele, consulte 
+Networks.txt.
+
+Newspace versão 1.07
+O Windows 98 é incompatível com este utilitário de compactação 
+de disco.
+
+
+Norton Desktop for Windows (Ep.exe)
+Se o programa de recuperação de dados Erase Protect (Ep.exe) for 
+carregado a partir do arquivo 'Autoexec.bat', desative-o ao 
+configurar o Windows, especialmente se estiver atualizando sobre uma 
+versão anterior do Windows. Como o Erase Protect tenta 
+salvar cópias de todos os arquivos excluídos, você pode ficar sem espaço 
+em disco durante a Instalação.
+
+É recomendável que você execute o Erase Protect com um 
+arquivo de permuta permanente. Se estiver utilizando um arquivo de permuta temporário, 
+exclua arquivos que tenham extensão .tmp ou .swp 
+da proteção contra apagamento.
+
+
+Norton Disklock versões 3.01 e 3.5
+O Norton Disklock versões 3.01 e 3.5 não funciona 
+corretamente com o Windows 98. Remova esse software 
+do computador antes de executar a Instalação ou entre em contato com o 
+suporte a produtos Symantec para obter uma versão do
+Disklock compatível com o Windows 98.
+
+Para informações sobre como remover o Disklock de seu 
+computador, consulte a documentação do Norton Disklock.
+
+PC Tools Deluxe(TM) versão 7.1 (DATAMON)
+Se você carregar o PC Tools DATAMON utilizando a opção \SENTRY+, 
+a Instalação poderá falhar se houver pouco espaço em disco. Não utilize 
+a opção \SENTRY+ quando estiver carregando o DATAMON.
+
+Não carregue o DATAMON depois de carregar o SmartDrive. Se o DATAMON 
+for carregado depois do SmartDrive, poderá ocorrer uma falha em seu computador. Consulte 
+a documentação do PC Tools para informações sobre como remover o DATAMON.
+
+PC Tools Deluxe versão 6.0 (DESKTOP)
+Se você tentar iniciar o PC Tools a partir do prompt 
+do Windows, seu computador poderá falhar ou reiniciar por conta própria. 
+Esses problemas também ocorrerão se você utilizar comandos do MS-DOS 
+a partir do prompt do Windows.
+
+A versão 7.0 do PC Tools pode corrigir esses problemas. 
+Entretanto, não carregue o DESKTOP a partir de um prompt de comando se ele 
+foi carregado antes de você iniciar o Windows. Se fizer isso, seu 
+computador poderá falhar se você encerrar o Windows. É recomendável 
+que você execute o DESKTOP a partir de seu PIF, fornecido com o 
+Windows 98.
+
+SUBST (MS-DOS)
+Talvez você encontre problemas com o SUBST durante a Instalação, mas
+poderá adicioná-lo de volta com segurança após instalar o
+Windows 98.
+
+UNDELETE
+Se estiver executando UNDELETE com a opção SENTRY, a Instalação 
+poderá ter problemas e talvez você fique sem espaço em disco. 
+É recomendável que você remova UNDELETE de seus arquivos 
+'Config.sys' e 'Autoexec.bat' antes de executar a Instalação.
+
+OBSERVAÇÃO: A opção SENTRY cria uma pasta oculta chamada 
+'Sentry'. Quando você exclui um arquivo, UNDELETE move o arquivo 
+do local atual para a pasta 'Sentry'. Antes de 
+remover UNDELETE de seu arquivo 'Config.sys' ou 
+'Autoexec.bat', libere espaço em disco utilizando o comando 
+UNDELETE/PURGE em todas as unidades.
+
+Se você não remover UNDELETE, a Instalação desativará esse 
+comando para você.
+
+PROBLEMAS POSSÍVEIS DE INSTALAÇÃO CONHECIDOS
+Se tiver problemas durante a Instalação, como o fechamento
+inesperado da Instalação ou mensagens de erro não aplicáveis, 
+aumente o tamanho do arquivo de permuta permanente. Para que a Instalação 
+seja concluída com êxito, o tamanho do arquivo de permuta permanente 
+mais a quantidade de memória RAM em seu computador deverão atingir 
+pelo menos 14 MB. Depois de alterar o tamanho do arquivo de permuta, 
+execute a Instalação novamente.
+
+OBSERVAÇÃO: Se seu disco rígido estiver compactado, talvez você precise 
+aumentar o tamanho de sua unidade host antes de poder 
+aumentar o tamanho de seu arquivo de permuta.
+
+
+

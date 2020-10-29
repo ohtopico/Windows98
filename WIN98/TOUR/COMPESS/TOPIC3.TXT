@@ -1,0 +1,31 @@
+value:string
+Você pode digitar informações e instruções no computador utilizando um teclado.@
+Esta é a área principal de digitação do teclado. Ela lembra as teclas de uma máquina de escrever padrão.@
+Você pressiona e solta as teclas e as letras e números correspondentes aparecem na tela de seu monitor.@
+Outra parte do teclado é chamada teclado numérico. Nem todos os teclados têm um teclado numérico.@
+Você o utiliza para inserir números com uma das mãos, como se estivesse utilizando uma calculadora.@
+Estas teclas são chamadas teclas de função (F1, F2, F3). Elas são utilizadas para executar rapidamente tarefas específicas no software aplicativo.@
+O teclado tem outras teclas especiais que executam funções específicas. Por exemplo, a tecla Escape (ESC) às vezes pode ser utilizada para interromper uma tarefa.@
+Você pode utilizar a tecla ALT e a tecla Control (CTRL) sozinhas ou em combinação com outras teclas para executar atalhos de teclado. @
+Aqui está a sua chance de demonstrar o que aprendeu. Responda às seguintes perguntas pressionando o número adequado no teclado.@
+Onde fica a área principal de digitação do teclado?@
+<IMG SRC="images/num1.gif" align="bottom"> Está certo! Você selecionou corretamente a área principal de digitação. Ela lembra as teclas de letras e números em uma máquina de escrever padrão.@
+Este é o teclado numérico, que funciona como uma calculadora. Na próxima vez, escolha a área principal de digitação.@
+Você selecionou as teclas de função em vez da área principal de digitação. As teclas de função são utilizadas para executar tarefas específicas de maneira rápida. Tente selecionar a área principal de digitação novamente.@
+Você selecionou uma área fora do teclado. Tente selecionar a área principal de digitação novamente.@
+A área principal de digitação é a parte do teclado que se parece com teclas de máquina de escrever.@
+Quais as teclas que funcionam como uma calculadora?@
+Você selecionou a área principal de digitação em vez do teclado numérico. A área principal de digitação é a parte do teclado que se parece com teclas de máquina de escrever. Tente novamente.@
+<IMG SRC="images/num2.gif" align="bottom"> Está certo! Você selecionou o teclado numérico, um conjunto de teclas que funcionam como uma calculadora.@
+Estas são as teclas de função, que permitem executar rapidamente tarefas específicas. Tente selecionar o teclado numérico novamente.@
+Você selecionou uma área fora do teclado. Tente selecionar o teclado numérico novamente.@
+Você pode utilizar o teclado numérico para inserir números da mesma forma que em uma calculadora.@
+Quais teclas permitem executar atalhos ou outras funções especiais?@
+Você selecionou a área principal de digitação em vez das teclas de função. A área principal de digitação é a parte do teclado que se parece com as teclas de uma máquina de escrever. Tente novamente.@
+Este é o teclado numérico, que funciona como uma calculadora. Na próxima vez, escolha as teclas de função.@
+<IMG SRC="images/num3.gif" align="bottom"> Correto! Você deve utilizar as teclas de função para executar atalhos e funções especiais.@
+Você selecionou uma área fora do teclado. Tente selecionar as teclas de função novamente.@
+As teclas de função são utilizadas para executar atalhos e outras funções específicas, dependendo do software que você estiver utilizando.@
+Quanto mais você trabalhar no computador, mais seguro se sentirá ao utilizar as diferentes teclas do teclado.@
+Na próxima lição, <B>Utilizando o mouse</B>, você irá aprender uma outra forma de dar instruções ao seu computador.@
+Pressione a <B>SETA À ESQUERDA</B> <IMG class="always" id=backarr SRC="images/bkbtn.gif" style="cursor:hand" ALIGN=MIDDLE onclick="prevseq()"> para voltar; <B>SETA À DIREITA</B> <IMG class="always" id=frwdarr SRC="images/fwdbtn.gif" style="cursor:hand" ALIGN=MIDDLE onclick="nextseq()"> para continuar.

@@ -1,0 +1,199 @@
+<HTML>
+<HEAD>
+<META NAME="GENERATOR" Content="Microsoft Developer Studio">
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=iso-8859-1">
+<TITLE>Título do documento</TITLE>
+</HEAD>
+<BODY  scroll=no topmargin=0 leftmargin=0 bgcolor=white>
+<STYLE>
+<!--
+.not {text-decoration: none; color: #0066ff;}
+.HEY	{text-decoration: none; }
+
+A:link, A:visited, A:active {text-decoration:none; 
+				color: #0066ff; 
+				font-family: Verdana, Helvetica, Arial;
+				font-size: 15px;}
+
+A:visited {text-decoration:none; 
+				color: #000000; 
+				font-family: Verdana, Helvetica, Arial;
+				font-size: 15px;}
+
+
+BODY {font-family: Verdana, Helvetica, Arial;}
+-->
+</STYLE> 
+
+
+<SCRIPT language="javascript">
+
+
+function DoRoll(){
+	var what = window.event.srcElement;
+	if ((what.id == "")){
+		what.style.textDecoration="underline";
+	}
+	window.status = what.id ;
+}
+
+function UndoRoll(){
+	var what = window.event.srcElement;
+	what.style.textDecoration="none";
+}
+
+function OpenHHelp(helpfile, section){
+	Hhopen1.OpenHelp(helpfile, section)
+}
+
+function Ch(){
+	var theImage = window.event.srcElement;
+	theImage.src = "images/rdbttnor.gif";
+}
+
+function ChD(){
+		var theImage = window.event.srcElement;
+		theImage.src = "images/rdbttn.gif";
+}
+	
+function ChDD(){
+	var theImage = window.event.srcElement;
+	theImage.src = "images/rdbttndn.gif";
+	top.location.href = "../default.htm";
+}
+</SCRIPT>
+
+<center>
+<TABLE cellspacing=0 cellpadding=0 border=0 width=640 height=480 background="images/bgWin98.jpg">
+	
+
+	<TR>
+		<TD align = left>
+			
+
+
+<DIV  style="position: relative; left: 5; top: 115;" id=easier>
+	<TABLE cellspacing=0 cellpadding=0 border=1 bordercolor=black width=150>
+		<TR>
+			<TD align=center background="images/easierBg.jpg">
+				<div id=easier style="font-weight: bold; font-size:18px;" >Mais fácil</div>
+			</TD>
+		</TR>
+	</TABLE>
+
+	<div style="position: relative; left: 10px;" onmouseover='DoRoll()' onmouseout='UndoRoll()' >
+	<a href='javascript:OpenHHelp("update.chm","ie4_integration_mode.htm")' >Área de trabalho com aparência da Web</a><br>
+	<a href='javascript:OpenHHelp("windows.chm","mds_overview.htm")' >Vários monitores</a><br>
+	<a href='javascript:OpenHHelp("whatnew.chm","idh_whatnew_onnow.htm")'>Gerenciamento de energia</a><br>
+	<a href='javascript:OpenHHelp("windows.chm","app_usb.htm")' >Plug and Play avançado</a><br>
+	<a href='javascript:OpenHHelp("access.chm","access_use_wizard.htm")' >Opções de acessibilidade</a><br>
+	<a href='javascript:OpenHHelp("htmhlp98.chm","htmlhelp_finding_topics.htm")' >Ajuda abrangente</a><br>
+	</div>
+</DIV>
+
+
+<DIV  style="position: relative; left: 210; top: -100;" id="faster">
+	<TABLE cellspacing=0 cellpadding=0 border=1 bordercolor=black width=150>
+		<TR>
+			<TD align=center background="images/fasterBg.jpg">
+				<div id=header style="font-weight: bold; font-size:18px;" >Mais rápido</div>
+			</TD>
+		</TR>
+	</TABLE>
+
+	<div style="position: relative; left: 10px;"onmouseover='DoRoll()' onmouseout='UndoRoll()' >
+	<a href='javascript:OpenHHelp("iexplore.chm","IEGETSRT.htm")' >Acesso à Internet</a><br>
+	<a href='javascript:OpenHHelp("windows.chm","app_tuneup_wizard.htm")' >Assistente de ajustes</a><br>
+	<a href='javascript:OpenHHelp("windows.chm","app_fat32_convert.htm")'>Conversor de disco rígido</a><br>
+	<a href='javascript:OpenHHelp("windows.chm","app_defrag.htm")' >Iniciar programa</a><br>
+	</div>
+	
+</DIV>
+
+
+<DIV  style="position: relative; left: 170; top: 0; " id="web">
+	<TABLE cellspacing=0 cellpadding=0 border=1 bordercolor=black width=180>
+		<TR>
+			<TD align=center background="images/webBg.jpg">
+				<div ID=header style="font-weight: bold; Font-size:18px;">Integrado à Web</div>
+			</TD>
+		</TR>
+	</TABLE>
+
+	<div style="position: relative; left: 10px;" onmouseover='DoRoll()' onmouseout='UndoRoll()' >
+	<a href='javascript:OpenHHelp("update.chm","ie4_new_features.htm")' >Internet Explorer 4</a><br>
+	<a href='javascript:OpenHHelp("windows.chm","connecting_to_the_internet.htm")' >Assistente para acesso</a><br>
+	<a href='javascript:OpenHHelp("update.chm","ie4_whatis_active_desktop.htm")'>Active Desktop</a><br>
+	<a href='javascript:OpenHHelp("iexplore.chm","channels_over.htm")' >Canais</a><br>
+	<a href='javascript:OpenHHelp("msimn.chm","cool_mail.htm")' >Correio eletrônico</a><br>
+	<a href='javascript:OpenHHelp("whatnew.chm","idh_whatnew_netmeeting.htm")' >Reuniões on-line</a><br>
+	<a href='javascript:OpenHHelp("whatnew.chm","idh_whatnew_frontpage.htm")' >Criação de páginas da Web</a><br>
+	</div>
+	
+</DIV>
+
+
+
+<DIV  style="position: relative; left: 360; top: -250; " id="reliable">
+	<TABLE cellspacing=0 cellpadding=0 border=1 bordercolor=black width=150>
+		<TR>
+			<TD align=center background="images/moreBg.jpg">
+				<div ID=header style="font-weight: bold; font-size:18px;">Mais confiável</div>
+			</TD>
+		</TR>
+	</TABLE>
+
+	<div style="position: relative; left: 10px;" onmouseover='DoRoll()' onmouseout='UndoRoll()' >
+	<a href='javascript:OpenHHelp("windows.chm","keeping_windows_updated.htm")' >Windows Update</a><br>
+	<a href='javascript:OpenHHelp("windows.chm","app_sfc.htm")'  >Verificador de arquivos do sistema</a><br>
+	<a href='javascript:OpenHHelp("windows.chm","app_scandisk.htm")'>Detecção de erro</a><br>
+	<a href='javascript:OpenHHelp("windows.chm","app_backup.htm")' >Efetuar backup e restaurar</a><br>
+	</div>
+	
+	
+</DIV>
+
+<DIV  style="position: relative; left: 390; top: -220; height: 50; " id="web">
+	<TABLE cellspacing=0 cellpadding=0 border=1 bordercolor=black width=190>
+		<TR>
+			<TD align=center background="images/entertBg.jpg"> 
+				<div ID=header style="font-weight: bold; font-size:18px;">Mais divertido</div>
+			</TD>
+		</TR>
+	</TABLE>
+
+	<div style="position: relative; left: 10px;" onmouseover='DoRoll()' onmouseout='UndoRoll()'>
+	
+	<a href='javascript:OpenHHelp("whatnew.chm","idh_whatnew_hardware.htm")' >Suporte a novo hardware</a><br>
+	<a href='javascript:OpenHHelp("whatnew.chm","idh_whatnew_directx.htm")' >Multimídia avançada</a><br>
+	<a href='javascript:OpenHHelp("windows.chm","app_netshow.htm")' >Visualização on-line</a><br>
+	<a href='javascript:OpenHHelp("windows.chm","changing_desktop_theme.htm")'>Temas para a área de trabalho</a><br>
+	</div>
+</DIV>
+
+
+
+
+<DIV ID=new style="position: absolute; top: 370; width:330; height: 125; ">
+	<div style="font-style: italic; color: #9BD2FF; font-size: 55px; font-weight: 900;">O que há</div>
+		<div style="position:relative; top: -30; left: 165; font-style: italic; color: #65A2FF; font-size: 50px; font-weight: 900;">de novo</div>
+</div>
+
+<IMG style="position: relative; top: -540; left: 590;" SRC="images/rdbttn.gif" onmouseover='Ch()' onmouseout='ChD()' onclick='ChDD()'>
+
+
+
+</TD>
+
+
+</TABLE>
+</center>
+<OBJECT ID="Hhopen1" WIDTH=12 HEIGHT=12
+     CLASSID="CLSID:130D7743-5F5A-11D1-B676-00A0C9697233">
+        <PARAM NAME="_Version" VALUE="65536">
+        <PARAM NAME="_ExtentX" VALUE="318">
+        <PARAM NAME="_ExtentY" VALUE="318">
+        <PARAM NAME="_StockProps" VALUE="0">
+ </OBJECT>
+</BODY>
+</HTML>

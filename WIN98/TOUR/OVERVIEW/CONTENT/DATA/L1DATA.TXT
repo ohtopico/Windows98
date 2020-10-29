@@ -1,0 +1,29 @@
+%<!-- lesson1.htm --><!-- Starting a Program -->
+Nesta lição, você vai aprender a abrir e fechar rapidamente um programa no Windows.
+<P>
+<br>
+<p>
+Clique no botão <b>Avançar</b>, acima, para continuar.
+%~%
+Muitos dos <a id=a1 href="javascript:;" onclick="javascript:popup('Column1', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'"
+>programas</a> armazenados em seu computador podem ser abertos a partir do menu <b>Iniciar</b>.
+%~%
+Para abrir um programa, clique no botão <b>Iniciar</b> <img src="images/stdstart.gif" align=absmiddle> 
+na <a id=a1 href="javascript:;" onclick="javascript:popup('Column2', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'"
+>barra de tarefas</a> do Windows, aponte para <b>Programas</b>, aponte para <b>Acessórios</b> e clique em <b>WordPad</b>.
+<p>
+Você pode utilizar o WordPad, um programa de processamento de texto do Windows, para escrever cartas, relatórios e outros documentos.
+<p>
+<a id=a2 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">Mostre-me</span></a>
+%~%
+Para fechar o WordPad, clique no botão <b>Fechar</b> <img src="images/stdclose.gif"> 
+na 
+<a id=a1 href="javascript:;" onclick="javascript:popup('Column3', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'"
+>barra de título</a> da janela do <b>WordPad</b>.
+<p>
+Agora você sabe como abrir e fechar um programa no Windows.
+<p>
+<a id=a2 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">Mostre-me</span></a>
+%
+
+

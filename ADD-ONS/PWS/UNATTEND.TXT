@@ -2,22 +2,22 @@
 Signature = "$Windows NT$"
 
 [Global]
-; Durante instala√ß√£o do K2, a iis.dll ir√° manipular esta se√ß√£o [Global] e configurar o modo de instala√ß√£o apropriadamente.
-; Voc√™ n√£o precisa se preocupar com esta se√ß√£o.
+; Durante instalaÁ„o do K2, a iis.dll ir· manipular esta seÁ„o [Global] e configurar o modo de instalaÁ„o apropriadamente.
+; VocÍ n„o precisa se preocupar com esta seÁ„o.
 ;
-; Voc√™ pode especificar o modo com que a instala√ß√£o ser√° executada
-; O Programa de Instala√ß√£o selecionar√° os modos de instala√ß√£o baseado na configura√ß√£o da m√°quina alvo
-; Nova (Fresh), Manuten√ß√£o (Maintanence) ou Atualiza√ß√£o (Upgrade)
+; VocÍ pode especificar o modo com que a instalaÁ„o ser· executada
+; O Programa de InstalaÁ„o selecionar· os modos de instalaÁ„o baseado na configuraÁ„o da m·quina alvo
+; Nova (Fresh), ManutenÁ„o (Maintanence) ou AtualizaÁ„o (Upgrade)
 ;
 ; FreshMode = [ Minimal | Typical | Custom ]
 ; MaintanenceMode = [ AddRemove | RemoveAll ]
 ; UpgradeMode = [ UpgradeOnly | AddExtraComps ]
 
-; Se o modo de instala√ß√£o for 'Nova' (FreshMode), mas nenhuma linha "FreshMode=" foi especificada, ent√£o 'T√≠pica' √© o valor padr√£o.
+; Se o modo de instalaÁ„o for 'Nova' (FreshMode), mas nenhuma linha "FreshMode=" foi especificada, ent„o 'TÌpica' È o valor padr„o.
 
-; Se o modo de instala√ß√£o for 'Manuten√ß√£o' (MaintanenceMode), mas nenhuma linha "MaintanenceMode=" foi especificada, ent√£o n√£o h√° valor padr√£o e voc√™ obter√° uma mensagem de erro no Registro. ;(HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Setup\OC Manager\MasterInfs\Errors)
+; Se o modo de instalaÁ„o for 'ManutenÁ„o' (MaintanenceMode), mas nenhuma linha "MaintanenceMode=" foi especificada, ent„o n„o h· valor padr„o e vocÍ obter· uma mensagem de erro no Registro. ;(HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Setup\OC Manager\MasterInfs\Errors)
 
-; Se o modo de instala√ß√£o for 'Atualiza√ß√£o' (UpgradeMode), mas nenhuma linha "UpgradeMode=" foi especificada, ent√£o  'Somente atualiza√ß√£o'(UpgradeOnly) √© o valor padr√£o.
+; Se o modo de instalaÁ„o for 'AtualizaÁ„o' (UpgradeMode), mas nenhuma linha "UpgradeMode=" foi especificada, ent„o  'Somente atualizaÁ„o'(UpgradeOnly) È o valor padr„o.
 
 FreshMode = Typical
 MaintanenceMode = RemoveAll
@@ -45,7 +45,7 @@ mts_mtsdev_core=on
 mts_mtsdev_core_docs=on
 mts_mtsdev_vbaddin=on
 
-; Extens√µes do FrontPage
+; Extensıes do FrontPage
 fp_extensions=ON
 fp_vid_deploy=OFF
 
@@ -73,7 +73,7 @@ CMAKDOC = OFF
 
 
 [iis]
-; Cada componente principal poder√° ter os seus dados particulares.
+; Cada componente principal poder· ter os seus dados particulares.
 ;Path =c:\install\path
 PathWWWRoot=E:\MyInetpub\wwwroot
 PathPROGRoot=E:\MyProgRoot

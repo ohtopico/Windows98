@@ -1,0 +1,24 @@
+Agente SNMP (SNMP.EXE e arquivos relacionados)
+
+Use este software para controlar conexões remotas a computadores executando 
+Windows 95 ou Windows 98 se a sua rede usa produtos de gerenciamento de sistema SNMP 
+(Simple Network Management Protocol) para gerenciamento do sistema. 
+
+O agente SNMP do Windows 95 é compatível com a especificação da versão 1 do SNMP. 
+Este agente permite que você monitore, de um console SNMP, conexões remotas a 
+computadores executando Windows 95 ou Windows 98. Após a instalação deste agente, 
+não é necessário fazer nenhuma modificação nos computadores clientes para usar o SNMP. 
+O agente SNMP é implementado como um serviço baseado em Win32 e funciona  
+usando Windows Sockets sobre TCP/IP e IPX/SPX. 
+As extensões do agente são implementadas como DLLs de Win32.
+
+Para instalar o agente SNMP em um computador que já esteja executando o Windows 98, 
+use o ícone Rede no Painel de controle, clique no botão 'Adicionar',
+selecione 'Serviço' como o tipo de componente de rede a ser instalado, clique no 
+botão 'adicionar', clique no botão 'Com disco' e instale da pasta 
+TOOLS\RESKIT\NETADMIN\SNMP. 
+
+Para mais inofrmações, consulte esse tópico no Windows 98 Resource Kit ou na 
+ajuda on-line das ferramentas do Windows 98 Resource Kit (WIN98RK.HLP). Você 
+poderá ter acesso a esta ajuda instalando a amostra das ferramentas do 
+Windows 98 Resource Kit da pasta TOOLS\RESKIT no CD do Windows 98.

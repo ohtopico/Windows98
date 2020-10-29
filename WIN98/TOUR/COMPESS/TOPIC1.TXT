@@ -1,0 +1,25 @@
+value:string
+Você já sabe como escrever documentos, calcular o saldo de um talão de cheques e ler e enviar correspondência.@
+Estando em casa ou no trabalho, você pode realizar essas e muitas outras tarefas utilizando seu computador.@
+Seu computador inclui uma variedade de componentes de hardware. Um dos mais importantes é a unidade de sistema.@
+Ela abriga a unidade central de processamento, ou CPU, que é o cérebro do computador.@
+Outro componente de hardware do computador é parecido com uma TV. Ele é chamado de monitor.@
+O texto e as imagens gerados por seu computador são exibidos na tela.@
+Você se comunica com o computador utilizando um entre dois dispositivos.@
+Você pode digitar informações e instruções no computador utilizando um teclado, parecido com um conjunto de teclas de máquina de escrever.@
+Também é possível utilizar um dispositivo apontador, como um mouse, para selecionar e mover itens exibidos na tela do monitor.@
+Você pode ter outros componentes de hardware, sendo a maioria ligada na parte de trás de seu computador.@
+Impressoras, modems e alto-falantes são exemplos de hardware.@
+Uma impressora produz uma cópia em papel das informações exibidas na tela ou contidas em um documento.@
+Um modem conecta o computador à Internet por meio de uma linha telefônica.@
+O áudio pode ser ouvido através de alto-falantes internos ou externos.@
+Agora vamos rever o que você aprendeu até aqui.@
+Você se lembra dos diferentes componentes de hardware do sistema de seu computador?@
+Pressione a tecla correspondente no teclado para rever a função de cada componente.@
+<IMG SRC="images/Num1.gif" align=bottom> A unidade de sistema abriga uma variedade de componentes de hardware, incluindo a CPU, que é o cérebro do computador.@
+<IMG SRC="images/Num2.gif" align=bottom> Este é o monitor, que se parece com uma tela de TV e exibe o texto e as imagens gerados por seu computador.@
+<IMG SRC="images/Num3.gif" align=bottom> O teclado é o dispositivo que você utiliza para digitar informações e instruções no computador.@
+<IMG SRC="images/Num4.gif" align=bottom> O mouse é utilizado para selecionar e mover itens na tela.@
+Nesta seção você se familiarizou com o computador.@
+<B>Utilizando o teclado</B>, a próxima lição deste tutorial, ensinará a você como dar instruções ao computador.@
+Pressione a <B>SETA À ESQUERDA</B> <IMG class="always" id=backarr SRC="images/bkbtn.gif" style="cursor:hand" ALIGN=MIDDLE onclick="prevseq()"> para voltar; <B>SETA À DIREITA</B> <IMG class="always" id=frwdarr SRC="images/fwdbtn.gif" style="cursor:hand" ALIGN=MIDDLE onclick="nextseq()"> para continuar.

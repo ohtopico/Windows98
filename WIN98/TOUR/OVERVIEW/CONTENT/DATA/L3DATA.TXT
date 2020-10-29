@@ -1,0 +1,85 @@
+%<!-- version 8.14.7 --><!--lesson3.htm--><!-- Finding Information -->
+Nesta lição, você aprenderá a usar o comando <b>Localizar</b> para localizar um arquivo em seu computador.
+<p>
+<br>
+<p>
+Clique no botão <b>Avançar</b>, acima, para continuar.
+%~%
+Se você não conseguir lembrar onde gravou um documento, o Windows torna fácil localizar um <a id=a1 href="javascript:;" onclick="javascript:popup('Column4', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'"
+>arquivo</a> ou uma <a id=a2 href="javascript:;" onclick="javascript:popup('Column5', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'"
+>pasta</a>.
+%~%
+Para criar um novo arquivo, clique no botão <b>Iniciar</b> <img src="images/Stdstart.gif" align=absmiddle>
+na <a id=a1 href="javascript:;" onclick="javascript:popup('Column2', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'"
+>barra de tarefas</a> do <b>Windows</b>, aponte para <b>Programas</b>, para <b>Acessórios</b> e clique em <b>WordPad</b>.
+<p>
+<a id=a2 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">Mostre-me</span></a>
+%~%
+Clique na grande área em branco da janela do <b>WordPad</b> e digite <i>Relatório diário</i>.
+<p>
+<a id=a1 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">Mostre-me</span></a>
+%~%
+Na janela do <b>WordPad</b>, clique no menu <b>Arquivo</b> e clique em <b>Salvar como...</b> para salvar seu novo arquivo.
+<p>
+<a id=a1 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">Mostre-me</span></a>
+%~%
+Clique na <a id=a1 href="javascript:;" onclick="javascript:popup('Column3', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'"
+>barra de título</a> da <a id=a2 href="javascript:;" onclick="javascript:popup('Column11', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'"
+>caixa de diálogo</a> <b>Salvar como</b> para torná-la <a id=a3 href="javascript:;" onclick="javascript:popup('Column12', window.event.x, window.event.y);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'"
+>ativa</a>.  Na caixa <b>Nome do arquivo:</b>, clique duas vezes no nome <a id=a4 href="javascript:;" onclick="javascript:popup('Column13', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'"
+>padrão</a> do arquivo, <b>Documento</b>, e digite um novo nome para o arquivo, <i>Mariana Ribeiro</i>.
+<br><a id=a5 id="tiplink" href="javascript:;" onClick="javascript:popup('Column15', window.event.x, window.event.y+65);" onmouseOver="tip.style.borderColor='#000099'" onmouseOut="tip.style.borderColor='white'" onfocus="tip.style.borderColor='#000099'" onblur="tip.style.borderColor='white'"><span id="tip" class=tip>
+Dica!</span></a>
+<p>
+<a id=a6 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">Mostre-me</span></a>
+%~%
+Clique em <b>Salvar</b> para salvar seu documento recém-criado do <B>WordPad</B>, agora chamado <B>Mariana Ribeiro</B>.
+<br><a id=a1 id="tiplink" href="javascript:;" onClick="javascript:popup('Column68', window.event.x, window.event.y+65);" onmouseOver="tip.style.borderColor='#000099'" onmouseOut="tip.style.borderColor='white'" onfocus="tip.style.borderColor='#000099'" onblur="tip.style.borderColor='white'"><span id="tip" class=tip>
+Dica!</span></a>
+<p>
+<a id=a2 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">Mostre-me</span></a>
+%~%
+Para fechar o documento, clique no botão <b>Fechar</b> <img src="images/stdclose.gif"> da
+barra de título da janela do <b>WordPad</b>.
+<p>
+<a id=a1 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">Mostre-me</span></a>
+%~%
+Para localizar o documento que você acabou de salvar, clique no botão <b>Iniciar</b> 
+<img src="images/stdstart.gif" align=absmiddle> da barra de tarefas do Windows, aponte para <b>Localizar</b> e clique em
+<b>Arquivos ou pastas...</b>.
+<p>
+<a id=a1 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">Mostre-me</span></a>
+%~%
+Clique na <a id=a1 href="javascript:;" onclick="javascript:popup('Column77', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'">
+guia</a> <b>Nome e local</b> para torná-la ativa. Clique na caixa <b>Nome:</b> e digite
+<i>Mariana Ribeiro</i>.
+<p>
+<a id=a2 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">Mostre-me</span></a>
+%~%
+Clique na seta à direita da caixa <b>Examinar:</b> e selecione <b>(C:)</b> caso ainda não esteja selecionado.
+<p>
+Você talvez precise <a id=a1 href="javascript:;" onclick="javascript:popup('Column57', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'">
+arrastar</a> a caixa de diálogo <b>Localizar: Todos os arquivos</b> para ver a seta na caixa <b>Examinar:</b>.
+<p>
+<a id=a2 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">Mostre-me</span></a>
+%~%
+Clique em <b>Localizar agora</b>.  Seu computador está examinando seu <a id=a1 href="javascript:;" onclick="javascript:popup('Column66', window.event.x, window.event.y+65);" class=glossary onfocus="this.style.color='red'" onblur="this.style.color='blue'"
+>disco rígido</a> para localizar o documento recém-gravado,
+<B>Mariana Ribeiro</B>.
+<br><a id=a2 id="tiplink" href="javascript:;" onClick="javascript:popup('Column16', window.event.x, window.event.y+65);" onmouseOver="tip.style.borderColor='#000099'" onmouseOut="tip.style.borderColor='white'" onfocus="tip.style.borderColor='#000099'" onblur="tip.style.borderColor='white'"><span id="tip" class=tip>
+Dica!</span></a>
+<p>
+<a id=a3 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">Mostre-me</span></a>
+%~%
+Seu documento do WordPad, <b>Mariana Ribeiro</b>, aparece na seção inferior da janela <b>Localizar</b>.
+Clique duas vezes em <b>Mariana Ribeiro</b> para abrir o documento.
+<br><a id=a1 id="tiplink" href="javascript:;" onClick="javascript:popup('Column69', window.event.x, window.event.y+65);" onmouseOver="tip.style.borderColor='#000099'" onmouseOut="tip.style.borderColor='white'" onfocus="tip.style.borderColor='#000099'" onblur="tip.style.borderColor='white'"><span id="tip" class=tip>
+Dica!</span></a>
+<p>
+<a id=a2 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">Mostre-me</span></a>
+%~%
+Agora você aprendeu a criar e localizar arquivos.  Clique no botão <b>Fechar</b> <img src="images/stdclose.gif"> 
+nas barras de título da janela <b>Mariana Ribeiro</b> e na caixa de diálogo <b>Localizar</b> para fechá-las.
+<p>
+<a id=a1 href="javascript:;" onclick="javascript:LaunchShowMe();" onfocus="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onblur="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onkeypress="showmegif.src='images/show_dep.gif'" onmouseover="showmelabel.style.color='red';showmegif.src='images/show_ovr.gif'" onmouseout="showmelabel.style.color='black';showmegif.src='images/show_def.gif'" onmousedown="showmegif.src='images/show_dep.gif'" onmouseup="showmegif.src='images/show_def.gif'"><img src="images/show_def.gif" name="showmegif" border=0 align=absmiddle hspace=0><span class=Select id="showmelabel">Mostre-me</span></a>
+%

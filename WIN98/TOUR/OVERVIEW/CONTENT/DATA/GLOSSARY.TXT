@@ -1,0 +1,82 @@
+%Os <b>programas</b> são séries organizadas de instruções que, quando executadas, fazem com que o computador se comporte de uma determinada maneira. O WordPad, por exemplo, é um programa.
+%|%A <b>barra de tarefas</b> é a barra retangular cinza normalmente localizada na parte inferior de sua tela. A barra de tarefas inclui o botão <b>Iniciar</b>, o relógio do computador e um botão para cada programa que estiver aberto no momento. Ela exibe também barras de ferramentas.
+%|%A <b>barra de título </b> é a barra horizontal localizada na parte superior de uma janela que normalmente exibe o nome do documento ou do programa que aparece na janela. A barra de título também contém o ícone do programa e os botões <b>Maximizar</b>, <b>Minimizar</b> e <b>Fechar</b>.
+%|%Um <b>arquivo</b> é um conjunto de textos ou de dados gravados sob um nome exclusivo. A maioria das informações armazenadas em seu computador encontra-se armazenada em arquivos.
+%|%Uma <b>pasta</b> é um recipiente para programas, arquivos e outras pastas utilizadas para organizar informações em seu computador. No Windows, uma pasta é representada pelo ícone de uma pasta de arquivos. As pastas são o equivalente aos diretórios em alguns outros sistemas operacionais para computadores.
+%|%Utilizado para salvar dados do computador, o <b>disco rígido </b> é composto de discos magnéticos e redondos, não-flexíveis, empilhados dentro de um recipiente metálico lacrado. Os dados são armazenados em ambos os lados dos discos. A maioria dos discos rígidos tem entre dois e oito discos.
+%|%Para selecionar um arquivo ou uma pasta, clique nele. Para abrir um arquivo ou uma pasta, clique sobre ela duas vezes.
+%|%Você clica com o <b>botão direito</b> do mouse em um item colocando o ponteiro do mouse sobre o item e pressionando e soltando o botão rapidamente. Clicar com o botão direito do mouse em um item exibe um menu de atalho com comandos relacionados ao item.
+%|%<b>Arrastar</b> é o procedimento executado para mover ou copiar um objeto de um lugar para outro na tela utilizando-se o mouse. Clique e mantenha pressionado o botão do mouse quando o ponteiro estiver sobre o objeto, mova o ponteiro para o novo local e solte o botão do mouse.
+%|%Você também pode utilizar os botões <b>Recortar</b> e <b>Colar</b>, na barra de ferramentas, para mover arquivos entre pastas.
+%|%Uma <b>caixa de diálogo</b> é um tipo de janela exibida pelo sistema operacional Windows ou por um programa; ela apresenta informações ou solicita que você as insira.
+%|%<b>Ativo</b> é o estado do item (como uma janela, ícone, guia ou botão) que você seleciona utilizando o mouse ou o teclado.
+%|%<b>Padrão</b> refere-se a um valor ou configuração que um dispositivo ou programa seleciona automaticamente se você não especificar outro.
+%|%Um item ou seção de texto <b>selecionado</b> é uma área na qual o Windows ou um programa irão atuar quando você emitir o próximo comando. Para selecionar uma seção de texto, arraste o ponteiro sobre a seção para destacá-la. Para selecionar um item, como um ícone, clique no item.
+%|%Caso seu computador esteja configurado para exibir extensões de arquivo, você precisará selecionar o nome inteiro do arquivo, <b>Documento.doc</b>.
+%|%Na caixa <b>Nome:</b> você pode também digitar apenas parte do nome do arquivo que está tentando localizar.
+%|%Uma <b>janela</b> é uma área móvel e redimensionável na qual as informações são exibidas e com a qual você pode interagir.
+%|%Um <b>ícone</b> é uma pequena imagem gráfica que aparece em sua área de trabalho ou dentro de um programa e que representa um arquivo, uma pasta, um comando, um programa ou uma página da Web.
+%|%Sua <b>área de trabalho</b> é a área de trabalho que preenche a tela de seu monitor e exibe ícones, componentes da área de trabalho, caixas de diálogo, janelas e outros elementos. A área de trabalho do Windows é um exemplo de uma interface gráfica de usuário.
+%|%É possível mover qualquer janela aberta na área de trabalho arrastando a barra de título da janela. Se você não consegue arrastar a janela, ela pode estar maximizada. Se estiver, clique no botão <b>Restaurar</b>.
+%|%A <b>barra de tarefas</b> é a barra retangular cinza normalmente localizada na parte inferior de sua tela. A barra de tarefas inclui o botão <b>Iniciar</b>, o relógio do computador e um botão para cada programa que estiver aberto no momento. Ela também exibe barras de ferramentas.
+%|%Você pode também alternar entre programas abertos mantendo pressionada a tecla ALT e pressionando TAB.
+%|%Ao <b>minimizar</b> uma janela, você a esconde na área de trabalho, mas o botão que a representa permanece na barra de tarefas. Um programa continua a ser executado enquanto sua janela está minimizada.
+%|%Ao <b>maximizar</b> uma janela, ela se expande para preencher a tela inteira ou, em alguns casos, para preencher uma janela maior.
+%|%Os botões <b>Restaurar</b> e <b>Maximizar</b> nunca aparecem juntos na barra de título de uma janela. Se uma janela estiver maximizada, o botão <b>Restaurar</b> será exibido; se a janela estiver com um tamanho menor, será exibido o botão <b>Maximizar</b>.
+%|%Convém arrastar a janela do <b>Windows Explorer</b> para ver o botão <b>Fechar</b>.
+%|%A <b>Internet</b> é um conjunto global de redes de computadores que as pessoas utilizam para trocar e localizar informações.
+%|%Um <b>provedor de serviços de Internet </b>, ou <b>ISP</b>, é uma empresa que fornece acesso à Internet.
+%|%Se você precisar de ajuda com seu modem, consulte o sistema de 'Ajuda' do Windows ou entre em contato com seu ISP.
+%|%
+%|%Na maioria dos casos, será necessário fornecer ao ISP selecionado o número de seu cartão de crédito para finalizar o processo de inscrição.
+%|%Se você tiver qualquer dificuldade para fazer o download do site da Microsoft na Web, experimente clicar no botão <b>Atualizar</b> da barra de ferramentas.
+%|%Um <b>link</b> é uma seção de texto ou um gráfico em que você pode clicar para ir a outro local, como uma página da Web, um arquivo ou um local específico em um arquivo. O objeto vinculado está conectado ao novo arquivo ou página da Web pelo código HTML.
+%|%Um <b>hyperlink</b> é uma palavra ou seqüência de caracteres sublinhada que, quando clicada, salta para outro lugar no mesmo documento ou para um documento diferente.
+%|%<b>Termos do glossário </b> aparecem como palavras em azul sublinhadas. Clicar em um termo do glossário exibirá sua definição em uma janela como esta. Clicar em qualquer lugar da tela fechará a janela.
+%|%Uma dica é uma sugestão útil que aparece em uma janela exatamente como esta. Depois de ler a dica, clique em qualquer lugar da tela para fechá-la.
+%|%<b>Active Desktop</b> é o termo utilizado para descrever a integração do Windows com o Internet Explorer. O 'Active Desktop' permite acessar, armazenar, compartilhar e explorar informações sem interrupção, estejam elas em seu computador ou na World Wide Web.
+%|%Um <b>navegador</b> da Web é um programa (como o Microsoft Internet Explorer) que permite visualizar informações em seu computador, em uma rede ou na World Wide Web. O navegador da Web converte o HTML, a linguagem de computador para a Web, para um formato gráfico. Para que o navegador da Web visualize informações na Web, o computador deve ter estabelecido uma conexão com a Internet.
+%|%Na área de trabalho padrão do Windows, você precisa abrir o Internet Explorer antes de poder visualizar o conteúdo da Web.
+%|%Um <b>menu de atalho</b> aparece quando você clica com o botão direito do mouse em um item ou em um local da área de trabalho. Um menu de atalho inclui um conjunto de comandos relacionados ao item ou local em que você clicou com o botão direito do mouse.
+%|%Se <b>Exibir como página da Web</b> não estiver selecionado, o <b>Active Desktop</b> estará desativado. Para restaurá-lo, clique com o botão direito do mouse em uma área vazia da área de trabalho, aponte para 'Active Desktop' e clique em <b>Exibir como página da Web </b> no menu de atalho.
+%|%Também é possível restaurar o 'Active Desktop' clicando no botão <b>Iniciar</b> da barra de tarefas do Windows, apontando para <b>Configurações</b>, apontando para <b>Active Desktop</b> e clicando em <b>Exibir como página da Web</b>.
+%|%Uma <b>barra de ferramentas</b> é um grupo de botões (geralmente exibidos em uma longa fila) na qual você clica para executar comandos.
+%|%<b>Janelas</b> são áreas móveis e redimensionáveis nas quais as informações são exibidas e com as quais você pode interagir.
+%|%A barra de ferramentas <b>Iniciar rapidamente</b> aparece como padrão na barra de tarefas. Se você não vir a barra de ferramentas <b>Iniciar rapidamente</b> na barra de tarefas, clique com o botão direito do mouse em uma área vazia da barra de tarefas, aponte para <b>Barras de ferramentas</b> e clique em <b>Iniciar rapidamente</b>.
+%|%Também é possível abrir o Internet Explorer clicando no ícone <b>Internet Explorer</b> em sua área de trabalho.
+%|%A <b>World Wide Web</b> é uma rede global que contém informações que você pode acessar e explorar utilizando um navegador da Web, como o Microsoft Internet Explorer.
+%|%A <b>Barra de canais</b> retangular geralmente está localizada no lado direito do 'Active Desktop' e contém canais incluídos em seu software e canais aos quais você se inscreveu.
+%|%Se a 'Barra de canais' ainda estiver visível quando você mover o ponteiro para a margem direita da janela, clique no botão de pressão na barra de título da 'Barra de canais'.
+%|%Para ocultar a 'Barra de canais novamente', clique no botão de pressão na barra de título da 'Barra de canais' e mova o ponteiro para a margem direita da janela.
+%|%<b>Canal</b> refere-se ao formato especial pelo qual o conteúdo da Internet é liberado para seu computador e através do qual você pode inscrever-se em um artigo, cartoon ou seção de uma página da Web.
+%|%Um <b>painel</b> é uma seção de uma janela separada de outras seções por uma borda. Dependendo do modo de exibição e do conteúdo do painel, ele pode ter suas próprias barras de rolagem.
+%|%O conteúdo de um canal pode mudar diariamente. O método de inscrição aqui descrito pode ser diferente quando você visualizar o canal <b>MSNBC News</b>.
+%|%<b>Active Channels</b> são sites da Web especialmente desenvolvidos para que você possa visualizar seu conteúdo mesmo que não esteja conectado à Internet.
+%|%<b>Inscrever-se</b> é utilizar o Internet Explorer para receber atualizações de sites da Web e de canais específicos.
+%|%<b>Fazer download</b> é copiar dados de uma fonte ou serviço on-line principal para seu computador.
+%|%É possível <b>arrastar</b> (mover ou copiar) um objeto de um lugar para outro na tela utilizando o mouse. Clique e mantenha pressionado o botão do mouse quando o ponteiro estiver sobre o objeto, mova o ponteiro para o novo local e solte o botão do mouse.
+%|%Uma <b>rede</b> é um grupo de computadores e de equipamentos relacionados a computadores conectados entre si. Normalmente, uma rede consiste em um computador central, chamado servidor, que está vinculado por cabos de conexão a vários computadores pessoais, ou clientes. O servidor gerencia a forma como os clientes compartilham recursos na rede.
+%|%Uma <b>home page</b> é a primeira página de um site da Web que aparece quando você acessa o site. A home page é freqüentemente utilizada como um índice do site da Web e inclui links para outras páginas do site.
+%|%Um <b>site da Web</b> é um grupo de páginas da Web ou de documentos HTML relacionados entre si, na World Wide Web. Um site típico da Web tem uma home page, que serve como índice do site e inclui links para as outras páginas do site.
+%|%Um <b>atalho</b> é um ícone em sua área de trabalho ou uma combinação de teclas que você pode utilizar para abrir rapidamente um documento, programa, pasta ou página da Web.
+%|%Cada <b>arquivo</b> é um conjunto de textos ou dados gravados sob um nome exclusivo. A maioria das informações armazenadas em seu computador encontra-se armazenada em arquivos.
+%|%<b>Pastas</b> são recipientes para programas, arquivos e outras pastas e são utilizadas para organizar informações em seu computador. No Windows, uma pasta é representada pelo ícone de uma pasta de arquivos. As pastas são o equivalente aos diretórios em alguns outros sistemas operacionais para computadores.
+%|%Um <b>hyperlink</b>, ou link, é uma seção de texto ou um gráfico em que você pode clicar para ir a outro local, como uma página da Web, um arquivo ou um local específico em um arquivo. O objeto vinculado está conectado ao novo arquivo ou página da Web pelo código HTML.
+%|%<b>Links</b> são seções de texto ou imagens gráficas nas quais você pode clicar para ir a outro local, como uma página da Web, um arquivo ou um local específico em um arquivo. O objeto vinculado está conectado ao novo arquivo ou página da Web pelo código HTML.
+%|%Utilizado para salvar dados do computador, o <b>disco rígido </b> é composto de discos magnéticos e redondos, não-flexíveis, empilhados dentro de um recipiente metálico lacrado. Os dados são armazenados em ambos os lados dos discos. A maioria dos discos rígidos tem entre dois e oito discos.
+%|%Convém mover a janela <b>Meu Computador</b> para a esquerda a fim de ver o conteúdo da janela.
+%|%Convém mover a caixa de diálogo <b>Salvar como...</b> para a esquerda a fim de ver o botão <b>Salvar</b>.
+%|%Dependendo de seu software, o seu documento <b>Bruno Amaral</b> será um arquivo do <b>WordPad</b> ou do <b>Word</b>.
+%|%Se você não estiver conectado a uma rede, pode ser que não veja um ícone <b>Ambiente de rede</b> em sua área de trabalho. Pule as etapas que fizerem referência a <b>Ambiente de rede</b>.Convém arrastar uma ou mais das janelas abertas para ver o ícone <b>Ambiente de rede</b> em sua área de trabalho. Se você não consegue arrastar a janela, pode ser que ela esteja maximizada. Se estiver, clique no botão <b>Restaurar</b>.
+%|%Convém arrastar uma ou mais das janelas abertas para ver a barra de tarefas.
+%|%Convém arrastar uma ou mais das janelas abertas para ver a barra de título.
+%|%
+%|%Se você não vir a barra de ferramentas <b>Links</b>, clique com o botão direito do mouse em uma área em branco da barra de tarefas do <b>Internet Explorer</b>, aponte para <b>Barras de ferramentas</b> e verifique se <b>Links</b> está selecionado. Talvez seja preciso arrastar a janela <b>Internet Explorer</b> para a esquerda da janela auxiliar para ver o botão <b>Novidades do Internet Explorer</b>.
+%|%A <b>Web</b>, ou World Wide Web (WWW), é uma rede global que contém informações que você pode acessar e explorar utilizando um navegador da Web, como o Microsoft Internet Explorer.
+%|%<b>Clicar duas vezes</b> é pressionar e soltar duas vezes o botão do mouse rapidamente.
+%|%<b>Guias</b> são páginas superpostas em uma caixa de diálogo. Você clica na guia, localizada na parte superior da caixa de diálogo, para exibir a página correspondente.
+%|%<b>Rolar</b> altera a visualização do conteúdo de uma janela, caixa ou painel. Você pode rolar utilizando o mouse ou comandos de teclado. Para rolar utilizando o mouse, arraste a caixa de rolagem ou clique nas setas da barra de rolagem para deslocar a visualização do conteúdo no sentido horizontal ou vertical.
+%|%Sua <b>página inicial</b> é a página da Web que aparece quando você abre o Internet Explorer. É possível mudar sua página inicial a qualquer momento para uma outra página da Web.
+%|%Convém mover a janela auxiliar para ver a caixa de diálogo <b>Inscrição em um canal</b>.
+%|%Dependendo do seu software processador de texto, pode aparecer <b>Documento do Microsoft Word</b> no menu <b>Arquivo</b>, em vez de <b>Documento do WordPad</b>. 
+%|%Dependendo de seu ISP, você pode ver uma página inicial da Internet diferente da que é mostrada aqui.

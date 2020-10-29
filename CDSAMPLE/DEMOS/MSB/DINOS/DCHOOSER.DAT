@@ -1,0 +1,126 @@
+;
+; General Characteristics
+;
+[General]
+DebugFlag=0
+AppTitle=Magic School Bus Trial
+;Icon=msbdemos.exe
+ReturnAfterLaunch=1
+DemosAtSameLevel=0
+TaskbarAdjust=0
+BitmapDir=controls\
+SoundDir=controls\
+
+;
+; Main Screen
+;
+[Main]
+Image=screen.bmp
+;
+; Incoming Splash Screen
+;
+[SplashIn]
+UsingSplashIn=0
+BlackBackground=1
+Image=splash.bmp
+TitlebarAdjust=1
+UsingButtons=0
+OKButton=ok_up.bmp,ok_dwn.bmp,,84,194
+;QuitButton=quit_up.bmp,quit_dwn.bmp,,200,200
+
+;
+; Outgoing Splash Screen
+;
+[SplashOut]
+UsingSplashOut=1
+BlackBackground=1
+Image=black.dib
+TitlebarAdjust=0
+
+;-----------------------------------------------------
+; To enable / disable the PicClip facility, set
+; the UsingPicClip to 1 (enable) or 0 (disable).
+; (If set to 0, all other fields are ignored)
+;
+; - "Cols" & "Rows" describe the layout of the 
+;     PicClip source bitmap
+; - "Interval" is the VB Timer interval (milliseconds)
+;
+[PicClip]
+UsingPicClip=0
+Image=globe.dib
+Left=353
+Top=219
+Cols=16
+Rows=1
+TimerInterval=20
+
+;--------------------------------------
+; Sound Section
+; There should always be a Splash sound.
+; At the very least, play SILENCE.WAV,
+; to turn off any sound that might still
+; be playing from a previous application.
+;
+[Sound]
+SplashLength=5
+Splash=silence.wav
+Main=silence.wav
+BtnDown=click.wav
+;BtnUp=click.wav
+;Demo=secscrn.wav
+;Exit=exit.wav
+
+;-----------------------------------------------------------------
+; Define Buttons and the demos associated with them
+; Button 0 is the Exit -- doesn't have a demo.
+;
+
+[Buttons]
+nButtons=3
+Button0=dgamerup.bmp,dgamerdn.bmp,dgameov.bmp,380,344
+Button1=meteup.bmp,metedn.bmp,meteov.bmp,333,69
+Button2=skelup.bmp,skeldn.bmp,skelov.bmp,8,156
+;
+;Demo0MouseSound=beepbeep.wav
+Demo1=mplaunch.exe meteormeltdown
+;Demo1SoundCardRequired=1
+;Demo1ColorDepthRequired=256
+Demo2=mplaunch.exe skeleton
+;Demo2oundCardRequired=1
+;Demo2ColorDepthRequired=256
+
+; Setup for an Extended Demos
+; (a bitmap which is itself second level set of
+;  demos and buttons, specified here.)
+
+
+;-----------------------------------------------------------
+; Autodemos
+; Autodemos are specified by the Button number.
+;
+[AutoDemos]
+nAutodemos=0
+AutodemoSeconds=9920
+autodemo1=3
+
+;**************************************
+; Proto-Localization
+; for CD error message
+;
+; "default" language = US English
+; For message in German, set language=deutsch
+;
+[CurrentLanguage]
+language=default
+;language=deutsch
+;language=francais
+;language=italian
+;language=espanol
+
+[Message1]
+default=Please insert the CD.
+deutsch=Legen Sie bitte die CD ein.
+francais=Veullez insérer le CD.
+italian=Per cortesia inserire il CD.
+espanol=Por favor, inserte el CD.
